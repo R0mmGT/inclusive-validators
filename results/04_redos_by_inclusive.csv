@@ -1,0 +1,3 @@
+inclusive,static_vulnerable,static_vulnerable_lo,static_vulnerable_hi,exponential,exponential_lo,exponential_hi,confirmed_vulnerable,confirmed_vulnerable_lo,confirmed_vulnerable_hi,unicode_aware,unicode_aware_lo,unicode_aware_hi
+False,0.0792,0.0626,0.098,0.0261,0.0167,0.0365,0.0209,0.0125,0.0302,0.3118,0.2815,0.342
+True,0.1448,0.1229,0.1688,0.0271,0.0177,0.0375,0.0458,0.0333,0.0594,0.499,0.4677,0.5313

@@ -1,0 +1,5 @@
+model,javascript_syntax_or_runtime,no_code,no_validate_function,regex_invalid_escape_u_flag,regex_syntax_other
+DeepSeek-V3.2,1,0,0,6,5
+gemini-3.8-flash,0,0,0,3,0
+gpt-5-mini,0,1,0,37,4
+llama3.1:8b-instruct-q8_0,59,0,23,1,17

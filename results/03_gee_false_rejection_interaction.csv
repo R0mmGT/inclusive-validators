@@ -1,0 +1,16 @@
+,coef,odds_ratio,p_value
+Intercept,0.1897,1.2089,0.1635
+C(model)[T.gemini-3.8-flash],-1.5439,0.2135,0.0
+C(model)[T.gpt-5-mini],-0.491,0.612,0.0003
+C(model)[T.llama3.1:8b-instruct-q8_0],1.5364,4.6476,0.0
+C(language)[T.es],0.0812,1.0846,0.3612
+C(context)[T.ecommerce],-0.3793,0.6843,0.0
+C(field)[T.family_name],-0.5794,0.5602,0.0002
+C(field)[T.full_name],0.2982,1.3474,0.0369
+C(field)[T.given_name],-0.4181,0.6583,0.008
+C(field)[T.phone_number],-0.0197,0.9805,0.9029
+C(field)[T.postal_code],0.5169,1.6768,0.001
+inclusive,-2.0545,0.1282,0.0
+C(model)[T.gemini-3.8-flash]:inclusive,-3.2632,0.0383,0.0
+C(model)[T.gpt-5-mini]:inclusive,0.3068,1.3591,0.2873
+C(model)[T.llama3.1:8b-instruct-q8_0]:inclusive,1.519,4.5678,0.0

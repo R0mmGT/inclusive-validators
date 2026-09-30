@@ -1,0 +1,44 @@
+field,input,accepted_inclusive_False,accepted_inclusive_True
+address_line,'   ',0.0444,0.0278
+address_line,'!!!@@@###',0.0074,0.0278
+address_line,'',0.0074,0.0069
+address_line,'<script>alert(1)</script>',0.0222,0.2778
+address_line,'\t\n',0.037,0.0278
+address_line,'\x00\x01',0.0074,0.0208
+family_name,'   ',0.04,0.0272
+family_name,'!!!@@@###',0.0067,0.0068
+family_name,'',0.0067,0.0068
+family_name,'12345',0.0067,0.0204
+family_name,'<script>alert(1)</script>',0.0,0.0272
+family_name,'\t\n',0.0133,0.0272
+family_name,'\x00\x01',0.0067,0.0136
+family_name,'😀😀😀',0.0067,0.0068
+full_name,'   ',0.0417,0.0149
+full_name,'!!!@@@###',0.0278,0.0224
+full_name,'',0.0208,0.0
+full_name,'12345',0.0278,0.0224
+full_name,'<script>alert(1)</script>',0.0208,0.0224
+full_name,'\t\n',0.0347,0.0075
+full_name,'\x00\x01',0.0278,0.0224
+full_name,'😀😀😀',0.0278,0.0149
+given_name,'   ',0.0194,0.027
+given_name,'!!!@@@###',0.0065,0.0135
+given_name,'',0.0,0.0068
+given_name,'12345',0.0129,0.027
+given_name,'<script>alert(1)</script>',0.0129,0.027
+given_name,'\t\n',0.0258,0.0203
+given_name,'\x00\x01',0.0129,0.027
+given_name,'😀😀😀',0.0065,0.0203
+phone_number,'   ',0.0,0.0
+phone_number,'',0.0,0.0
+phone_number,'12',0.0,0.0473
+phone_number,'123456789012345678901',0.0065,0.027
+phone_number,'<script>alert(1)</script>',0.0,0.0068
+phone_number,'abc',0.0,0.0203
+phone_number,'phone',0.0,0.0473
+postal_code,'   ',0.0127,0.0138
+postal_code,'!!!!!',0.0,0.0276
+postal_code,'',0.0,0.0207
+postal_code,'12345678901234567890',0.019,0.1517
+postal_code,'<script>alert(1)</script>',0.0063,0.0207
+postal_code,'ABCDEFGHIJKLMNOPQRST',0.0127,0.131

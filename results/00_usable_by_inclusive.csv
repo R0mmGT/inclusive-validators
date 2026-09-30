@@ -1,0 +1,9 @@
+model,inclusive,mean,size
+DeepSeek-V3.2,False,0.9917,240
+DeepSeek-V3.2,True,0.9583,240
+gemini-3.8-flash,False,1.0,240
+gemini-3.8-flash,True,0.9875,240
+gpt-5-mini,False,0.8917,240
+gpt-5-mini,True,0.9333,240
+llama3.1:8b-instruct-q8_0,False,0.8542,240
+llama3.1:8b-instruct-q8_0,True,0.7292,240

@@ -1,0 +1,18 @@
+{
+  "name": "inclusive-validators",
+  "version": "1.0.0",
+  "description": "Harness for executing LLM-generated validators and detecting ReDoS",
+  "scripts": {
+    "run": "node harness/runner.js",
+    "redos": "node harness/redos.js"
+  },
+  "keywords": [],
+  "author": "Rommel Gutierrez, Jaime Govea",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^8.18.0",
+    "acorn-walk": "^8.3.5",
+    "recheck": "^4.5.0"
+  },
+  "private": true
+}

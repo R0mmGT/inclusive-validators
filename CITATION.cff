@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article."
+title: "Inclusive or Exploitable? Cultural Exclusion and ReDoS Vulnerabilities in LLM-Generated Input Validation Code — Replication package"
+authors:
+  - family-names: Gutierrez
+    given-names: Rommel
+  - family-names: Govea
+    given-names: Jaime
+license: MIT
+preferred-citation:
+  type: article
+  title: "Inclusive or Exploitable? Cultural Exclusion and ReDoS Vulnerabilities in LLM-Generated Input Validation Code"
+  authors:
+    - family-names: Gutierrez
+      given-names: Rommel
+    - family-names: Govea
+      given-names: Jaime
+  year: 2026

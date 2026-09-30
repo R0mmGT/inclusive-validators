@@ -1,0 +1,5 @@
+model,accept,error,non_boolean,reject
+DeepSeek-V3.2,12686,0,0,8521
+gemini-3.8-flash,16805,0,0,4809
+gpt-5-mini,12899,429,0,6682
+llama3.1:8b-instruct-q8_0,3837,696,315,12419

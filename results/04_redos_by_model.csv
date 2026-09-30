@@ -1,0 +1,9 @@
+model,inclusive,n_functions,confirmed_vulnerable,ci_low,ci_high
+DeepSeek-V3.2,False,240,0.0167,0.0042,0.0333
+DeepSeek-V3.2,True,240,0.0167,0.0042,0.0333
+gemini-3.8-flash,False,240,0.0292,0.0125,0.0542
+gemini-3.8-flash,True,240,0.0042,0.0,0.0125
+gpt-5-mini,False,239,0.0,0.0,0.0
+gpt-5-mini,True,240,0.1333,0.0917,0.1792
+llama3.1:8b-instruct-q8_0,False,240,0.0375,0.0167,0.0625
+llama3.1:8b-instruct-q8_0,True,240,0.0292,0.0083,0.0542

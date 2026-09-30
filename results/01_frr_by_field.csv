@@ -1,0 +1,7 @@
+field,n_functions,frr,ci_low,ci_high
+address_line,279,0.328,0.2829,0.3732
+family_name,297,0.2596,0.22,0.3007
+full_name,278,0.3847,0.3448,0.4254
+given_name,303,0.2881,0.247,0.3302
+phone_number,303,0.3371,0.2897,0.3863
+postal_code,303,0.4165,0.3705,0.4647

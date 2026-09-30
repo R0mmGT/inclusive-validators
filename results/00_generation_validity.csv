@@ -1,0 +1,5 @@
+model,load_error,no_code,no_validate,ok
+DeepSeek-V3.2,12,0,0,468
+gemini-3.8-flash,3,0,0,477
+gpt-5-mini,41,1,0,438
+llama3.1:8b-instruct-q8_0,77,0,23,380

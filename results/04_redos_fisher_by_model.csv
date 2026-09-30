@@ -1,0 +1,5 @@
+model,vulnerable_with_instruction,vulnerable_without_instruction,odds_ratio,fisher_p
+DeepSeek-V3.2,4/240,4/240,1.0,1.00e+00
+gemini-3.8-flash,1/240,7/240,0.139,6.80e-02
+gpt-5-mini,32/240,0/239,inf,1.54e-10
+llama3.1:8b-instruct-q8_0,7/240,9/240,0.771,8.00e-01

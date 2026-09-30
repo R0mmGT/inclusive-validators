@@ -1,0 +1,42 @@
+# All models are called through OpenAI-compatible endpoints.
+
+api:
+  base_url: https://<your-resource>.openai.azure.com/openai/v1/
+  api_key_env: AZURE_OPENAI_API_KEY
+  max_workers: 2
+  max_retries: 5
+
+models:
+  - name: gpt-5-mini
+    max_workers: 4
+  - name: DeepSeek-V3.2
+    max_workers: 4
+  - name: gemini-3.8-flash
+    base_url: https://generativelanguage.googleapis.com/v1beta/openai/
+    api_key_env: GEMINI_API_KEY
+    max_workers: 2
+  - name: llama3.1:8b-instruct-q8_0
+    base_url: http://localhost:11434/v1
+    api_key_env: OLLAMA_API_KEY
+    max_workers: 3
+
+generation:
+  repetitions: 10
+  temperature: null        # null = provider default
+  max_tokens: 16000
+
+fields: [full_name, given_name, family_name, phone_number, postal_code, address_line]
+languages: [en, es]
+contexts: [bare, ecommerce]
+inclusive: [false, true]
+
+execution:
+  call_timeout_ms: 1000
+  load_timeout_ms: 2000
+
+redos:
+  recheck_timeout_ms: 10000
+  confirm_timeout_ms: 2000
+  confirm_floor_ms: 20
+  confirm_exponent: 1.5
+  confirm_max_length: 1000000

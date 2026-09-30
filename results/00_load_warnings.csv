@@ -1,0 +1,26 @@
+model,message,n
+llama3.1:8b-instruct-q8_0,Error: Invalid postal code,1
+llama3.1:8b-instruct-q8_0,RangeError: Maximum call stack size exceeded,1
+llama3.1:8b-instruct-q8_0,ReferenceError: Character is not defined,1
+llama3.1:8b-instruct-q8_0,ReferenceError: caratteristica is not defined,1
+llama3.1:8b-instruct-q8_0,ReferenceError: convert is not defined,1
+llama3.1:8b-instruct-q8_0,ReferenceError: firstName is not defined,1
+llama3.1:8b-instruct-q8_0,ReferenceError: nationNumber is not defined,1
+llama3.1:8b-instruct-q8_0,ReferenceError: nombreCompletos is not defined,1
+llama3.1:8b-instruct-q8_0,ReferenceError: phoneNumbers is not defined,1
+llama3.1:8b-instruct-q8_0,ReferenceError: phoneword is not defined,1
+llama3.1:8b-instruct-q8_0,ReferenceError: postalmode is not defined,1
+llama3.1:8b-instruct-q8_0,TypeError: Cannot read properties of null (reading 'reduce'),1
+llama3.1:8b-instruct-q8_0,TypeError: Cannot read properties of null (reading 'trim'),3
+llama3.1:8b-instruct-q8_0,TypeError: Cannot read properties of undefined (reading 'length'),1
+llama3.1:8b-instruct-q8_0,TypeError: Cannot read properties of undefined (reading 'match'),1
+llama3.1:8b-instruct-q8_0,TypeError: Cannot read properties of undefined (reading 'toLowerCase'),1
+llama3.1:8b-instruct-q8_0,TypeError: Cannot read properties of undefined (reading 'trim'),1
+llama3.1:8b-instruct-q8_0,TypeError: address.findIndex is not a function,1
+llama3.1:8b-instruct-q8_0,TypeError: console.assert is not a function,1
+llama3.1:8b-instruct-q8_0,TypeError: name.split(...).last is not a function,1
+llama3.1:8b-instruct-q8_0,TypeError: name.trim is not a function,1
+llama3.1:8b-instruct-q8_0,TypeError: str.includes is not a function,1
+llama3.1:8b-instruct-q8_0,TypeError: str.split is not a function,1
+llama3.1:8b-instruct-q8_0,TypeError: str.split(...).filter(...).map(...).max is not a function,1
+llama3.1:8b-instruct-q8_0,TypeError: str.trim is not a function,1

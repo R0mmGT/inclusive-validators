@@ -1,0 +1,11 @@
+model,message,calls,functions
+gpt-5-mini,Invalid regular expression: /^(?:(?:\p{Lu}\.?|\p{Lu}\p{Ll}+(?:[-\']\p{Lu}\p{Ll}+,47,1
+gpt-5-mini,Invalid regular expression: /^\p{L}\p{M}*(?:[\'’\-\.\u00B7\u0387\u2027\u2219]\p{,47,1
+gpt-5-mini,Invalid regular expression: /^(?:\p{L}\p{M}*(?:[\-\'\u2019]\p{L}\p{M}*)*|\p{L}\.,46,1
+gpt-5-mini,Invalid regular expression: /^(?:(?:\p{L}\p{M}*+(?:[\-\'\u2019]\p{L}\p{M}*+)*)|(,44,1
+gpt-5-mini,"Invalid regular expression: /^(?=.{1,100}$)(?=.*\p{L})(?!.*[\-\u2010\u2011\u2012",43,1
+llama3.1:8b-instruct-q8_0,phoneNumbers is not defined,67,1
+llama3.1:8b-instruct-q8_0,phoneword is not defined,67,1
+llama3.1:8b-instruct-q8_0,Cannot read properties of null (reading 'reduce'),60,1
+llama3.1:8b-instruct-q8_0,nationNumber is not defined,60,1
+llama3.1:8b-instruct-q8_0,Cannot use 'in' operator to search for 'United States' in undefined,49,1

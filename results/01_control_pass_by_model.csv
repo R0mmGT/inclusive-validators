@@ -1,0 +1,5 @@
+model,n_functions,passes_control,ci_low,ci_high
+DeepSeek-V3.2,468,0.9423,0.9209,0.9615
+gemini-3.8-flash,477,0.9686,0.9518,0.9832
+gpt-5-mini,438,0.8653,0.8333,0.8973
+llama3.1:8b-instruct-q8_0,380,0.5868,0.5368,0.6368

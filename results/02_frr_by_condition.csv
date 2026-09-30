@@ -1,0 +1,9 @@
+language,context,inclusive,n_functions,frr,ci_low,ci_high
+en,bare,False,231,0.5417,0.4928,0.5893
+en,bare,True,220,0.1978,0.1537,0.2442
+en,ecommerce,False,227,0.4017,0.3513,0.4515
+en,ecommerce,True,217,0.1819,0.1413,0.2251
+es,bare,False,220,0.4816,0.432,0.5327
+es,bare,True,220,0.2304,0.1832,0.2778
+es,ecommerce,False,219,0.4166,0.3691,0.4657
+es,ecommerce,True,209,0.2106,0.1635,0.2607

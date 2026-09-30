@@ -1,0 +1,2 @@
+model,null,object:truthy,string:falsy,undefined:falsy
+llama3.1:8b-instruct-q8_0,290,18,1,6

@@ -1,0 +1,9 @@
+model,inclusive,n_functions_frr,frr,ci_low_frr,ci_high_frr,n_functions_far,far,ci_low_far,ci_high_far
+DeepSeek-V3.2,False,238,0.5019,0.4671,0.5392,238,0.0,0.0,0.0
+DeepSeek-V3.2,True,230,0.1228,0.0972,0.1501,230,0.0179,0.0085,0.0297
+gemini-3.8-flash,False,240,0.1857,0.1527,0.2213,240,0.0,0.0,0.0
+gemini-3.8-flash,True,237,0.0011,0.0005,0.0019,237,0.012,0.007,0.0176
+gpt-5-mini,False,214,0.383,0.3258,0.4417,214,0.0,0.0,0.0
+gpt-5-mini,True,224,0.1022,0.0675,0.1422,224,0.0333,0.0224,0.0453
+llama3.1:8b-instruct-q8_0,False,205,0.817,0.7845,0.8505,205,0.0582,0.0361,0.084
+llama3.1:8b-instruct-q8_0,True,175,0.7217,0.6683,0.7717,175,0.0837,0.0579,0.1142

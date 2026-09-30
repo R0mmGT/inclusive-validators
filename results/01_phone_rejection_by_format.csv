@@ -1,0 +1,4 @@
+format,n_functions,rejected,ci_low,ci_high
+e164,303,0.3136,0.2613,0.3639
+international,303,0.3605,0.3093,0.4133
+national,303,0.1898,0.1485,0.231
