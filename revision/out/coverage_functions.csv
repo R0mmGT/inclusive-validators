@@ -1,0 +1,17 @@
+,gemini-3.8-flash,gpt-5-mini,DeepSeek-V3.2,llama3.1:8b-instruct-q8_0,Total
+generations,480,480,480,480,1920
+extracted,480,479,480,480,1919
+loadable,477,438,468,380,1763
+parsed,477,438,468,405,1788
+parsed_with_analyzable_regex,477,416,464,356,1713
+parsed_with_any_dynamic,0,58,5,10,73
+static_vulnerable,26,82,78,29,215
+static_vulnerable_not_confirmed,18,50,70,13,151
+confirmed,8,32,8,16,64
+acorn_parse_failed,3,41,12,75,131
+acorn_parse_failed_and_loadable,0,0,0,0,0
+parsed_only_dynamic_regex,0,22,0,1,23
+with_unresolved_pattern,0,1,0,0,1
+no_code_extracted,0,1,0,0,1
+parsed_no_regex,0,0,4,48,52
+static_vulnerable_not_loadable,0,0,0,1,1

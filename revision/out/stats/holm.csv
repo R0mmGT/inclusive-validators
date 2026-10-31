@@ -1,0 +1,15 @@
+test,p,p_holm,significant_holm_0.05
+RQ2 language -> FRR,0.37566540626390155,1.0,False
+RQ2 context -> FRR,2.6347182060241076e-05,0.00023712463854216968,True
+RQ2 language -> FAR,0.01918658632614273,0.1343061042829991,False
+RQ2 context -> FAR,0.37334674621888386,1.0,False
+RQ3 instruction -> FRR,7.834159342772341e-57,1.0967823079881278e-55,True
+RQ3 instruction -> FAR,1.5863129923488475e-05,0.00015863129923488476,True
+RQ3 interaction Gemini 3.8 Flash x instruction -> FRR,5.967409187952804e-20,7.757631944338645e-19,True
+RQ3 interaction GPT-5 mini x instruction -> FRR,0.2873141076645247,1.0,False
+RQ3 interaction Llama 3.1 8B x instruction -> FRR,1.1848135651251973e-10,1.4217762781502368e-09,True
+RQ4 instruction -> confirmed ReDoS (Firth),0.0021201248611983914,0.01696099888958713,True
+RQ4 Fisher DeepSeek-V3.2,1.0,1.0,False
+RQ4 Fisher Gemini 3.8 Flash,0.068,0.40800000000000003,False
+RQ4 Fisher GPT-5 mini,1.54e-10,1.6940000000000001e-09,True
+RQ4 Fisher Llama 3.1 8B,0.8,1.0,False

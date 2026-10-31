@@ -1,0 +1,14 @@
+,gemini-3.8-flash,gpt-5-mini,DeepSeek-V3.2,llama3.1:8b-instruct-q8_0,Total
+dynamic_occurrences,0,88,5,14,107
+kind_literal,1328,1619,4546,736,8229
+recheck_safe,1302,1543,4415,715,7975
+recheck_vulnerable,26,95,131,32,284
+vuln_polynomial,11,72,122,28,233
+confirm_no_slowdown_up_to_max_length,18,62,122,14,216
+vuln_exponential,15,23,9,4,51
+confirm_timeout_after_growth,8,11,4,2,25
+kind_constructor,0,20,0,11,31
+confirm_exponent_ge_threshold,0,22,4,14,40
+recheck_unknown,0,1,0,0,1
+confirm_exponent_below_threshold,0,0,1,1,2
+confirm_not_attempted_unloadable,0,0,0,1,1

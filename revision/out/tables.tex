@@ -1,0 +1,204 @@
+\begin{table}[H]
+\caption{Validation suite: synthetic validators of known complexity. Exploitable = ground truth; Expected = outcome expected from the procedure; the control-character case is expected to be missed with recheck's attack and found with an adapted suffix. Confirmed = classification by the procedure in each configuration B, C, D, E, F.\label{tab:validation}}
+\begin{tabularx}{\textwidth}{lXccccccc}
+\toprule
+\textbf{Id} & \textbf{Construction} & \textbf{Exploitable} & \textbf{Expected} & \textbf{B} & \textbf{C} & \textbf{D} & \textbf{E} & \textbf{F}\\
+\midrule
+C1 & cubic & yes & yes & yes & yes & yes & yes & yes\\
+E1 & exponential & yes & yes & yes & yes & yes & yes & yes\\
+E2 & exponential & yes & yes & yes & yes & yes & yes & yes\\
+G1 & quadratic, length $\le$ 200 & no & no & no & no & no & no & no\\
+G2 & exponential, length $\le$ 50 & yes & yes & yes & yes & yes & yes & yes\\
+G3 & exponential, length $\le$ 16 & no & no & no & no & no & no & no\\
+G4 & quadratic, length $\le$ 100000 & yes & yes & yes & yes & yes & yes & yes\\
+G5 & cubic, length $\le$ 300 & no & no & no & no & no & no & no\\
+L1 & linear & no & no & no & no & no & no & no\\
+L2 & linear & no & no & no & no & no & no & no\\
+L3 & n log n & no & no & no & no & no & no & no\\
+L4 & linear & no & no & no & no & no & no & no\\
+L5 & linear & no & no & no & no & no & no & no\\
+N1 & exponential, control characters stripped & yes & no & no & no & no & no & no\\
+N1-adaptive & exponential, control characters stripped & yes & yes & yes & yes & yes & yes & yes\\
+Q1 & quadratic & yes & yes & yes & yes & yes & yes & yes\\
+Q2 & quadratic (search) & yes & yes & yes & yes & yes & yes & yes\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{Agreement of the growth-based classification with the original run (A: Windows, Node.js \texttt{[v20.x.y]}, recheck pure backend) over the 283 statically vulnerable pattern occurrences in the 214 loadable vulnerable functions; same attack strings, same decision rule.\label{tab:agreement}}
+\small
+\begin{tabularx}{\textwidth}{l>{\raggedright\arraybackslash}X>{\centering\arraybackslash}p{1.7cm}c>{\centering\arraybackslash}p{1.9cm}>{\centering\arraybackslash}p{1.7cm}}
+\toprule
+& \textbf{Configuration} & \textbf{Occurrences agreeing} & \textbf{$\kappa$} & \textbf{Functions confirmed (A: 64)} & \textbf{Functions agreeing}\\
+\midrule
+B & Linux, Node.js 20.20.2 (V8 11.3), idle & 283/283 & 1.00 & 64 & 214/214\\
+C & Linux, Node.js 20.20.2, \texttt{--regexp-interpret-all} & 282/283 & 0.99 & 65 & 213/214\\
+D & Linux, Node.js 22.23.4 (V8 12.4), idle & 282/283 & 0.99 & 63 & 213/214\\
+E & Linux, Node.js 20.20.2, both cores saturated & 282/283 & 0.99 & 65 & 213/214\\
+F & Linux, Node.js 20.20.2, 20 warm-up calls & 282/283 & 0.99 & 65 & 213/214\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{Sensitivity of the number of confirmed functions (of 214 loadable statically vulnerable functions) to the decision thresholds, re-applied to the growth curves of configuration B. Original setting in bold; agreement with the original run in parentheses.\label{tab:thresholds}}
+\begin{tabularx}{\textwidth}{cCCCC}
+\toprule
+\textbf{Floor (ms)} & \textbf{Exponent} & \textbf{Timeout 1000 ms} & \textbf{Timeout 2000 ms} & \textbf{Timeout 5000 ms}\\
+\midrule
+10 & 1.3 & 65 (99.5\%) & 64 (100.0\%) & 64 (100.0\%)\\
+10 & 1.5 & 64 (99.1\%) & 63 (99.5\%) & 63 (99.5\%)\\
+10 & 1.8 & 63 (98.6\%) & 62 (99.1\%) & 62 (99.1\%)\\
+20 & 1.3 & 65 (99.5\%) & 64 (100.0\%) & 64 (100.0\%)\\
+20 & 1.5 & 65 (99.5\%) & \textbf{64 (100.0\%)} & 64 (100.0\%)\\
+20 & 1.8 & 64 (99.1\%) & 63 (99.5\%) & 63 (99.5\%)\\
+50 & 1.3 & 65 (99.5\%) & 64 (100.0\%) & 64 (100.0\%)\\
+50 & 1.5 & 65 (99.5\%) & 64 (100.0\%) & 64 (100.0\%)\\
+50 & 1.8 & 65 (99.5\%) & 64 (100.0\%) & 64 (100.0\%)\\
+100 & 1.3 & 65 (99.5\%) & 64 (100.0\%) & 64 (100.0\%)\\
+100 & 1.5 & 65 (99.5\%) & 64 (100.0\%) & 64 (100.0\%)\\
+100 & 1.8 & 65 (99.5\%) & 64 (100.0\%) & 64 (100.0\%)\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{GEE logistic models (Table 7 with 95\% confidence intervals). Robust standard errors, exchangeable working correlation, function as cluster. Reference levels: DeepSeek-V3.2, English, no context, no instruction, address line.\label{tab:gee}}
+\begin{tabularx}{\textwidth}{Xcccc}
+\toprule
+& \multicolumn{2}{c}{\textbf{False rejection}} & \multicolumn{2}{c}{\textbf{False acceptance}}\\
+\textbf{Covariate} & \textbf{OR [95\% CI]} & \textbf{\emph{p}} & \textbf{OR [95\% CI]} & \textbf{\emph{p}}\\
+\midrule
+Gemini 3.8 Flash & 0.19 [0.15, 0.24] & $<$0.001 & 0.66 [0.32, 1.36] & 0.256\\
+GPT-5 mini & 0.68 [0.54, 0.85] & 0.001 & 1.96 [0.99, 3.87] & 0.053\\
+Llama 3.1 8B & 10.37 [7.98, 13.47] & $<$0.001 & 9.57 [5.06, 18.11] & $<$0.001\\
+Spanish prompt & 1.08 [0.91, 1.29] & 0.376 & 0.59 [0.38, 0.92] & 0.019\\
+Online-store context & 0.68 [0.57, 0.82] & $<$0.001 & 1.21 [0.80, 1.84] & 0.373\\
+Family name & 0.56 [0.42, 0.76] & $<$0.001 & 0.27 [0.14, 0.53] & $<$0.001\\
+Full name & 1.35 [1.03, 1.77] & 0.033 & 0.48 [0.22, 1.04] & 0.063\\
+Given name & 0.66 [0.49, 0.91] & 0.010 & 0.33 [0.16, 0.69] & 0.003\\
+Telephone number & 0.98 [0.72, 1.35] & 0.921 & 0.22 [0.11, 0.43] & $<$0.001\\
+Postal code & 1.64 [1.21, 2.22] & 0.001 & 0.77 [0.46, 1.29] & 0.322\\
+Instruction & 0.19 [0.16, 0.23] & $<$0.001 & 2.85 [1.77, 4.59] & $<$0.001\\
+\midrule
+Observations / clusters & \multicolumn{2}{c}{61597 / 1763} & \multicolumn{2}{c}{12637 / 1763}\\
+Working correlation $\hat\rho$; iterations & \multicolumn{2}{c}{0.530; 5} & \multicolumn{2}{c}{0.281; 5}\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{GEE model of false rejection with the model $\times$ instruction interaction, for all usable validators and for control-passing validators only, and the instruction odds ratio within each model (linear combinations of coefficients).\label{tab:interaction}}
+\begin{tabularx}{\textwidth}{Xcccc}
+\toprule
+& \multicolumn{2}{c}{\textbf{All usable (n = 1763)}} & \multicolumn{2}{c}{\textbf{Control-passing (n = 1505)}}\\
+\textbf{Term} & \textbf{OR [95\% CI]} & \textbf{\emph{p}} & \textbf{OR [95\% CI]} & \textbf{\emph{p}}\\
+\midrule
+Gemini 3.8 Flash & 0.213 [0.169, 0.27] & $<$0.001 & 0.174 [0.135, 0.224] & $<$0.001\\
+GPT-5 mini & 0.612 [0.469, 0.798] & $<$0.001 & 0.429 [0.323, 0.57] & $<$0.001\\
+Llama 3.1 8B & 4.65 [3.52, 6.14] & $<$0.001 & 3 [2.23, 4.04] & $<$0.001\\
+Spanish prompt & 1.08 [0.911, 1.29] & 0.361 & 0.739 [0.62, 0.882] & $<$0.001\\
+Online-store context & 0.684 [0.574, 0.817] & $<$0.001 & 0.661 [0.553, 0.792] & $<$0.001\\
+Family name & 0.56 [0.415, 0.757] & $<$0.001 & 0.486 [0.363, 0.65] & $<$0.001\\
+Full name & 1.35 [1.02, 1.78] & 0.037 & 1.4 [1.06, 1.84] & 0.017\\
+Given name & 0.658 [0.483, 0.897] & 0.008 & 0.546 [0.407, 0.732] & $<$0.001\\
+Telephone number & 0.981 [0.715, 1.35] & 0.903 & 0.972 [0.668, 1.41] & 0.883\\
+Postal code & 1.68 [1.23, 2.28] & 0.001 & 1.11 [0.779, 1.59] & 0.558\\
+Instruction & 0.128 [0.0955, 0.172] & $<$0.001 & 0.118 [0.0907, 0.152] & $<$0.001\\
+Gemini 3.8 Flash $\times$ Instruction & 0.0383 [0.019, 0.077] & $<$0.001 & 0.0598 [0.0299, 0.119] & $<$0.001\\
+GPT-5 mini $\times$ Instruction & 1.36 [0.772, 2.39] & 0.287 & 0.169 [0.0992, 0.287] & $<$0.001\\
+Llama 3.1 8B $\times$ Instruction & 4.57 [2.88, 7.25] & $<$0.001 & 4.07 [2.53, 6.54] & $<$0.001\\
+\midrule
+\multicolumn{5}{l}{\textit{Instruction odds ratio within each model}}\\
+Gemini 3.8 Flash & 0.005 [0.003, 0.009] & $<$0.001 & 0.007 [0.004, 0.013] & $<$0.001\\
+GPT-5 mini & 0.174 [0.106, 0.285] & $<$0.001 & 0.020 [0.012, 0.032] & $<$0.001\\
+DeepSeek-V3.2 & 0.128 [0.096, 0.172] & $<$0.001 & 0.118 [0.091, 0.152] & $<$0.001\\
+Llama 3.1 8B & 0.585 [0.409, 0.837] & 0.003 & 0.478 [0.321, 0.714] & $<$0.001\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{Logistic models of confirmed ReDoS vulnerability (n = 1919 extracted functions, 64 events): \emph{confirmed} $\sim$ model + language + context + instruction + field, fitted by maximum likelihood (ML) and with Firth's penalty; and the Firth model with the model $\times$ instruction interaction (ML does not converge because GPT-5 mini without instruction has no event). Wald 95\% CIs.\label{tab:redoslogit}}
+\begin{tabularx}{\textwidth}{Xccc}
+\toprule
+\textbf{Term} & \textbf{ML OR [95\% CI]} & \textbf{Firth OR [95\% CI]} & \textbf{Firth OR, interaction model}\\
+\midrule
+Gemini 3.8 Flash & 1.00 [0.37, 2.70] & 1.00 [0.39, 2.56] & 1.69 [0.53, 5.42]\\
+GPT-5 mini & 4.34 [1.97, 9.59] & 4.12 [1.94, 8.74] & 0.109 [0.0062, 1.9]\\
+Llama 3.1 8B & 2.06 [0.87, 4.88] & 1.99 [0.88, 4.52] & 2.17 [0.71, 6.64]\\
+Spanish prompt & 1.07 [0.64, 1.78] & 1.07 [0.66, 1.74] & 1.07 [0.654, 1.75]\\
+Online-store context & 1.22 [0.73, 2.03] & 1.22 [0.75, 1.99] & 1.23 [0.748, 2.01]\\
+Family name & 1.70 [0.61, 4.78] & 1.65 [0.62, 4.39] & 1.67 [0.624, 4.46]\\
+Full name & 1.17 [0.39, 3.55] & 1.16 [0.41, 3.31] & 1.16 [0.406, 3.33]\\
+Given name & 1.52 [0.53, 4.36] & 1.48 [0.55, 4.03] & 1.5 [0.55, 4.07]\\
+Telephone number & 4.40 [1.76, 11.02] & 4.12 [1.72, 9.85] & 4.34 [1.8, 10.5]\\
+Postal code & 1.35 [0.46, 3.97] & 1.33 [0.48, 3.68] & 1.33 [0.477, 3.7]\\
+Instruction & 2.31 [1.34, 3.97] & 2.26 [1.34, 3.81] & 1 [0.274, 3.65]\\
+Gemini 3.8 Flash $\times$ Instruction & -- & -- & 0.194 [0.0224, 1.67]\\
+GPT-5 mini $\times$ Instruction & -- & -- & 77.7 [3.76, 1.6e+03]\\
+Llama 3.1 8B $\times$ Instruction & -- & -- & 0.781 [0.156, 3.92]\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{Holm adjustment over the 14 inferential tests reported in Section 4.\label{tab:holm}}
+\begin{tabularx}{\textwidth}{Xcc}
+\toprule
+\textbf{Test} & \textbf{\emph{p}} & \textbf{Holm \emph{p}}\\
+\midrule
+RQ2 language $\rightarrow$ FRR & 0.38 & 1\\
+RQ2 context $\rightarrow$ FRR & 2.6e-05 & 0.00024\\
+RQ2 language $\rightarrow$ FAR & 0.019 & 0.13\\
+RQ2 context $\rightarrow$ FAR & 0.37 & 1\\
+RQ3 instruction $\rightarrow$ FRR & 7.8e-57 & 1.1e-55\\
+RQ3 instruction $\rightarrow$ FAR & 1.6e-05 & 0.00016\\
+RQ3 interaction Gemini 3.8 Flash $\times$ instruction $\rightarrow$ FRR & 6e-20 & 7.8e-19\\
+RQ3 interaction GPT-5 mini $\times$ instruction $\rightarrow$ FRR & 0.29 & 1\\
+RQ3 interaction Llama 3.1 8B $\times$ instruction $\rightarrow$ FRR & 1.2e-10 & 1.4e-09\\
+RQ4 instruction $\rightarrow$ confirmed ReDoS (Firth) & 0.0021 & 0.017\\
+RQ4 Fisher DeepSeek-V3.2 & 1 & 1\\
+RQ4 Fisher Gemini 3.8 Flash & 0.068 & 0.41\\
+RQ4 Fisher GPT-5 mini & 1.5e-10 & 1.7e-09\\
+RQ4 Fisher Llama 3.1 8B & 0.8 & 1\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{False rejection rate (\%) under three estimands: mean of per-function rates (used in the paper), pooled over all validator--input pairs (the scale of the GEE models), and category-balanced (per function, mean over input categories).\label{tab:estimands}}
+\begin{tabularx}{\textwidth}{lcCCC}
+\toprule
+\textbf{Model} & \textbf{Instr.} & \textbf{Function mean} & \textbf{Pooled inputs} & \textbf{Category-balanced}\\
+\midrule
+DeepSeek-V3.2 & no & 50.2 & 50.7 & 45.1\\
+DeepSeek-V3.2 & yes & 12.3 & 11.6 & 11.2\\
+Gemini 3.8 Flash & no & 18.6 & 16.5 & 17.7\\
+Gemini 3.8 Flash & yes & 0.1 & 0.1 & 0.2\\
+GPT-5 mini & no & 38.3 & 40.7 & 38.1\\
+GPT-5 mini & yes & 10.2 & 9.6 & 10.4\\
+Llama 3.1 8B & no & 81.7 & 82.7 & 79.3\\
+Llama 3.1 8B & yes & 72.2 & 72.8 & 69.6\\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\begin{table}[H]
+\caption{Bootstrap 95\% CIs for the FRR (\%): resampling functions within model $\times$ instruction (used in the paper) versus resampling within each of the 24 design cells (field $\times$ language $\times$ context).\label{tab:bootstrap}}
+\begin{tabularx}{\textwidth}{lcCCC}
+\toprule
+\textbf{Model} & \textbf{Instr.} & \textbf{FRR} & \textbf{Simple} & \textbf{Stratified}\\
+\midrule
+DeepSeek-V3.2 & no & 50.2 & [46.5, 53.8] & [47.3, 53.2]\\
+DeepSeek-V3.2 & yes & 12.3 & [9.8, 14.9] & [10.0, 14.6]\\
+Gemini 3.8 Flash & no & 18.6 & [15.2, 21.8] & [17.7, 19.5]\\
+Gemini 3.8 Flash & yes & 0.1 & [0.0, 0.2] & [0.1, 0.2]\\
+GPT-5 mini & no & 38.3 & [32.7, 43.8] & [34.8, 41.9]\\
+GPT-5 mini & yes & 10.2 & [6.6, 14.0] & [6.9, 13.6]\\
+Llama 3.1 8B & no & 81.7 & [78.2, 84.9] & [78.5, 84.7]\\
+Llama 3.1 8B & yes & 72.2 & [66.7, 77.2] & [67.7, 76.5]\\
+\bottomrule
+\end{tabularx}
+\end{table}

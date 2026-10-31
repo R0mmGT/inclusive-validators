@@ -1,0 +1,9 @@
+category,functions,exponential,polynomial,with_instruction,fields,models,description
+A_name_separator_overlaps_letters,12,12,0,12,"given_name 6, family_name 6","gpt-5-mini 10, DeepSeek-V3.2 1, gemini-3.8-flash 1","Repeated name-part group whose separator class contains modifier letters (U+02BB/U+02BC, category Lm) that \p{L} also matches, or an alternation whose branches overlap"
+B_name_optional_separator,3,3,0,0,"full_name 2, family_name 1",gemini-3.8-flash 3,"Repeated name-part group with an optional separator, (?:[sep]?\p{L}+)*"
+C_digit_groups_optional_separator,5,5,0,0,phone_number 5,"gemini-3.8-flash 4, DeepSeek-V3.2 1","Repeated digit groups with optional separators, (?:\d{1,4}[-. ]?)*"
+D_classic_nested_quantifier,3,2,1,0,"address_line 1, family_name 1, full_name 1","llama3.1-8b-instruct-q8_0 2, DeepSeek-V3.2 1","Other nested quantifier, (x+)+ or (x*\s?)+"
+E_trim_regex,7,0,7,5,"full_name 2, postal_code 2, address_line 2, family_name 1","gpt-5-mini 4, llama3.1-8b-instruct-q8_0 3",Whitespace-trimming regex ^\s+|\s+$ (or \s+$) evaluated as a search
+F_unanchored_extension_suffix,17,0,17,17,phone_number 17,gpt-5-mini 17,"Unanchored search for a telephone extension suffix with leading \s* or an unbounded token, e.g. \s*(?:ext|x|#)\s*\d+$"
+G_adjacent_overlapping_quantifiers,13,0,13,8,"address_line 3, postal_code 3, phone_number 2, full_name 2, given_name 2, family_name 1","llama3.1-8b-instruct-q8_0 8, DeepSeek-V3.2 4, gpt-5-mini 1","Adjacent or optional-separated quantifiers over overlapping classes, e.g. ^[A-Z0-9]+ ?[A-Z0-9]+$"
+H_unanchored_dot_star,4,0,4,2,"postal_code 3, given_name 1","llama3.1-8b-instruct-q8_0 3, DeepSeek-V3.2 1","Unanchored search with .* (e.g. [A-Za-z].*\d, (.*)$)"

@@ -1,0 +1,9 @@
+model,inclusive,pairs,functions,accept_NFC_pct,accept_NFD_pct,NFC_accepted_but_NFD_rejected_pct,NFD_accepted_but_NFC_rejected
+DeepSeek-V3.2,False,1927.0,158.0,59.2,8.4,85.8,0.0
+DeepSeek-V3.2,True,1839.0,151.0,89.8,58.7,35.0,6.0
+gemini-3.8-flash,False,1960.0,160.0,95.4,16.8,82.6,3.0
+gemini-3.8-flash,True,1909.0,157.0,99.6,99.3,0.3,0.0
+gpt-5-mini,False,1708.0,135.0,81.3,60.8,25.7,8.0
+gpt-5-mini,True,1752.0,146.0,81.8,81.1,0.9,0.0
+llama3.1:8b-instruct-q8_0,False,1607.0,131.0,13.5,13.1,8.3,11.0
+llama3.1:8b-instruct-q8_0,True,1461.0,119.0,19.6,15.0,29.3,16.0

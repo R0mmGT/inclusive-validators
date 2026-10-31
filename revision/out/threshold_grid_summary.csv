@@ -1,0 +1,6 @@
+config,min_functions,max_functions,min_agree
+node20_contention,55,65,0.9533
+node20_idle,62,65,0.986
+node20_interpreter,63,65,0.986
+node20_warmup,61,65,0.9813
+node22_idle,61,65,0.9813

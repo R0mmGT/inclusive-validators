@@ -18,6 +18,9 @@ src/                 generation, extraction and analysis (Python)
 harness/             execution sandbox and ReDoS analysis (Node.js)
 data/                raw responses, extracted functions, execution and ReDoS results
 results/             result tables (CSV)
+revision/            additional analyses for the first review round (see revision/README.md)
+MANIFEST.md          index of every file with role, size and SHA-256
+SHA256SUMS           checksums; verify with `sha256sum -c SHA256SUMS`
 ```
 
 ## Pipeline
@@ -92,6 +95,12 @@ The exact prompts can be printed with `python src/prompts.py`.
 3. Dynamic confirmation: `validate()` is called with attack strings of growing
    length. A function is confirmed vulnerable if the empirical complexity
    exponent is ≥ 1.5 or the call times out (2 s) after growth.
+4. Revision analyses (`revision/`): cross-configuration and threshold
+   checks of step 3, a validation suite of synthetic validators, a guard-aware
+   probe of unconfirmed functions, run-time capture of dynamically built
+   patterns, a supplementary negative/NFD corpus, additional statistics and
+   the coding of confirmed vulnerabilities. A failure to confirm is not
+   evidence that a function is safe.
 
 ## Safety
 

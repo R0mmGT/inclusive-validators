@@ -1,0 +1,1102 @@
+{
+ "items": [
+  {
+   "field": "full_name",
+   "value": "Jose\u0301 Garci\u0301a",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0004",
+   "id": "ext-full_name-0000"
+  },
+  {
+   "field": "full_name",
+   "value": "Zoe\u0308 Mu\u0308ller",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0005",
+   "id": "ext-full_name-0001"
+  },
+  {
+   "field": "full_name",
+   "value": "Franc\u0327ois Lefe\u0300vre",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0006",
+   "id": "ext-full_name-0002"
+  },
+  {
+   "field": "full_name",
+   "value": "Bjo\u0308rn A\u030angstro\u0308m",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0007",
+   "id": "ext-full_name-0003"
+  },
+  {
+   "field": "full_name",
+   "value": "\u0141ukasz Wis\u0301niewski",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0008",
+   "id": "ext-full_name-0004"
+  },
+  {
+   "field": "full_name",
+   "value": "Nguye\u0302\u0303n Va\u0306n An",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0009",
+   "id": "ext-full_name-0005"
+  },
+  {
+   "field": "full_name",
+   "value": "I\u0301n\u0303igo Mun\u0303oz",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0010",
+   "id": "ext-full_name-0006"
+  },
+  {
+   "field": "full_name",
+   "value": "Begon\u0303a Nu\u0301n\u0303ez",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0011",
+   "id": "ext-full_name-0007"
+  },
+  {
+   "field": "full_name",
+   "value": "Mari\u0301a Jose\u0301 Nu\u0301n\u0303ez Rodri\u0301guez",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0012",
+   "id": "ext-full_name-0008"
+  },
+  {
+   "field": "full_name",
+   "value": "Ana Luci\u0301a Pe\u0301rez Ortega",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0013",
+   "id": "ext-full_name-0009"
+  },
+  {
+   "field": "full_name",
+   "value": "Carlos Andre\u0301s Go\u0301mez Salazar",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0014",
+   "id": "ext-full_name-0010"
+  },
+  {
+   "field": "full_name",
+   "value": "Mari\u0301a Jose\u0301 Nu\u0301n\u0303ez-O'Connor",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0017",
+   "id": "ext-full_name-0011"
+  },
+  {
+   "field": "full_name",
+   "value": "Siobha\u0301n O'Connor",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0018",
+   "id": "ext-full_name-0012"
+  },
+  {
+   "field": "full_name",
+   "value": "Joa\u0303o dos Santos",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0023",
+   "id": "ext-full_name-0013"
+  },
+  {
+   "field": "full_name",
+   "value": "Pablo Diego Jose\u0301 Francisco de Paula Juan Nepomuceno Mari\u0301a de los Remedios Cipriano de la Santi\u0301sima Trinidad Ruiz y Picasso",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0029",
+   "id": "ext-full_name-0014"
+  },
+  {
+   "field": "full_name",
+   "value": "\u1100\u1175\u11b7\u1106\u1175\u11ab\u110c\u116e\u11ab",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0035",
+   "id": "ext-full_name-0015"
+  },
+  {
+   "field": "full_name",
+   "value": "\u0645\u062d\u0645\u062f \u0627\u0654\u062d\u0645\u062f",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0037",
+   "id": "ext-full_name-0016"
+  },
+  {
+   "field": "full_name",
+   "value": "\u0393\u03b9\u03c9\u0301\u03c1\u03b3\u03bf\u03c2 \u03a0\u03b1\u03c0\u03b1\u03b4\u03bf\u0301\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "full_name-0039",
+   "id": "ext-full_name-0017"
+  },
+  {
+   "field": "given_name",
+   "value": "Jose\u0301",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "given_name-0046",
+   "id": "ext-given_name-0018"
+  },
+  {
+   "field": "given_name",
+   "value": "Zoe\u0308",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "given_name-0047",
+   "id": "ext-given_name-0019"
+  },
+  {
+   "field": "given_name",
+   "value": "Sia\u0302n",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "given_name-0048",
+   "id": "ext-given_name-0020"
+  },
+  {
+   "field": "given_name",
+   "value": "Bjo\u0308rn",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "given_name-0050",
+   "id": "ext-given_name-0021"
+  },
+  {
+   "field": "given_name",
+   "value": "Franc\u0327ois",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "given_name-0051",
+   "id": "ext-given_name-0022"
+  },
+  {
+   "field": "given_name",
+   "value": "I\u0301n\u0303igo",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "given_name-0052",
+   "id": "ext-given_name-0023"
+  },
+  {
+   "field": "given_name",
+   "value": "Begon\u0303a",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "given_name-0053",
+   "id": "ext-given_name-0024"
+  },
+  {
+   "field": "given_name",
+   "value": "Mari\u0301a Jose\u0301",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "given_name-0054",
+   "id": "ext-given_name-0025"
+  },
+  {
+   "field": "given_name",
+   "value": "\u1106\u1175\u11ab\u110c\u116e\u11ab",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "given_name-0065",
+   "id": "ext-given_name-0026"
+  },
+  {
+   "field": "given_name",
+   "value": "\u0393\u03b9\u03c9\u0301\u03c1\u03b3\u03bf\u03c2",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "given_name-0069",
+   "id": "ext-given_name-0027"
+  },
+  {
+   "field": "family_name",
+   "value": "Mu\u0308ller",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0076",
+   "id": "ext-family_name-0028"
+  },
+  {
+   "field": "family_name",
+   "value": "Lefe\u0300vre",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0077",
+   "id": "ext-family_name-0029"
+  },
+  {
+   "field": "family_name",
+   "value": "A\u030angstro\u0308m",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0078",
+   "id": "ext-family_name-0030"
+  },
+  {
+   "field": "family_name",
+   "value": "Wis\u0301niewski",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0079",
+   "id": "ext-family_name-0031"
+  },
+  {
+   "field": "family_name",
+   "value": "Nguye\u0302\u0303n",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0080",
+   "id": "ext-family_name-0032"
+  },
+  {
+   "field": "family_name",
+   "value": "Mun\u0303oz",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0081",
+   "id": "ext-family_name-0033"
+  },
+  {
+   "field": "family_name",
+   "value": "Nu\u0301n\u0303ez",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0082",
+   "id": "ext-family_name-0034"
+  },
+  {
+   "field": "family_name",
+   "value": "Pen\u0303a",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0083",
+   "id": "ext-family_name-0035"
+  },
+  {
+   "field": "family_name",
+   "value": "Nu\u0301n\u0303ez Rodri\u0301guez",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0084",
+   "id": "ext-family_name-0036"
+  },
+  {
+   "field": "family_name",
+   "value": "Pe\u0301rez Ortega",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0085",
+   "id": "ext-family_name-0037"
+  },
+  {
+   "field": "family_name",
+   "value": "Go\u0301mez Salazar",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0086",
+   "id": "ext-family_name-0038"
+  },
+  {
+   "field": "family_name",
+   "value": "Nu\u0301n\u0303ez-O'Connor",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0088",
+   "id": "ext-family_name-0039"
+  },
+  {
+   "field": "family_name",
+   "value": "\u1100\u1175\u11b7",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0103",
+   "id": "ext-family_name-0040"
+  },
+  {
+   "field": "family_name",
+   "value": "\u0627\u0654\u062d\u0645\u062f",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0105",
+   "id": "ext-family_name-0041"
+  },
+  {
+   "field": "family_name",
+   "value": "\u03a0\u03b1\u03c0\u03b1\u03b4\u03bf\u0301\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "family_name-0107",
+   "id": "ext-family_name-0042"
+  },
+  {
+   "field": "address_line",
+   "value": "Ko\u0308nigstra\u00dfe 1",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "address_line-0148",
+   "id": "ext-address_line-0043"
+  },
+  {
+   "field": "address_line",
+   "value": "Avenida Sa\u0303o Joa\u0303o, 439",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "address_line-0149",
+   "id": "ext-address_line-0044"
+  },
+  {
+   "field": "address_line",
+   "value": "Calle Nu\u0301n\u0303ez de Balboa 20",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "address_line-0150",
+   "id": "ext-address_line-0045"
+  },
+  {
+   "field": "address_line",
+   "value": "Km 5 vi\u0301a a la Costa",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "address_line-0159",
+   "id": "ext-address_line-0046"
+  },
+  {
+   "field": "address_line",
+   "value": "200 metros al norte de la iglesia cato\u0301lica",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "address_line-0160",
+   "id": "ext-address_line-0047"
+  },
+  {
+   "field": "address_line",
+   "value": "\u1109\u1166\u110c\u1169\u11bc\u1103\u1162\u1105\u1169 209",
+   "expected": "valid",
+   "category": "nfd_variant",
+   "rule": "Canonically equivalent (NFD) encoding of a valid input; Unicode treats both as the same text.",
+   "base_id": "address_line-0167",
+   "id": "ext-address_line-0048"
+  },
+  {
+   "field": "full_name",
+   "value": "Ma\u0007r\u00eda Jos\u00e9 P\u00e9rez",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-full_name-0049"
+  },
+  {
+   "field": "full_name",
+   "value": "Mar\u00eda Jos\u00e9 P\u00e9rez\u007f",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-full_name-0050"
+  },
+  {
+   "field": "full_name",
+   "value": "Ma\u0085r\u00eda Jos\u00e9 P\u00e9rez",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-full_name-0051"
+  },
+  {
+   "field": "full_name",
+   "value": "Mar\n\u00eda Jos\u00e9 P\u00e9rez",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-full_name-0052"
+  },
+  {
+   "field": "full_name",
+   "value": "Mar\r\n\u00eda Jos\u00e9 P\u00e9rez",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-full_name-0053"
+  },
+  {
+   "field": "full_name",
+   "value": "\u202eMar\u00eda Jos\u00e9 P\u00e9rez",
+   "expected": "invalid",
+   "category": "bidi_override",
+   "rule": "Contains a bidirectional override (U+202E); never part of a name, address or number, used for spoofing.",
+   "base_id": null,
+   "id": "ext-full_name-0054"
+  },
+  {
+   "field": "full_name",
+   "value": "\u200b\u200b\u200b",
+   "expected": "invalid",
+   "category": "zero_width_only",
+   "rule": "Only zero-width characters; visually empty.",
+   "base_id": null,
+   "id": "ext-full_name-0055"
+  },
+  {
+   "field": "given_name",
+   "value": "Ma\u0007r\u00eda",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-given_name-0056"
+  },
+  {
+   "field": "given_name",
+   "value": "Mar\u00eda\u007f",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-given_name-0057"
+  },
+  {
+   "field": "given_name",
+   "value": "Ma\u0085r\u00eda",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-given_name-0058"
+  },
+  {
+   "field": "given_name",
+   "value": "Mar\n\u00eda",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-given_name-0059"
+  },
+  {
+   "field": "given_name",
+   "value": "Mar\r\n\u00eda",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-given_name-0060"
+  },
+  {
+   "field": "given_name",
+   "value": "\u202eMar\u00eda",
+   "expected": "invalid",
+   "category": "bidi_override",
+   "rule": "Contains a bidirectional override (U+202E); never part of a name, address or number, used for spoofing.",
+   "base_id": null,
+   "id": "ext-given_name-0061"
+  },
+  {
+   "field": "given_name",
+   "value": "\u200b\u200b\u200b",
+   "expected": "invalid",
+   "category": "zero_width_only",
+   "rule": "Only zero-width characters; visually empty.",
+   "base_id": null,
+   "id": "ext-given_name-0062"
+  },
+  {
+   "field": "family_name",
+   "value": "P\u00e9\u0007rez",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-family_name-0063"
+  },
+  {
+   "field": "family_name",
+   "value": "P\u00e9rez\u007f",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-family_name-0064"
+  },
+  {
+   "field": "family_name",
+   "value": "P\u00e9\u0085rez",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-family_name-0065"
+  },
+  {
+   "field": "family_name",
+   "value": "P\u00e9r\nez",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-family_name-0066"
+  },
+  {
+   "field": "family_name",
+   "value": "P\u00e9r\r\nez",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-family_name-0067"
+  },
+  {
+   "field": "family_name",
+   "value": "\u202eP\u00e9rez",
+   "expected": "invalid",
+   "category": "bidi_override",
+   "rule": "Contains a bidirectional override (U+202E); never part of a name, address or number, used for spoofing.",
+   "base_id": null,
+   "id": "ext-family_name-0068"
+  },
+  {
+   "field": "family_name",
+   "value": "\u200b\u200b\u200b",
+   "expected": "invalid",
+   "category": "zero_width_only",
+   "rule": "Only zero-width characters; visually empty.",
+   "base_id": null,
+   "id": "ext-family_name-0069"
+  },
+  {
+   "field": "address_line",
+   "value": "Ca\u0007lle Mayor 5",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-address_line-0070"
+  },
+  {
+   "field": "address_line",
+   "value": "Calle Mayor 5\u007f",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-address_line-0071"
+  },
+  {
+   "field": "address_line",
+   "value": "Ca\u0085lle Mayor 5",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-address_line-0072"
+  },
+  {
+   "field": "address_line",
+   "value": "Cal\nle Mayor 5",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-address_line-0073"
+  },
+  {
+   "field": "address_line",
+   "value": "Cal\r\nle Mayor 5",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-address_line-0074"
+  },
+  {
+   "field": "address_line",
+   "value": "\u202eCalle Mayor 5",
+   "expected": "invalid",
+   "category": "bidi_override",
+   "rule": "Contains a bidirectional override (U+202E); never part of a name, address or number, used for spoofing.",
+   "base_id": null,
+   "id": "ext-address_line-0075"
+  },
+  {
+   "field": "address_line",
+   "value": "\u200b\u200b\u200b",
+   "expected": "invalid",
+   "category": "zero_width_only",
+   "rule": "Only zero-width characters; visually empty.",
+   "base_id": null,
+   "id": "ext-address_line-0076"
+  },
+  {
+   "field": "postal_code",
+   "value": "28\u0007013",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-postal_code-0077"
+  },
+  {
+   "field": "postal_code",
+   "value": "28013\u007f",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-postal_code-0078"
+  },
+  {
+   "field": "postal_code",
+   "value": "28\u0085013",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-postal_code-0079"
+  },
+  {
+   "field": "postal_code",
+   "value": "280\n13",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-postal_code-0080"
+  },
+  {
+   "field": "postal_code",
+   "value": "280\r\n13",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-postal_code-0081"
+  },
+  {
+   "field": "postal_code",
+   "value": "\u202e28013",
+   "expected": "invalid",
+   "category": "bidi_override",
+   "rule": "Contains a bidirectional override (U+202E); never part of a name, address or number, used for spoofing.",
+   "base_id": null,
+   "id": "ext-postal_code-0082"
+  },
+  {
+   "field": "postal_code",
+   "value": "\u200b\u200b\u200b",
+   "expected": "invalid",
+   "category": "zero_width_only",
+   "rule": "Only zero-width characters; visually empty.",
+   "base_id": null,
+   "id": "ext-postal_code-0083"
+  },
+  {
+   "field": "phone_number",
+   "value": "+3\u00074 912 345 678",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-phone_number-0084"
+  },
+  {
+   "field": "phone_number",
+   "value": "+34 912 345 678\u007f",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-phone_number-0085"
+  },
+  {
+   "field": "phone_number",
+   "value": "+3\u00854 912 345 678",
+   "expected": "invalid",
+   "category": "control_char",
+   "rule": "Contains a C0/C1 control character or DEL; no naming, addressing or numbering convention uses them.",
+   "base_id": null,
+   "id": "ext-phone_number-0086"
+  },
+  {
+   "field": "phone_number",
+   "value": "+34\n 912 345 678",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-phone_number-0087"
+  },
+  {
+   "field": "phone_number",
+   "value": "+34\r\n 912 345 678",
+   "expected": "invalid",
+   "category": "line_break",
+   "rule": "Embedded line break in a single-line field.",
+   "base_id": null,
+   "id": "ext-phone_number-0088"
+  },
+  {
+   "field": "phone_number",
+   "value": "\u202e+34 912 345 678",
+   "expected": "invalid",
+   "category": "bidi_override",
+   "rule": "Contains a bidirectional override (U+202E); never part of a name, address or number, used for spoofing.",
+   "base_id": null,
+   "id": "ext-phone_number-0089"
+  },
+  {
+   "field": "phone_number",
+   "value": "\u200b\u200b\u200b",
+   "expected": "invalid",
+   "category": "zero_width_only",
+   "rule": "Only zero-width characters; visually empty.",
+   "base_id": null,
+   "id": "ext-phone_number-0090"
+  },
+  {
+   "field": "full_name",
+   "value": "\u0301",
+   "expected": "invalid",
+   "category": "lone_combining_mark",
+   "rule": "A lone combining mark with no base character is not a well-formed grapheme.",
+   "base_id": null,
+   "id": "ext-full_name-0091"
+  },
+  {
+   "field": "full_name",
+   "value": "Ana\ud800",
+   "expected": "invalid",
+   "category": "unpaired_surrogate",
+   "rule": "Unpaired surrogate code unit; not a valid Unicode scalar value.",
+   "base_id": null,
+   "id": "ext-full_name-0092"
+  },
+  {
+   "field": "full_name",
+   "value": "Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdef",
+   "expected": "invalid",
+   "category": "excessive_length",
+   "rule": "5,000 characters; far beyond any real value of the field, so a validator without a length bound accepts it (boundary/length-guard probe).",
+   "base_id": null,
+   "id": "ext-full_name-0093"
+  },
+  {
+   "field": "given_name",
+   "value": "\u0301",
+   "expected": "invalid",
+   "category": "lone_combining_mark",
+   "rule": "A lone combining mark with no base character is not a well-formed grapheme.",
+   "base_id": null,
+   "id": "ext-given_name-0094"
+  },
+  {
+   "field": "given_name",
+   "value": "Ana\ud800",
+   "expected": "invalid",
+   "category": "unpaired_surrogate",
+   "rule": "Unpaired surrogate code unit; not a valid Unicode scalar value.",
+   "base_id": null,
+   "id": "ext-given_name-0095"
+  },
+  {
+   "field": "given_name",
+   "value": "Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdef",
+   "expected": "invalid",
+   "category": "excessive_length",
+   "rule": "5,000 characters; far beyond any real value of the field, so a validator without a length bound accepts it (boundary/length-guard probe).",
+   "base_id": null,
+   "id": "ext-given_name-0096"
+  },
+  {
+   "field": "family_name",
+   "value": "\u0301",
+   "expected": "invalid",
+   "category": "lone_combining_mark",
+   "rule": "A lone combining mark with no base character is not a well-formed grapheme.",
+   "base_id": null,
+   "id": "ext-family_name-0097"
+  },
+  {
+   "field": "family_name",
+   "value": "Ana\ud800",
+   "expected": "invalid",
+   "category": "unpaired_surrogate",
+   "rule": "Unpaired surrogate code unit; not a valid Unicode scalar value.",
+   "base_id": null,
+   "id": "ext-family_name-0098"
+  },
+  {
+   "field": "family_name",
+   "value": "Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdef",
+   "expected": "invalid",
+   "category": "excessive_length",
+   "rule": "5,000 characters; far beyond any real value of the field, so a validator without a length bound accepts it (boundary/length-guard probe).",
+   "base_id": null,
+   "id": "ext-family_name-0099"
+  },
+  {
+   "field": "address_line",
+   "value": "\u0301",
+   "expected": "invalid",
+   "category": "lone_combining_mark",
+   "rule": "A lone combining mark with no base character is not a well-formed grapheme.",
+   "base_id": null,
+   "id": "ext-address_line-0100"
+  },
+  {
+   "field": "address_line",
+   "value": "Ana\ud800",
+   "expected": "invalid",
+   "category": "unpaired_surrogate",
+   "rule": "Unpaired surrogate code unit; not a valid Unicode scalar value.",
+   "base_id": null,
+   "id": "ext-address_line-0101"
+  },
+  {
+   "field": "address_line",
+   "value": "Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdefghij Abcdef",
+   "expected": "invalid",
+   "category": "excessive_length",
+   "rule": "5,000 characters; far beyond any real value of the field, so a validator without a length bound accepts it (boundary/length-guard probe).",
+   "base_id": null,
+   "id": "ext-address_line-0102"
+  },
+  {
+   "field": "postal_code",
+   "value": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+   "expected": "invalid",
+   "category": "excessive_length",
+   "rule": "5,000 characters; far beyond any real value of the field, so a validator without a length bound accepts it (boundary/length-guard probe).",
+   "base_id": null,
+   "id": "ext-postal_code-0103"
+  },
+  {
+   "field": "phone_number",
+   "value": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+   "expected": "invalid",
+   "category": "excessive_length",
+   "rule": "5,000 characters; far beyond any real value of the field, so a validator without a length bound accepts it (boundary/length-guard probe).",
+   "base_id": null,
+   "id": "ext-phone_number-0104"
+  },
+  {
+   "field": "postal_code",
+   "value": "1",
+   "expected": "invalid",
+   "category": "too_short",
+   "rule": "Shorter than any national postal-code format (minimum 3 characters).",
+   "base_id": null,
+   "id": "ext-postal_code-0105"
+  },
+  {
+   "field": "postal_code",
+   "value": "12",
+   "expected": "invalid",
+   "category": "too_short",
+   "rule": "Shorter than any national postal-code format (minimum 3 characters).",
+   "base_id": null,
+   "id": "ext-postal_code-0106"
+  },
+  {
+   "field": "postal_code",
+   "value": "12345678901",
+   "expected": "invalid",
+   "category": "too_long",
+   "rule": "Longer than any national postal-code format (maximum 10 characters).",
+   "base_id": null,
+   "id": "ext-postal_code-0107"
+  },
+  {
+   "field": "postal_code",
+   "value": "ABCDE-123456",
+   "expected": "invalid",
+   "category": "too_long",
+   "rule": "Longer than any national postal-code format (maximum 10 characters).",
+   "base_id": null,
+   "id": "ext-postal_code-0108"
+  },
+  {
+   "field": "postal_code",
+   "value": "-28013",
+   "expected": "invalid",
+   "category": "malformed_separator",
+   "rule": "Separator at a boundary or doubled; no national format has this shape.",
+   "base_id": null,
+   "id": "ext-postal_code-0109"
+  },
+  {
+   "field": "postal_code",
+   "value": "28013-",
+   "expected": "invalid",
+   "category": "malformed_separator",
+   "rule": "Separator at a boundary or doubled; no national format has this shape.",
+   "base_id": null,
+   "id": "ext-postal_code-0110"
+  },
+  {
+   "field": "postal_code",
+   "value": "28--013",
+   "expected": "invalid",
+   "category": "malformed_separator",
+   "rule": "Separator at a boundary or doubled; no national format has this shape.",
+   "base_id": null,
+   "id": "ext-postal_code-0111"
+  },
+  {
+   "field": "phone_number",
+   "value": "++34 912 345 678",
+   "expected": "invalid",
+   "category": "malformed_phone",
+   "rule": "Doubled international prefix symbol.",
+   "base_id": null,
+   "id": "ext-phone_number-0112"
+  },
+  {
+   "field": "phone_number",
+   "value": "+34 912 +345 678",
+   "expected": "invalid",
+   "category": "malformed_phone",
+   "rule": "'+' may only appear as the first character.",
+   "base_id": null,
+   "id": "ext-phone_number-0113"
+  },
+  {
+   "field": "phone_number",
+   "value": "+34 (912 345 678",
+   "expected": "invalid",
+   "category": "malformed_phone",
+   "rule": "Unbalanced parenthesis.",
+   "base_id": null,
+   "id": "ext-phone_number-0114"
+  },
+  {
+   "field": "phone_number",
+   "value": "+34 912) 345 678",
+   "expected": "invalid",
+   "category": "malformed_phone",
+   "rule": "Unbalanced parenthesis.",
+   "base_id": null,
+   "id": "ext-phone_number-0115"
+  },
+  {
+   "field": "phone_number",
+   "value": "+34 912 345 67O",
+   "expected": "invalid",
+   "category": "malformed_phone",
+   "rule": "Letter O in place of a digit.",
+   "base_id": null,
+   "id": "ext-phone_number-0116"
+  },
+  {
+   "field": "phone_number",
+   "value": "+0 912 345 678",
+   "expected": "invalid",
+   "category": "malformed_phone",
+   "rule": "Country codes never start with 0 (E.164).",
+   "base_id": null,
+   "id": "ext-phone_number-0117"
+  },
+  {
+   "field": "phone_number",
+   "value": "+3491234567890123",
+   "expected": "invalid",
+   "category": "malformed_phone",
+   "rule": "More than 15 digits after '+' (E.164 maximum).",
+   "base_id": null,
+   "id": "ext-phone_number-0118"
+  },
+  {
+   "field": "phone_number",
+   "value": "+",
+   "expected": "invalid",
+   "category": "malformed_phone",
+   "rule": "International prefix with no digits.",
+   "base_id": null,
+   "id": "ext-phone_number-0119"
+  },
+  {
+   "field": "phone_number",
+   "value": "+34 912 345 678 ext",
+   "expected": "invalid",
+   "category": "malformed_phone",
+   "rule": "Trailing word without an extension number.",
+   "base_id": null,
+   "id": "ext-phone_number-0120"
+  },
+  {
+   "field": "phone_number",
+   "value": "12345",
+   "expected": "invalid",
+   "category": "malformed_phone",
+   "rule": "Five digits: shorter than any complete subscriber number with country context.",
+   "base_id": null,
+   "id": "ext-phone_number-0121"
+  }
+ ]
+}

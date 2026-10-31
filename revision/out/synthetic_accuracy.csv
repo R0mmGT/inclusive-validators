@@ -1,0 +1,86 @@
+config,complete,node,execArgv,warmup,key,occ,field,source,pattern,flags,complexity,expected,procedure_expected,confirmed,reason,exponent,fitted_exponent,max_ms,censored,stored_confirmed,stored_reason,stored_exponent,correct_vs_truth,correct_vs_procedure
+node20_contention,True,v20.20.2,,0,SYN_L1,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,1.375,False,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_L2,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,1.391,False,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_L3,0,synthetic,synthetic,,,n log n,False,False,False,no_slowdown_up_to_max_length,,0.97,32.189,False,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_L4,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,8.569,False,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_L5,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,3.987,False,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_Q1,0,synthetic,synthetic,,,quadratic,True,True,True,exponent,2.43,2.24,2900.669,True,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_Q2,0,synthetic,synthetic,,,quadratic (search),True,True,True,exponent,3.09,3.1,1919.339,True,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_C1,0,synthetic,synthetic,,,cubic,True,True,True,timeout_after_growth,,3.15,2800.625,True,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_E1,0,synthetic,synthetic,,,exponential,True,True,True,timeout_after_growth,,,3.791,True,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_E2,0,synthetic,synthetic,,,exponential,True,True,True,timeout_after_growth,,,1.134,True,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_G1,0,synthetic,synthetic,,,"quadratic, length <= 200",False,False,False,no_slowdown_up_to_max_length,,,4.025,False,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_G2,0,synthetic,synthetic,,,"exponential, length <= 50",True,True,True,timeout_after_growth,,,0.788,True,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_G3,0,synthetic,synthetic,,,"exponential, length <= 16",False,False,False,no_slowdown_up_to_max_length,,,2.901,False,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_G4,0,synthetic,synthetic,,,"quadratic, length <= 100000",True,True,True,exponent,2.21,2.23,1307.651,True,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_G5,0,synthetic,synthetic,,,"cubic, length <= 300",False,False,False,no_slowdown_up_to_max_length,,,11.363,False,,,,True,True
+node20_contention,True,v20.20.2,,0,SYN_N1,0,synthetic,synthetic,,,"exponential, control characters stripped",True,False,False,no_slowdown_up_to_max_length,,,3.995,False,,,,False,True
+node20_contention,True,v20.20.2,,0,SYN_N1_adaptive,0,synthetic,synthetic,,,"exponential, control characters stripped",True,True,True,timeout_after_growth,,,3.99,True,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_L1,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,1.912,False,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_L2,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,1.463,False,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_L3,0,synthetic,synthetic,,,n log n,False,False,False,no_slowdown_up_to_max_length,,,14.74,False,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_L4,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,4.155,False,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_L5,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,1.328,False,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_Q1,0,synthetic,synthetic,,,quadratic,True,True,True,exponent,1.97,1.98,1698.686,True,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_Q2,0,synthetic,synthetic,,,quadratic (search),True,True,True,timeout_after_growth,,2.96,1093.827,True,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_C1,0,synthetic,synthetic,,,cubic,True,True,True,exponent,2.78,2.79,1187.858,True,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_E1,0,synthetic,synthetic,,,exponential,True,True,True,timeout_after_growth,,,1.066,True,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_E2,0,synthetic,synthetic,,,exponential,True,True,True,timeout_after_growth,,,0.889,True,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_G1,0,synthetic,synthetic,,,"quadratic, length <= 200",False,False,False,no_slowdown_up_to_max_length,,,0.079,False,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_G2,0,synthetic,synthetic,,,"exponential, length <= 50",True,True,True,timeout_after_growth,,,0.889,True,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_G3,0,synthetic,synthetic,,,"exponential, length <= 16",False,False,False,no_slowdown_up_to_max_length,,,0.078,False,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_G4,0,synthetic,synthetic,,,"quadratic, length <= 100000",True,True,True,exponent,2.15,2.11,1869.401,False,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_G5,0,synthetic,synthetic,,,"cubic, length <= 300",False,False,False,no_slowdown_up_to_max_length,,,4.061,False,,,,True,True
+node20_idle,True,v20.20.2,,0,SYN_N1,0,synthetic,synthetic,,,"exponential, control characters stripped",True,False,False,no_slowdown_up_to_max_length,,,0.654,False,,,,False,True
+node20_idle,True,v20.20.2,,0,SYN_N1_adaptive,0,synthetic,synthetic,,,"exponential, control characters stripped",True,True,True,timeout_after_growth,,,1.07,True,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_L1,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,12.602,False,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_L2,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,4.806,False,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_L3,0,synthetic,synthetic,,,n log n,False,False,False,no_slowdown_up_to_max_length,,,16.852,False,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_L4,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,15.231,False,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_L5,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,8.33,False,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_Q1,0,synthetic,synthetic,,,quadratic,True,True,True,exponent,1.92,2.03,4091.413,True,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_Q2,0,synthetic,synthetic,,,quadratic (search),True,True,True,exponent,2.94,2.95,1379.204,True,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_C1,0,synthetic,synthetic,,,cubic,True,True,True,exponent,2.91,2.93,1356.406,True,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_E1,0,synthetic,synthetic,,,exponential,True,True,True,timeout_after_growth,,,3.706,True,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_E2,0,synthetic,synthetic,,,exponential,True,True,True,timeout_after_growth,,,5.496,True,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_G1,0,synthetic,synthetic,,,"quadratic, length <= 200",False,False,False,no_slowdown_up_to_max_length,,,0.149,False,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_G2,0,synthetic,synthetic,,,"exponential, length <= 50",True,True,True,timeout_after_growth,,,4.365,True,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_G3,0,synthetic,synthetic,,,"exponential, length <= 16",False,False,False,no_slowdown_up_to_max_length,,,0.09,False,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_G4,0,synthetic,synthetic,,,"quadratic, length <= 100000",True,True,True,exponent,1.99,1.99,4113.812,True,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_G5,0,synthetic,synthetic,,,"cubic, length <= 300",False,False,False,exponent,-4.21,,20.264,False,,,,True,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_N1,0,synthetic,synthetic,,,"exponential, control characters stripped",True,False,False,no_slowdown_up_to_max_length,,,2.754,False,,,,False,True
+node20_interpreter,True,v20.20.2,--regexp-interpret-all,0,SYN_N1_adaptive,0,synthetic,synthetic,,,"exponential, control characters stripped",True,True,True,timeout_after_growth,,,3.833,True,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_L1,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,1.784,False,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_L2,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,1.802,False,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_L3,0,synthetic,synthetic,,,n log n,False,False,False,no_slowdown_up_to_max_length,,,15.561,False,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_L4,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,3.524,False,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_L5,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,1.117,False,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_Q1,0,synthetic,synthetic,,,quadratic,True,True,True,exponent,2.12,2.03,1430.229,True,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_Q2,0,synthetic,synthetic,,,quadratic (search),True,True,True,exponent,2.88,2.88,1222.418,True,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_C1,0,synthetic,synthetic,,,cubic,True,True,True,exponent,2.88,2.89,1192.571,True,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_E1,0,synthetic,synthetic,,,exponential,True,True,True,timeout_after_growth,,,0.854,True,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_E2,0,synthetic,synthetic,,,exponential,True,True,True,timeout_after_growth,,,0.999,True,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_G1,0,synthetic,synthetic,,,"quadratic, length <= 200",False,False,False,no_slowdown_up_to_max_length,,,0.083,False,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_G2,0,synthetic,synthetic,,,"exponential, length <= 50",True,True,True,timeout_after_growth,,,0.87,True,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_G3,0,synthetic,synthetic,,,"exponential, length <= 16",False,False,False,no_slowdown_up_to_max_length,,,0.069,False,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_G4,0,synthetic,synthetic,,,"quadratic, length <= 100000",True,True,True,exponent,2.0,1.98,1578.072,False,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_G5,0,synthetic,synthetic,,,"cubic, length <= 300",False,False,False,no_slowdown_up_to_max_length,,,2.773,False,,,,True,True
+node20_warmup,True,v20.20.2,,20,SYN_N1,0,synthetic,synthetic,,,"exponential, control characters stripped",True,False,False,no_slowdown_up_to_max_length,,,0.37,False,,,,False,True
+node20_warmup,True,v20.20.2,,20,SYN_N1_adaptive,0,synthetic,synthetic,,,"exponential, control characters stripped",True,True,True,timeout_after_growth,,,0.888,True,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_L1,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,2.842,False,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_L2,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,2.052,False,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_L3,0,synthetic,synthetic,,,n log n,False,False,False,no_slowdown_up_to_max_length,,,17.021,False,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_L4,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,2.644,False,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_L5,0,synthetic,synthetic,,,linear,False,False,False,no_slowdown_up_to_max_length,,,1.466,False,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_Q1,0,synthetic,synthetic,,,quadratic,True,True,True,exponent,1.9,1.95,1716.428,True,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_Q2,0,synthetic,synthetic,,,quadratic (search),True,True,True,exponent,2.84,2.85,1203.087,True,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_C1,0,synthetic,synthetic,,,cubic,True,True,True,exponent,2.83,2.84,1119.067,True,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_E1,0,synthetic,synthetic,,,exponential,True,True,True,timeout_after_growth,,,1.015,True,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_E2,0,synthetic,synthetic,,,exponential,True,True,True,timeout_after_growth,,,0.976,True,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_G1,0,synthetic,synthetic,,,"quadratic, length <= 200",False,False,False,no_slowdown_up_to_max_length,,,0.116,False,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_G2,0,synthetic,synthetic,,,"exponential, length <= 50",True,True,True,timeout_after_growth,,,0.884,True,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_G3,0,synthetic,synthetic,,,"exponential, length <= 16",False,False,False,no_slowdown_up_to_max_length,,,0.115,False,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_G4,0,synthetic,synthetic,,,"quadratic, length <= 100000",True,True,True,exponent,1.88,1.97,1719.741,False,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_G5,0,synthetic,synthetic,,,"cubic, length <= 300",False,False,False,no_slowdown_up_to_max_length,,,3.099,False,,,,True,True
+node22_idle,True,v22.23.4,,0,SYN_N1,0,synthetic,synthetic,,,"exponential, control characters stripped",True,False,False,no_slowdown_up_to_max_length,,,0.379,False,,,,False,True
+node22_idle,True,v22.23.4,,0,SYN_N1_adaptive,0,synthetic,synthetic,,,"exponential, control characters stripped",True,True,True,timeout_after_growth,,,0.844,True,,,,True,True

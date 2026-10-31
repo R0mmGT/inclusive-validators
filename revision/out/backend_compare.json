@@ -1,0 +1,19 @@
+{
+ "total": 4191,
+ "same_status_and_complexity": 4189,
+ "status_differs": 2,
+ "complexity_differs": 0,
+ "attack_string_differs_among_agreeing": 1,
+ "diffs": [
+  {
+   "pattern": "^[\\d+\\s().-]{4,25}(?:\\s*(?:ext|extension|ext\\.|x)\\s*\\d{1,6})?$",
+   "pure": "unknown",
+   "native": "safe"
+  },
+  {
+   "pattern": "(SELECT\\s+\\*|DROP\\s+TABLE|INSERT\\s+INTO|UPDATE\\s+\\w+\\s+SET|DELETE\\s+FROM|javascript:|<script)",
+   "pure": "unknown",
+   "native": "safe"
+  }
+ ]
+}

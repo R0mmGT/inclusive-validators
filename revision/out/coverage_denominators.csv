@@ -1,0 +1,11 @@
+model,inclusive,generations,extracted,usable,confirmed
+gemini-3.8-flash,False,240,240,240,7
+gemini-3.8-flash,True,240,240,237,1
+gpt-5-mini,False,240,239,214,0
+gpt-5-mini,True,240,240,224,32
+DeepSeek-V3.2,False,240,240,238,4
+DeepSeek-V3.2,True,240,240,230,4
+llama3.1:8b-instruct-q8_0,False,240,240,205,9
+llama3.1:8b-instruct-q8_0,True,240,240,175,7
+Total,False,960,959,897,20
+Total,True,960,960,866,44

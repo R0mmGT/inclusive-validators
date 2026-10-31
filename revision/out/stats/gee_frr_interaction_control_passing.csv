@@ -1,0 +1,16 @@
+term,coef,se_robust,OR,OR_lo,OR_hi,p
+Intercept,0.3544,0.1387,1.4254,1.0862,1.8705,0.0106
+"C(model, Treatment('DeepSeek-V3.2'))[T.gemini-3.8-flash]",-1.7493,0.128,0.1739,0.1353,0.2235,0.0
+"C(model, Treatment('DeepSeek-V3.2'))[T.gpt-5-mini]",-0.8457,0.1448,0.4293,0.3232,0.5701,0.0
+"C(model, Treatment('DeepSeek-V3.2'))[T.llama3.1:8b-instruct-q8_0]",1.0991,0.151,3.0015,2.2324,4.0354,0.0
+C(language)[T.es],-0.3022,0.0901,0.7392,0.6196,0.8819,0.0008
+C(context)[T.ecommerce],-0.4133,0.0917,0.6615,0.5527,0.7916,0.0
+C(field)[T.family_name],-0.7224,0.1489,0.4856,0.3627,0.6501,0.0
+C(field)[T.full_name],0.3336,0.1398,1.3959,1.0614,1.8359,0.017
+C(field)[T.given_name],-0.6055,0.1501,0.5458,0.4067,0.7324,0.0001
+C(field)[T.phone_number],-0.0283,0.1915,0.9721,0.6679,1.4149,0.8826
+C(field)[T.postal_code],0.1066,0.1821,1.1125,0.7786,1.5896,0.5583
+inclusive,-2.1403,0.1325,0.1176,0.0907,0.1525,0.0
+"C(model, Treatment('DeepSeek-V3.2'))[T.gemini-3.8-flash]:inclusive",-2.8176,0.353,0.0598,0.0299,0.1194,0.0
+"C(model, Treatment('DeepSeek-V3.2'))[T.gpt-5-mini]:inclusive",-1.7788,0.2711,0.1688,0.0992,0.2872,0.0
+"C(model, Treatment('DeepSeek-V3.2'))[T.llama3.1:8b-instruct-q8_0]:inclusive",1.4028,0.2421,4.0666,2.5303,6.5359,0.0

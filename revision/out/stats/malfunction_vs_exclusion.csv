@@ -1,0 +1,9 @@
+model,inclusive,fails_control_partial,fails_control_rejects_all_noncontrol,passes_control_format_specific_exclusion,passes_control_no_exclusion,throws_on_every_input
+DeepSeek-V3.2,False,18,3,205,12,0
+DeepSeek-V3.2,True,3,3,120,104,0
+gemini-3.8-flash,False,15,0,159,66,0
+gemini-3.8-flash,True,0,0,10,227,0
+gpt-5-mini,False,26,9,103,74,2
+gpt-5-mini,True,12,4,28,174,6
+llama3.1:8b-instruct-q8_0,False,17,63,120,2,3
+llama3.1:8b-instruct-q8_0,True,13,57,85,16,4

@@ -1,0 +1,194 @@
+{
+ "without_instruction": {
+  "pattern": "^\\p{L}+(?:[' -]\\p{L}+)*$",
+  "flags": "u",
+  "max_length": 50,
+  "recheck": "safe",
+  "complexity": "linear",
+  "attack": null,
+  "frr": "1/26",
+  "rejected": [
+   "राहुल"
+  ],
+  "false_accepts": [],
+  "nfd_rejected": "9/10",
+  "ext_negatives_accepted": [],
+  "timings": [
+   {
+    "len": 19,
+    "ms": 1.19,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 35,
+    "ms": 0.76,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 51,
+    "ms": 0,
+    "timeout_10s": false,
+    "guarded_out": true
+   },
+   {
+    "len": 59,
+    "ms": 0,
+    "timeout_10s": false,
+    "guarded_out": true
+   },
+   {
+    "len": 67,
+    "ms": 0,
+    "timeout_10s": false,
+    "guarded_out": true
+   },
+   {
+    "len": 75,
+    "ms": 0,
+    "timeout_10s": false,
+    "guarded_out": true
+   },
+   {
+    "len": 83,
+    "ms": 0,
+    "timeout_10s": false,
+    "guarded_out": true
+   },
+   {
+    "len": 91,
+    "ms": 0,
+    "timeout_10s": false,
+    "guarded_out": true
+   },
+   {
+    "len": 99,
+    "ms": 0,
+    "timeout_10s": false,
+    "guarded_out": true
+   }
+  ]
+ },
+ "with_instruction": {
+  "pattern": "^[\\p{L}\\p{M}]+(?:['’ʼ\\- ][\\p{L}\\p{M}]+)*\\.?$",
+  "flags": "u",
+  "max_length": 100,
+  "recheck": "vulnerable",
+  "complexity": "exponential",
+  "attack": {
+   "pumps": [
+    {
+     "prefix": "ʼʼ",
+     "pump": "AʼAʼ",
+     "bias": 0
+    }
+   ],
+   "suffix": "\u0000"
+  },
+  "frr": "0/26",
+  "rejected": [],
+  "false_accepts": [],
+  "nfd_rejected": "0/10",
+  "ext_negatives_accepted": [
+   "lone_combining_mark"
+  ],
+  "timings": [
+   {
+    "len": 19,
+    "ms": 9.36,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 35,
+    "ms": 10.38,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 51,
+    "ms": 1889.32,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 59,
+    "ms": null,
+    "timeout_10s": true,
+    "guarded_out": false
+   }
+  ]
+ },
+ "repaired": {
+  "pattern": "^[\\p{L}\\p{M}]+(?:['’\\- ][\\p{L}\\p{M}]+)*\\.?$",
+  "flags": "u",
+  "max_length": 100,
+  "recheck": "safe",
+  "complexity": "linear",
+  "attack": null,
+  "frr": "0/26",
+  "rejected": [],
+  "false_accepts": [],
+  "nfd_rejected": "0/10",
+  "ext_negatives_accepted": [
+   "lone_combining_mark"
+  ],
+  "timings": [
+   {
+    "len": 19,
+    "ms": 2.2,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 35,
+    "ms": 0.76,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 51,
+    "ms": 0.65,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 59,
+    "ms": 0.74,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 67,
+    "ms": 0.66,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 75,
+    "ms": 0.72,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 83,
+    "ms": 1.01,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 91,
+    "ms": 0.79,
+    "timeout_10s": false,
+    "guarded_out": false
+   },
+   {
+    "len": 99,
+    "ms": 0.63,
+    "timeout_10s": false,
+    "guarded_out": false
+   }
+  ]
+ }
+}

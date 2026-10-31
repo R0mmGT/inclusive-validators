@@ -1,0 +1,28 @@
+model,term,ML_OR,ML_p,ML_converged,Firth_OR,Firth_lo,Firth_hi,Firth_p,n,events
+main,Intercept,0.0048,0.0,True,0.0058,0.0019,0.0176,0.0,1919,64
+main,"C(model, Treatment('DeepSeek-V3.2'))[T.gemini-3.8-flash]",1.0,1.0,True,1.0,0.3912,2.5562,1.0,1919,64
+main,"C(model, Treatment('DeepSeek-V3.2'))[T.gpt-5-mini]",4.3447,0.0003,True,4.1182,1.9398,8.7427,0.0002,1919,64
+main,"C(model, Treatment('DeepSeek-V3.2'))[T.llama3.1:8b-instruct-q8_0]",2.055,0.1023,True,1.9889,0.875,4.5209,0.1007,1919,64
+main,C(language)[T.es],1.0705,0.7928,True,1.0688,0.6557,1.7422,0.7894,1919,64
+main,C(context)[T.ecommerce],1.2223,0.4403,True,1.2167,0.7453,1.9865,0.4328,1919,64
+main,C(field)[T.family_name],1.7021,0.3124,True,1.647,0.6178,4.3908,0.3186,1919,64
+main,C(field)[T.full_name],1.1728,0.7781,True,1.1594,0.4059,3.3122,0.7824,1919,64
+main,C(field)[T.given_name],1.5238,0.4327,True,1.4829,0.546,4.0278,0.4396,1919,64
+main,C(field)[T.phone_number],4.401,0.0015,True,4.1173,1.7202,9.8549,0.0015,1919,64
+main,C(field)[T.postal_code],1.3526,0.5827,True,1.3255,0.4771,3.6825,0.5889,1919,64
+main,inclusive,2.3071,0.0026,True,2.2627,1.3441,3.8091,0.0021,1919,64
+interaction,Intercept,0.0077,0.0,False,0.0095,0.0028,0.0328,0.0,1919,64
+interaction,"C(model, Treatment('DeepSeek-V3.2'))[T.gemini-3.8-flash]",1.7823,0.3639,False,1.6945,0.5298,5.4197,0.374,1919,64
+interaction,"C(model, Treatment('DeepSeek-V3.2'))[T.gpt-5-mini]",0.0,0.9992,False,0.109,0.0062,1.9049,0.1289,1919,64
+interaction,"C(model, Treatment('DeepSeek-V3.2'))[T.llama3.1:8b-instruct-q8_0]",2.3197,0.1685,False,2.1704,0.7098,6.6362,0.1742,1919,64
+interaction,C(language)[T.es],1.0723,0.7917,False,1.0704,0.6536,1.7528,0.787,1919,64
+interaction,C(context)[T.ecommerce],1.2334,0.4289,False,1.2267,0.7479,2.012,0.4182,1919,64
+interaction,C(field)[T.family_name],1.7244,0.3063,False,1.6671,0.6236,4.4571,0.3084,1919,64
+interaction,C(field)[T.full_name],1.1766,0.7759,False,1.163,0.4065,3.3276,0.7783,1919,64
+interaction,C(field)[T.given_name],1.5388,0.4273,False,1.4965,0.5496,4.0748,0.4302,1919,64
+interaction,C(field)[T.phone_number],4.6631,0.0012,False,4.3424,1.8039,10.4528,0.0011,1919,64
+interaction,C(field)[T.postal_code],1.3562,0.5834,False,1.3285,0.4772,3.6985,0.5866,1919,64
+interaction,inclusive,1.0,1.0,False,1.0,0.2739,3.6509,1.0,1919,64
+interaction,"C(model, Treatment('DeepSeek-V3.2'))[T.gemini-3.8-flash]:inclusive",0.1377,0.1247,False,0.1935,0.0224,1.6739,0.1357,1919,64
+interaction,"C(model, Treatment('DeepSeek-V3.2'))[T.gpt-5-mini]:inclusive",18093248730.4522,0.9991,False,77.6694,3.7628,1603.2197,0.0048,1919,64
+interaction,"C(model, Treatment('DeepSeek-V3.2'))[T.llama3.1:8b-instruct-q8_0]:inclusive",0.7683,0.7652,False,0.7808,0.1556,3.9165,0.7636,1919,64

@@ -1,0 +1,9 @@
+model,inclusive,pct_rejections_from_control_failing,pct_rejections_that_are_exceptions
+DeepSeek-V3.2,False,19.2,0.0
+DeepSeek-V3.2,True,16.8,0.0
+gemini-3.8-flash,False,28.4,0.0
+gemini-3.8-flash,True,0.0,0.0
+gpt-5-mini,False,33.2,4.7
+gpt-5-mini,True,92.1,27.4
+llama3.1:8b-instruct-q8_0,False,47.2,4.4
+llama3.1:8b-instruct-q8_0,True,59.8,6.8

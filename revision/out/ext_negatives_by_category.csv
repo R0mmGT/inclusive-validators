@@ -1,0 +1,14 @@
+model,DeepSeek-V3.2,DeepSeek-V3.2,gemini-3.8-flash,gemini-3.8-flash,gpt-5-mini,gpt-5-mini,llama3.1:8b-instruct-q8_0,llama3.1:8b-instruct-q8_0
+inclusive,False,True,False,True,False,True,False,True
+category,,,,,,,,
+bidi_override,4.6,12.2,0.0,10.1,0.0,6.2,10.7,16.6
+control_char,3.5,12.0,0.0,0.3,0.0,4.3,13.0,17.7
+excessive_length,6.7,3.0,5.4,0.0,7.5,0.9,21.5,24.0
+line_break,31.1,64.6,42.9,52.7,22.4,30.6,18.0,24.0
+lone_combining_mark,3.2,14.6,6.9,12.1,19.3,8.2,5.3,5.0
+malformed_phone,8.2,40.0,11.2,13.2,4.8,30.3,6.3,17.0
+malformed_separator,5.0,64.2,0.0,0.0,6.0,53.8,14.5,33.3
+too_long,0.0,31.2,0.0,36.2,2.6,80.8,9.0,30.8
+too_short,0.0,12.5,0.0,26.2,0.0,55.1,2.6,26.9
+unpaired_surrogate,0.0,8.6,0.0,15.3,0.0,6.2,13.0,16.0
+zero_width_only,0.0,1.7,0.0,0.0,0.0,0.0,3.4,6.3

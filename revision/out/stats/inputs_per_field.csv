@@ -1,0 +1,8 @@
+field,invalid,valid_control,valid_noncontrol,categories_noncontrol
+address_line,6,3,24,7
+family_name,8,4,34,9
+full_name,8,4,38,11
+given_name,8,4,26,6
+phone_number,7,2,58,7
+postal_code,6,3,29,8
+total,43,20,209,48

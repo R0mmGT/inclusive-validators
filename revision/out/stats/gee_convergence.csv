@@ -1,0 +1,6 @@
+model,formula,n_obs,n_clusters,iterations,converged,warnings,exchangeable_rho,scale,cov
+frr_main,"rejected ~ C(model, Treatment('DeepSeek-V3.2')) + C(language) + C(context) + inclusive + C(field)",61597,1763,5,True,none,0.5298,1.0,robust (sandwich)
+far_main,"accepted ~ C(model, Treatment('DeepSeek-V3.2')) + C(language) + C(context) + inclusive + C(field)",12637,1763,5,True,none,0.2814,1.0,robust (sandwich)
+frr_interaction,"rejected ~ C(model, Treatment('DeepSeek-V3.2')) * inclusive + C(language) + C(context) + C(field)",61597,1763,4,True,none,0.4752,1.0,robust (sandwich)
+frr_interaction_control_passing,"rejected ~ C(model, Treatment('DeepSeek-V3.2')) * inclusive + C(language) + C(context) + C(field)",52758,1505,4,True,none,0.2991,1.0,robust (sandwich)
+far_main_no_markup,"accepted ~ C(model, Treatment('DeepSeek-V3.2')) + C(language) + C(context) + inclusive + C(field)",10874,1763,5,True,none,0.3426,1.0,robust (sandwich)

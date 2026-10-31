@@ -1,0 +1,9 @@
+model,inclusive,1_no_code,2_not_loadable,3_fails_control,4_frr_above_target,5_confirmed_redos,6_deployable,n
+DeepSeek-V3.2,False,0,2,21,185,2,30,240
+DeepSeek-V3.2,True,0,10,6,73,4,147,240
+gemini-3.8-flash,False,0,0,15,80,5,140,240
+gemini-3.8-flash,True,0,3,0,0,1,236,240
+gpt-5-mini,False,1,25,37,79,0,98,240
+gpt-5-mini,True,0,16,22,4,32,166,240
+llama3.1:8b-instruct-q8_0,False,0,35,83,116,0,6,240
+llama3.1:8b-instruct-q8_0,True,0,65,74,82,0,19,240

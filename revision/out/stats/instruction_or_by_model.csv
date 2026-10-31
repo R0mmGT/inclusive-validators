@@ -1,0 +1,9 @@
+analysis,model,OR_instruction,OR_lo,OR_hi,p
+all usable,Gemini 3.8 Flash,0.0049,0.0026,0.0093,0.0
+all usable,GPT-5 mini,0.1742,0.1065,0.2849,0.0
+all usable,DeepSeek-V3.2,0.1282,0.0955,0.172,0.0
+all usable,Llama 3.1 8B,0.5854,0.4094,0.8369,0.0033
+control-passing,Gemini 3.8 Flash,0.007,0.0037,0.0134,0.0
+control-passing,GPT-5 mini,0.0199,0.0124,0.0318,0.0
+control-passing,DeepSeek-V3.2,0.1176,0.0907,0.1525,0.0
+control-passing,Llama 3.1 8B,0.4783,0.3205,0.7137,0.0003

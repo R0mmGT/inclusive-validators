@@ -1,0 +1,3708 @@
+[
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r00",
+  "pattern": "test.*address",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.92,
+   "len": 828,
+   "k": 204,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.26,
+   "len": 1829,
+   "k": 457,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r00",
+  "pattern": "example.*address",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.18,
+   "len": 638,
+   "k": 89,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.94,
+   "len": 225,
+   "k": 32,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r00",
+  "pattern": "<.*>",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.48,
+   "len": 1037,
+   "k": 1034,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.18,
+   "len": 1987,
+   "k": 1986,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r00",
+  "pattern": "^[\\w\\s]+\\s+\\d+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1,
+   "len": 772,
+   "k": 771,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.09,
+   "len": 1811,
+   "k": 1809,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r00",
+  "pattern": "\\d+\\s*[\\w\\s]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.84,
+   "len": 1846,
+   "k": 922,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.67,
+   "len": 734,
+   "k": 366,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r01",
+  "pattern": "^\\d+\\s+[a-zA-Z0-9\\s\\.,#\\-]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.19,
+   "len": 1616,
+   "k": 1613,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.38,
+   "len": 1244,
+   "k": 1241,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r02",
+  "pattern": "^\\d+\\s+[\\w\\s\\#\\.\\,\\-\\'\\\"\\/\\\\]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.43,
+   "len": 627,
+   "k": 624,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.22,
+   "len": 216,
+   "k": 213,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r03",
+  "pattern": "\\d+\\s+\\w+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.38,
+   "len": 1488,
+   "k": 1484,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.72,
+   "len": 189,
+   "k": 188,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r05",
+  "pattern": "\\s+#?\\d+[a-zA-Z]?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3,
+   "len": 351,
+   "k": 348,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.63,
+   "len": 1696,
+   "k": 1695,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r05",
+  "pattern": "\\s+(apt|apartment|unit|suite|ste|#)\\s*\\d+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.79,
+   "len": 864,
+   "k": 864,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.22,
+   "len": 1468,
+   "k": 1467,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r06",
+  "pattern": "^\\d+\\s*[-#]?\\s*\\d+\\s+[a-zA-Z]",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.23,
+   "len": 736,
+   "k": 732,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.67,
+   "len": 1278,
+   "k": 1275,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r07",
+  "pattern": "^\\d+[a-zA-Z]?[-\\/]?\\d*[a-zA-Z]?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.28,
+   "len": 1159,
+   "k": 1157,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.2,
+   "len": 491,
+   "k": 489,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r09",
+  "pattern": "^\\d+\\s+[A-Za-z0-9\\s\\.\\-#&']+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.84,
+   "len": 1728,
+   "k": 1725,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.01,
+   "len": 453,
+   "k": 450,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r09",
+  "pattern": "^(P\\.?O\\.?\\s+)?Box\\s+\\d+[A-Za-z0-9\\-]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.59,
+   "len": 1145,
+   "k": 1139,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.21,
+   "len": 1728,
+   "k": 1722,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r09",
+  "pattern": "^(R\\.?R\\.?|Rural\\s+Route)\\s+\\d+\\s+(Box\\s+)?\\d+[A-Za-z0-9\\-]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.72,
+   "len": 1417,
+   "k": 1408,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.64,
+   "len": 1668,
+   "k": 1661,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r09",
+  "pattern": "^(Highway|Hwy|Route|Rt)\\.?\\s+\\d+[A-Za-z0-9\\s\\-]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.57,
+   "len": 520,
+   "k": 515,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.71,
+   "len": 1020,
+   "k": 1015,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r09",
+  "pattern": "^\\d+\\s+[A-Za-z0-9\\s\\.\\-#&']+(Apt|Unit|Suite|Ste|#)\\s*[A-Za-z0-9\\-]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.75,
+   "len": 1628,
+   "k": 325,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.47,
+   "len": 1688,
+   "k": 337,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r09",
+  "pattern": "^(Building|Bldg)\\.?\\s+\\d+\\s+[A-Za-z0-9\\s\\.\\-#&']+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.24,
+   "len": 1011,
+   "k": 1003,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.71,
+   "len": 1054,
+   "k": 1046,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r00",
+  "pattern": "^(.*\\D+.*)\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.65,
+   "len": 91,
+   "k": 29,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.59,
+   "len": 995,
+   "k": 331,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r01",
+  "pattern": "^[\\p{L}\\p{M}\\s\\.\\-]+\\s+\\d+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.53,
+   "len": 1239,
+   "k": 1238,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.24,
+   "len": 1503,
+   "k": 1501,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r02",
+  "pattern": "^(https?:\\/\\/|www\\.|\\S+\\.(com|org|net|edu))|(\\S+@\\S+\\.\\S+)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.11,
+   "len": 1961,
+   "k": 653,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.75,
+   "len": 836,
+   "k": 278,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r04",
+  "pattern": "[a-zA-Z]+\\s+\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.6,
+   "len": 5,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.54,
+   "len": 1172,
+   "k": 1171,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r04",
+  "pattern": "\\d.*[a-zA-Z]|[a-zA-Z].*\\d",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.28,
+   "len": 530,
+   "k": 529,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.37,
+   "len": 1807,
+   "k": 1806,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r05",
+  "pattern": "[\\/\\-\\.,\\s]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.91,
+   "len": 1668,
+   "k": 1666,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.63,
+   "len": 1296,
+   "k": 1295,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r07",
+  "pattern": "(?:\\bno\\.?\\s*\\d+|\\b\\d+\\s*(?:st|nd|rd|th)?\\s*\\p{L}*\\b|\\b\\d+\\s*[-/]\\s*\\d+\\b|\\b\\d+\\s*\\p{L}*\\b)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.57,
+   "len": 91,
+   "k": 85,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.6,
+   "len": 576,
+   "k": 573,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r09",
+  "pattern": "\\d+[A-Za-z]?(\\s+|$)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.68,
+   "len": 145,
+   "k": 143,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.65,
+   "len": 249,
+   "k": 247,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r09",
+  "pattern": "\\b\\d+\\s*[-/#]?\\s*\\d*[A-Za-z]?\\b",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.25,
+   "len": 1751,
+   "k": 1749,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.76,
+   "len": 29,
+   "k": 26,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r09",
+  "pattern": "[A-Za-z]+\\s+\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.36,
+   "len": 1651,
+   "k": 1647,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.9,
+   "len": 509,
+   "k": 508,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r09",
+  "pattern": "\\s+&\\s+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.32,
+   "len": 906,
+   "k": 901,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.47,
+   "len": 371,
+   "k": 370,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__incl__r09",
+  "pattern": "\\s+and\\s+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.5,
+   "len": 912,
+   "k": 905,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.03,
+   "len": 80,
+   "k": 79,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r01",
+  "pattern": "^\\d+\\s+[a-zA-Z0-9\\s\\.\\-,#]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.92,
+   "len": 1144,
+   "k": 1141,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.38,
+   "len": 350,
+   "k": 347,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r01",
+  "pattern": "^[a-zA-Z0-9\\s\\.\\-,#]+\\s+\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.74,
+   "len": 1650,
+   "k": 1648,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.53,
+   "len": 789,
+   "k": 787,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r01",
+  "pattern": "^\\d+[\\-\\/\\w]*\\s+[a-zA-Z0-9\\s\\.\\-,#]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.5,
+   "len": 737,
+   "k": 367,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.3,
+   "len": 367,
+   "k": 182,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r01",
+  "pattern": "^(P\\.?O\\.?\\s+Box|PO Box)\\s+\\d+[\\s\\w]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.85,
+   "len": 1299,
+   "k": 1290,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.53,
+   "len": 500,
+   "k": 491,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r02",
+  "pattern": "[a-zA-ZÀ-ÿ].*\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.66,
+   "len": 5,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.39,
+   "len": 99,
+   "k": 49,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r02",
+  "pattern": "[a-zA-ZÀ-ÿ].*\\d+.*[a-zA-ZÀ-ÿ]",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.86,
+   "len": 86,
+   "k": 27,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.16,
+   "len": 98,
+   "k": 32,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r03",
+  "pattern": "^\\s+|\\s+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.5,
+   "len": 192,
+   "k": 189,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.58,
+   "len": 297,
+   "k": 295,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r04",
+  "pattern": "\\d+\\s+[a-zA-Z0-9\\s\\.\\-#&']+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.71,
+   "len": 1492,
+   "k": 1488,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.96,
+   "len": 1065,
+   "k": 1064,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r07",
+  "pattern": "test.*street",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.68,
+   "len": 5,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.64,
+   "len": 85,
+   "k": 21,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r07",
+  "pattern": "example.*address",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.37,
+   "len": 1023,
+   "k": 144,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.57,
+   "len": 1604,
+   "k": 229,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__base__r07",
+  "pattern": "^(\\d+\\s+[a-zA-Z0-9\\s.,'-]+|[a-zA-Z0-9\\s.,'-]+\\s+\\d+)$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.59,
+   "len": 123,
+   "k": 121,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.64,
+   "len": 430,
+   "k": 428,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r01",
+  "pattern": "\\S+@\\S+\\.\\S+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.05,
+   "len": 61,
+   "k": 18,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.35,
+   "len": 19,
+   "k": 6,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r02",
+  "pattern": "[\\p{L}]{2,}\\s+[\\p{L}]{2,}",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.58,
+   "len": 10,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.37,
+   "len": 3,
+   "k": 1,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r02",
+  "pattern": "\\p{N}[^\\p{N}]{2,}|[^\\p{N}]{2,}\\p{N}",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.45,
+   "len": 1794,
+   "k": 896,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.94,
+   "len": 1027,
+   "k": 513,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r03",
+  "pattern": "<script|javascript:|on\\w+\\s*=|eval\\(|alert\\(",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.66,
+   "len": 9,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.71,
+   "len": 943,
+   "k": 157,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r04",
+  "pattern": "^\\s*[0-9\\s\\-\\.]+\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.65,
+   "len": 311,
+   "k": 155,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.67,
+   "len": 387,
+   "k": 193,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r04",
+  "pattern": "^\\s*[^a-z0-9]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.78,
+   "len": 157,
+   "k": 156,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.92,
+   "len": 118,
+   "k": 117,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r06",
+  "pattern": "on\\w+\\s*=",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.13,
+   "len": 1052,
+   "k": 349,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.51,
+   "len": 133,
+   "k": 44,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r06",
+  "pattern": "<\\/?\\w+[^>]*>",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.89,
+   "len": 1075,
+   "k": 1073,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.72,
+   "len": 1259,
+   "k": 1256,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r07",
+  "pattern": "\\d+\\s+[a-zA-Z\\u00C0-\\u024F\\u0400-\\u04FF]+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.96,
+   "len": 1506,
+   "k": 1502,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.37,
+   "len": 793,
+   "k": 792,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r07",
+  "pattern": "[a-zA-Z\\u00C0-\\u024F\\u0400-\\u04FF]+\\s+\\d+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.56,
+   "len": 1877,
+   "k": 1873,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.18,
+   "len": 808,
+   "k": 807,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r07",
+  "pattern": "\\d+\\s*[-/#]\\s*\\d+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.08,
+   "len": 1586,
+   "k": 1585,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.68,
+   "len": 1915,
+   "k": 1914,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r07",
+  "pattern": "[a-zA-Z\\u00C0-\\u024F\\u0400-\\u04FF]+\\s+\\d+\\s*[a-zA-Z\\u00C0-\\u024F\\u0400-\\u04FF]?",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.98,
+   "len": 298,
+   "k": 294,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.33,
+   "len": 638,
+   "k": 637,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r07",
+  "pattern": "\\d+\\s+[a-zA-Z\\u00C0-\\u024F\\u0400-\\u04FF]+\\s+[a-zA-Z\\u00C0-\\u024F\\u0400-\\u04FF]+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.04,
+   "len": 225,
+   "k": 219,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.31,
+   "len": 1664,
+   "k": 1663,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__ecommerce__incl__r08",
+  "pattern": "<\\s*script|javascript:|on\\w+\\s*=",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.17,
+   "len": 3,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.31,
+   "len": 211,
+   "k": 70,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r00",
+  "pattern": "^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.]+ \\d+[a-zA-Z]?(\\s*[-\\/]?\\s*\\d*[a-zA-Z]?)?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.29,
+   "len": 1965,
+   "k": 1958,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.53,
+   "len": 1296,
+   "k": 1291,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r00",
+  "pattern": "^\\d+[a-zA-Z]?\\s+[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.13,
+   "len": 1954,
+   "k": 1951,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.7,
+   "len": 812,
+   "k": 809,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r00",
+  "pattern": "^[a-zA-ZáéíóúÁÉÍÓÚñÑ]+\\s+\\d+\\s*#\\s*\\d+[-\\s]?\\d*[a-zA-Z]?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.96,
+   "len": 182,
+   "k": 176,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.81,
+   "len": 56,
+   "k": 50,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r00",
+  "pattern": "^(?:[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.]+\\s+\\d+[a-zA-Z]?(?:\\s*[-\\/]\\s*\\d+[a-zA-Z]?)?|\\d+[a-zA-Z]?\\s+[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.]+)(?:\\s*[,\\/\\-]\\s*\\d*[a-zA-Z]*)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 1.84,
+   "len": 1346,
+   "k": 335,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.75,
+   "len": 798,
+   "k": 198,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r02",
+  "pattern": "^\\d+\\s*[a-zA-Z]?\\s+[a-zA-ZáéíóúÁÉÍÓÚñÑ]",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.62,
+   "len": 383,
+   "k": 381,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.7,
+   "len": 1860,
+   "k": 1857,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r04",
+  "pattern": "\\d+\\s+[a-zA-Z]",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.14,
+   "len": 1255,
+   "k": 1255,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.72,
+   "len": 483,
+   "k": 482,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r04",
+  "pattern": "[a-zA-Z]+\\s+\\d+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.62,
+   "len": 1183,
+   "k": 1179,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.55,
+   "len": 805,
+   "k": 804,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r04",
+  "pattern": "\\d+\\s*-\\s*\\d+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.49,
+   "len": 1394,
+   "k": 1393,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.07,
+   "len": 1720,
+   "k": 1719,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r04",
+  "pattern": "\\d+[a-zA-Z]\\b",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 6.56,
+   "len": 459,
+   "k": 455,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.75,
+   "len": 1816,
+   "k": 1814,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r05",
+  "pattern": "^(\\d+[\\s\\-]?)?([a-zA-ZáéíóúÁÉÍÓÚñÑ0-9\\s\\-\\.,#]+)([\\s\\-]+\\d+)?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.46,
+   "len": 394,
+   "k": 196,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.23,
+   "len": 1460,
+   "k": 729,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r06",
+  "pattern": "^[a-zA-Z\\u00C0-\\u00FF\\s]+ \\d+,?\\s*\\d*[ºªa-zA-Z]?[a-zA-Z]?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.56,
+   "len": 479,
+   "k": 475,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.76,
+   "len": 1039,
+   "k": 1035,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r06",
+  "pattern": "^[a-zA-Z\\u00C0-\\u00FF\\s]+ \\d+,?\\s*(Bloque|Blq|B|Edificio|Ed|E)\\s*\\d*,?\\s*(Escalera|Esc|Puerta|Pta|P)\\s*[a-zA-Z0-9]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.64,
+   "len": 362,
+   "k": 351,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.98,
+   "len": 687,
+   "k": 682,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r07",
+  "pattern": "^\\d+\\s+[a-zA-ZÀ-ÿ\\s\\.\\-']+(?:\\s+(st|street|ave|avenue|rd|road|blvd|boulevard|ln|lane|dr|drive|ct|court|pl|place))?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.3,
+   "len": 5,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.27,
+   "len": 1903,
+   "k": 950,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r07",
+  "pattern": "^(st|street|ave|avenue|rd|road|blvd|boulevard|ln|lane|dr|drive|ct|court|pl|place)\\s+[a-zA-ZÀ-ÿ\\s\\.\\-']+\\s+\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.25,
+   "len": 1214,
+   "k": 605,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.43,
+   "len": 736,
+   "k": 366,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r07",
+  "pattern": "^[a-zA-ZÀ-ÿ\\s\\.\\-']+(?:\\s+(st|street|ave|avenue|rd|road|blvd|boulevard|ln|lane|dr|drive|ct|court|pl|place))$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.12,
+   "len": 793,
+   "k": 791,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.46,
+   "len": 793,
+   "k": 791,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r07",
+  "pattern": "^\\d+\\s+[a-zA-ZÀ-ÿ\\s\\.\\-']+(?:\\s+(?:apt|apartment|suite|unit|#)\\s*\\d*)?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.96,
+   "len": 90,
+   "k": 43,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.74,
+   "len": 1345,
+   "k": 671,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__base__r08",
+  "pattern": "^[a-zA-Z]+[a-zA-Z.'-]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.87,
+   "len": 629,
+   "k": 627,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.52,
+   "len": 1584,
+   "k": 1582,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__incl__r03",
+  "pattern": "^[\\p{L}].*\\s+\\d+.*",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.92,
+   "len": 1605,
+   "k": 1604,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.78,
+   "len": 1694,
+   "k": 1692,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__incl__r05",
+  "pattern": "@.*\\.",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.38,
+   "len": 4,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.91,
+   "len": 30,
+   "k": 29,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__incl__r05",
+  "pattern": "\\d+\\s+(de\\s+)?[\\p{L}]+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.84,
+   "len": 1366,
+   "k": 1362,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.91,
+   "len": 920,
+   "k": 919,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__incl__r08",
+  "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.29,
+   "len": 1394,
+   "k": 693,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.21,
+   "len": 1336,
+   "k": 666,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__bare__incl__r09",
+  "pattern": "^(https?:\\/\\/|www\\.|\\S+@\\S+\\.\\S+)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 6.36,
+   "len": 959,
+   "k": 106,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.25,
+   "len": 1451,
+   "k": 161,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r00",
+  "pattern": "[a-zA-ZÀ-ÿ].+\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.91,
+   "len": 1135,
+   "k": 377,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.69,
+   "len": 883,
+   "k": 294,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r00",
+  "pattern": "[a-zA-ZÀ-ÿ].*\\d+.*[a-zA-ZÀ-ÿ]",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.99,
+   "len": 98,
+   "k": 31,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.05,
+   "len": 89,
+   "k": 29,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r00",
+  "pattern": "\\d+[a-zA-ZÀ-ÿ]",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.61,
+   "len": 1852,
+   "k": 1849,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.75,
+   "len": 1181,
+   "k": 1180,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r04",
+  "pattern": "^([a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.#\\-]+)\\s+([a-zA-Z0-9áéíóúÁÉÍÓÚñÑ\\s\\.#\\-\\/]+)$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.77,
+   "len": 856,
+   "k": 427,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.89,
+   "len": 1946,
+   "k": 972,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r05",
+  "pattern": "\\d+\\s+[a-zA-ZÀ-ÿ]",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.79,
+   "len": 724,
+   "k": 724,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.57,
+   "len": 544,
+   "k": 543,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r05",
+  "pattern": "[a-zA-ZÀ-ÿ]+\\s+\\d+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.48,
+   "len": 1430,
+   "k": 1426,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.8,
+   "len": 1981,
+   "k": 1980,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r05",
+  "pattern": "[a-zA-ZÀ-ÿ]+\\s*,\\s*\\d+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 6.57,
+   "len": 390,
+   "k": 390,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.78,
+   "len": 365,
+   "k": 364,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r06",
+  "pattern": "(\\d+\\s*[a-zA-ZáéíóúÁÉÍÓÚñÑ]+)|([a-zA-ZáéíóúÁÉÍÓÚñÑ]+\\s*\\d+)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.07,
+   "len": 1790,
+   "k": 1787,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.72,
+   "len": 773,
+   "k": 772,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r07",
+  "pattern": "^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.\\-]+ \\d+[a-zA-Z0-9\\-\\/\\sºª]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.68,
+   "len": 280,
+   "k": 276,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 15.78,
+   "len": 9,
+   "k": 5,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r07",
+  "pattern": "^\\d+[a-zA-Z0-9\\-\\/\\sºª]* [a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.\\-]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.35,
+   "len": 365,
+   "k": 121,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.25,
+   "len": 1454,
+   "k": 484,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r07",
+  "pattern": "^(Av\\.|Avenida|C\\/|Calle|Plaza|Pza\\.|Paseo|Ps\\.|Camino|Ctra\\.|Carretera) [a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.\\-]+ \\d+[a-zA-Z0-9\\-\\/\\sºª]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.34,
+   "len": 1027,
+   "k": 1020,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.4,
+   "len": 1824,
+   "k": 1817,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r07",
+  "pattern": "^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.\\-]+ \\d+[\\s\\-]*[a-zA-Z0-9\\-\\/\\sºª]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.66,
+   "len": 430,
+   "k": 422,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.54,
+   "len": 526,
+   "k": 521,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r08",
+  "pattern": "^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.\\-]+\\s+\\d+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.21,
+   "len": 861,
+   "k": 860,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.79,
+   "len": 1620,
+   "k": 1618,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r09",
+  "pattern": "^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s\\.]+ \\d+[\\-\\s\\d\\/]*[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.54,
+   "len": 1175,
+   "k": 584,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.45,
+   "len": 679,
+   "k": 337,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r09",
+  "pattern": "^\\d+\\s+[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.28,
+   "len": 12,
+   "k": 9,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.18,
+   "len": 1849,
+   "k": 1846,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r09",
+  "pattern": "^[a-zA-Z\\/\\.]+\\s+[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s]+ \\d+.*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.73,
+   "len": 1753,
+   "k": 874,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.62,
+   "len": 371,
+   "k": 183,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r09",
+  "pattern": "^[a-zA-ZáéíóúÁÉÍÓÚñÑ\\s]+,\\s*\\d+.*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.34,
+   "len": 1553,
+   "k": 1549,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.87,
+   "len": 328,
+   "k": 324,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__incl__r02",
+  "pattern": "^[a-zA-ZÀ-ÿ].*\\s+\\d+.*",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.46,
+   "len": 1370,
+   "k": 1369,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.86,
+   "len": 487,
+   "k": 485,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__incl__r03",
+  "pattern": "[\\p{L}]+\\s+\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.42,
+   "len": 5,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.3,
+   "len": 1017,
+   "k": 1016,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__incl__r03",
+  "pattern": "[\\p{L}]+\\s+\\d+\\s+[\\p{L}]+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.05,
+   "len": 253,
+   "k": 246,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.92,
+   "len": 1877,
+   "k": 1876,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__incl__r04",
+  "pattern": "[\\/\\\\.,\\-]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.29,
+   "len": 1573,
+   "k": 1571,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.98,
+   "len": 1512,
+   "k": 1511,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__incl__r06",
+  "pattern": "@.*\\.|\\.[a-z]{2,3}$|https?:\\/\\/|www\\.",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.95,
+   "len": 14,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.44,
+   "len": 1829,
+   "k": 261,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__family_name__en__bare__incl__r06",
+  "pattern": "@.*\\.",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.27,
+   "len": 120,
+   "k": 117,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.33,
+   "len": 117,
+   "k": 116,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__family_name__es__bare__base__r00",
+  "pattern": "^[A-Za-zÀ-ÿ\\u00C0-\\u017F\\u0400-\\u04FF']+([\\s'-][A-Za-zÀ-ÿ\\u00C0-\\u017F\\u0400-\\u04FF']+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 0.59,
+   "len": 447,
+   "k": 111,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 100.77,
+   "len": 47,
+   "k": 11,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__family_name__es__ecommerce__incl__r03",
+  "pattern": "^[\\p{L}\\s'\\-]+\\(\\s*[\\p{L}\\s'\\-]+\\s*\\)$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.63,
+   "len": 5,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.2,
+   "len": 1985,
+   "k": 991,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__family_name__es__ecommerce__incl__r03",
+  "pattern": "^(de|del|la|las|los|van|der|von|van der|von der|di|da|dos|das|do|du|el|al|bin|ibn|ap|ab|ben|mac|mc|o'\\s*)[\\s'\\-]*[\\p{L}\\s'\\-]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.62,
+   "len": 83,
+   "k": 40,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.52,
+   "len": 99,
+   "k": 48,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__full_name__en__bare__incl__r06",
+  "pattern": "^[\\p{L}\\p{M}]([\\p{L}\\p{M}'\\-\\.]|\\s[\\p{L}\\p{M}])*[\\p{L}\\p{M}']+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.15,
+   "len": 3,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.97,
+   "len": 1879,
+   "k": 1877,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__full_name__en__ecommerce__base__r07",
+  "pattern": "^[A-ZÀ-ÿ][a-zà-ÿ'-]+-[A-ZÀ-ÿ][a-zà-ÿ'-]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.72,
+   "len": 624,
+   "k": 207,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.59,
+   "len": 396,
+   "k": 131,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__full_name__en__ecommerce__base__r08",
+  "pattern": "\\s+(jr|sr|ii|iii|iv|v|phd|md|dds|esq)\\.?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.52,
+   "len": 1615,
+   "k": 1612,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.68,
+   "len": 490,
+   "k": 489,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__full_name__en__ecommerce__base__r09",
+  "pattern": "(\\w{3,})\\s+\\1",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.59,
+   "len": 4,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.6,
+   "len": 100,
+   "k": 33,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__full_name__es__ecommerce__base__r09",
+  "pattern": "^[A-ZÁÉÍÓÚÜÑÇ][a-záéíóúüñç']+(?:[- ][A-ZÁÉÍÓÚÜÑÇ][a-záéíóúüñç']+)*(?: [A-ZÁÉÍÓÚÜÑÇ][a-záéíóúüñç']+(?:[- ][A-ZÁÉÍÓÚÜÑÇ][a-záéíóúüñç']+)*)+$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 3.01,
+   "len": 1677,
+   "k": 278,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.9,
+   "len": 333,
+   "k": 54,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__full_name__es__ecommerce__incl__r01",
+  "pattern": "[.\\s'-]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.64,
+   "len": 1486,
+   "k": 1484,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.39,
+   "len": 1461,
+   "k": 1460,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__given_name__es__bare__incl__r02",
+  "pattern": "\\s+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.39,
+   "len": 4,
+   "k": 2,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.43,
+   "len": 992,
+   "k": 991,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__given_name__es__bare__incl__r05",
+  "pattern": "\\/\\*.*\\*\\/",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.24,
+   "len": 4,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 5.27,
+   "len": 1222,
+   "k": 407,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__given_name__es__ecommerce__base__r02",
+  "pattern": "^[A-Za-zÁáÉéÍíÓóÚúÜüÑñÇçÀàÈèÌìÒòÙùÂâÊêÎîÔôÛûÄäËëÏïÖöÜüßÆæØøÅå']+([ \\-'][A-Za-zÁáÉéÍíÓóÚúÜüÑñÇçÀàÈèÌìÒòÙùÂâÊêÎîÔôÛûÄäËëÏïÖöÜüßÆæØøÅå']+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 0.33,
+   "len": 7,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 83.36,
+   "len": 47,
+   "k": 11,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__given_name__es__ecommerce__incl__r03",
+  "pattern": "[a-z].*[A-Z]|[A-Z].*[a-z]",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.6,
+   "len": 2,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.87,
+   "len": 964,
+   "k": 963,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__phone_number__en__bare__incl__r09",
+  "pattern": "\\(([^)]+)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.52,
+   "len": 1884,
+   "k": 942,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.5,
+   "len": 507,
+   "k": 253,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__phone_number__es__bare__incl__r06",
+  "pattern": "\\s*(?:ext|extension|ext\\.|x)\\s*\\d{1,6}$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 7.43,
+   "len": 754,
+   "k": 752,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.6,
+   "len": 1770,
+   "k": 1769,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__phone_number__es__ecommerce__incl__r03",
+  "pattern": "^\\+?[0-9]*\\(?[0-9]+\\)?[0-9\\s\\-\\.]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.24,
+   "len": 296,
+   "k": 147,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.69,
+   "len": 1822,
+   "k": 910,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__phone_number__es__ecommerce__incl__r06",
+  "pattern": "\\(([^)]+)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.68,
+   "len": 260,
+   "k": 130,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.14,
+   "len": 853,
+   "k": 426,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__phone_number__es__ecommerce__incl__r09",
+  "pattern": "\\([^0-9]*\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.83,
+   "len": 1111,
+   "k": 1108,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.53,
+   "len": 848,
+   "k": 847,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__postal_code__en__bare__incl__r08",
+  "pattern": "^([A-Z]?\\d[A-Z\\d]*|\\d+[A-Z]?[A-Z\\d]*)$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.86,
+   "len": 1095,
+   "k": 1093,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.05,
+   "len": 1545,
+   "k": 1543,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__postal_code__en__ecommerce__incl__r07",
+  "pattern": "^[A-Z0-9]+([\\-]?[A-Z0-9]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 3.71,
+   "len": 317,
+   "k": 314,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.76,
+   "len": 1724,
+   "k": 1721,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__postal_code__es__ecommerce__base__r07",
+  "pattern": "^[a-zA-Z0-9]+(?:[ -]?[a-zA-Z0-9]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 0.86,
+   "len": 483,
+   "k": 480,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.47,
+   "len": 220,
+   "k": 217,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__postal_code__es__ecommerce__incl__r03",
+  "pattern": "^[A-Z]{2,}\\s*[A-Z]{2,}$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.1,
+   "len": 759,
+   "k": 378,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.1,
+   "len": 345,
+   "k": 171,
+   "timeout": false
+  }
+ },
+ {
+  "key": "DeepSeek-V3.2__postal_code__es__ecommerce__incl__r06",
+  "pattern": "^[A-Z0-9]+[\\s\\-]?[A-Z0-9]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 6.55,
+   "len": 1288,
+   "k": 1286,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.71,
+   "len": 682,
+   "k": 680,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__address_line__en__ecommerce__incl__r08",
+  "pattern": "<[^>]+>|https?:\\/\\/",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.33,
+   "len": 693,
+   "k": 85,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.75,
+   "len": 9,
+   "k": 1,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__address_line__es__ecommerce__base__r04",
+  "pattern": "(\\p{L}{2,}|\\p{L}.*\\p{N}|\\p{N}.*\\p{L})",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.78,
+   "len": 3,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.44,
+   "len": 1621,
+   "k": 810,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__family_name__es__bare__incl__r03",
+  "pattern": "^['’\\p{L}\\p{M}]+(?:(?:[\\s\\-]|['’]|\\.\\s*)['’\\p{L}\\p{M}]+)*['’]?$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 647.86,
+   "len": 99,
+   "k": 24,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 625.87,
+   "len": 99,
+   "k": 24,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__full_name__en__ecommerce__incl__r06",
+  "pattern": "^['’ʼ]?[\\p{L}\\p{M}]+(?:[\\s'’ʼ.\\-]+[\\p{L}\\p{M}]+)*['’ʼ.]?$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 2.64,
+   "len": 5,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 55,
+   "k": 26,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__given_name__en__bare__incl__r01",
+  "pattern": "^[\\p{L}\\p{M}]+(?:['’ʼ\\s.-][\\p{L}\\p{M}]+)*\\.?$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 2000,
+   "len": 99,
+   "k": 24,
+   "timeout": true
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 99,
+   "k": 24,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__given_name__es__bare__incl__r09",
+  "pattern": "^[\\p{L}\\p{M}'’ʼ](?:[ \\-]?[\\p{L}\\p{M}'’ʼ]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 2.08,
+   "len": 472,
+   "k": 469,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.25,
+   "len": 20,
+   "k": 17,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__en__bare__incl__r00",
+  "pattern": "\\(([^)]*)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.39,
+   "len": 288,
+   "k": 288,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.49,
+   "len": 2000,
+   "k": 1999,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__en__bare__incl__r01",
+  "pattern": "\\(([^)]*)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.25,
+   "len": 891,
+   "k": 891,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.86,
+   "len": 1035,
+   "k": 1034,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__en__bare__incl__r03",
+  "pattern": "\\(([^)]+)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 5.05,
+   "len": 1268,
+   "k": 634,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.72,
+   "len": 271,
+   "k": 135,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__en__bare__incl__r05",
+  "pattern": "\\((.*?)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.99,
+   "len": 1694,
+   "k": 1691,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.23,
+   "len": 513,
+   "k": 512,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__en__ecommerce__base__r01",
+  "pattern": "^\\+?(?:[0-9]{1,4}[\\s.-]*)?(?:\\([0-9]{1,4}\\)[\\s.-]*)?(?:[0-9]{1,4}[\\s.-]*)*[0-9]{1,4}$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 1.14,
+   "len": 676,
+   "k": 96,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 32,
+   "k": 4,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__en__ecommerce__incl__r02",
+  "pattern": "[\\s\\-.]\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.93,
+   "len": 1864,
+   "k": 1863,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.28,
+   "len": 745,
+   "k": 744,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__en__ecommerce__incl__r09",
+  "pattern": "\\(([^)]*)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.72,
+   "len": 75,
+   "k": 75,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.32,
+   "len": 1626,
+   "k": 1625,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__es__bare__base__r07",
+  "pattern": "^\\+?(?:(?:\\(\\d{1,5}\\)|\\d{1,5})[-.\\s]?)*\\d{1,5}$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 0.73,
+   "len": 14,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.28,
+   "len": 473,
+   "k": 52,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__es__bare__incl__r00",
+  "pattern": "\\([^\\(\\)]*\\d[^\\(\\)]*\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.99,
+   "len": 1786,
+   "k": 1785,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.59,
+   "len": 804,
+   "k": 802,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__es__bare__incl__r03",
+  "pattern": "^\\s*\\d+[\\d\\s]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.98,
+   "len": 1489,
+   "k": 1487,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.67,
+   "len": 862,
+   "k": 860,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__es__ecommerce__base__r02",
+  "pattern": "^(?:\\+?\\d{1,4}[-.\\s]*)?(?:\\(\\d{1,4}\\)[-.\\s]*)?\\d{1,4}(?:[-.\\s]?\\d{1,4})*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 0.71,
+   "len": 553,
+   "k": 110,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 48,
+   "k": 9,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gemini-3.8-flash__phone_number__es__ecommerce__incl__r04",
+  "pattern": "\\((.*?)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.4,
+   "len": 423,
+   "k": 420,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.43,
+   "len": 1145,
+   "k": 1144,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__base__r03",
+  "pattern": "^\\s*(?:P\\.?\\s*O\\.?\\s*Box)\\s+\\d+[A-Za-z0-9\\-\\/]*\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 7.52,
+   "len": 991,
+   "k": 983,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.8,
+   "len": 1253,
+   "k": 1245,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__base__r08",
+  "pattern": "^(?:(?:P\\.?\\s*O\\.?)|Post\\s+Office)\\s+Box\\s+\\d+[A-Za-z0-9\\-]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.32,
+   "len": 472,
+   "k": 463,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.68,
+   "len": 1400,
+   "k": 1391,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__incl__r00",
+  "pattern": "\\b\\S+@\\S+\\.\\S+\\b",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.33,
+   "len": 15,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.53,
+   "len": 1024,
+   "k": 170,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__incl__r04",
+  "pattern": "@.*\\.",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.27,
+   "len": 1921,
+   "k": 1918,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.66,
+   "len": 1802,
+   "k": 1801,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__incl__r05",
+  "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 7.89,
+   "len": 1696,
+   "k": 844,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.66,
+   "len": 86,
+   "k": 41,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__incl__r08",
+  "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.24,
+   "len": 10,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.67,
+   "len": 152,
+   "k": 74,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__incl__r08",
+  "pattern": "^(?:https?:\\/\\/)?(?:www\\.)?[^\\s\\/]+\\.[^\\s\\/]{2,}(?:\\/[^\\s]*)?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.02,
+   "len": 131,
+   "k": 43,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.06,
+   "len": 1901,
+   "k": 633,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__incl__r08",
+  "pattern": "[\\p{N}]+[\\s\\-\\/,\\.]+[\\p{N}]+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.79,
+   "len": 494,
+   "k": 489,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.66,
+   "len": 118,
+   "k": 117,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__incl__r09",
+  "pattern": "^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.04,
+   "len": 10,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.6,
+   "len": 1986,
+   "k": 991,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__incl__r09",
+  "pattern": "^[^\\s]+\\.[^\\s]{2,}$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.19,
+   "len": 1604,
+   "k": 534,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.74,
+   "len": 860,
+   "k": 286,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__ecommerce__base__r02",
+  "pattern": "^(?:P\\.?O\\.?\\s*Box|Post\\s+Office\\s+Box)\\s*\\d+(\\s*[A-Za-z0-9\\-]*)?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.44,
+   "len": 1066,
+   "k": 1059,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.79,
+   "len": 1345,
+   "k": 1338,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__ecommerce__base__r03",
+  "pattern": "^\\s*(?:P\\.?O\\.?|PO|Post\\s+Office)\\s+Box\\s+\\d+[A-Za-z0-9\\-\\/]*\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.39,
+   "len": 1874,
+   "k": 1865,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 5.47,
+   "len": 83,
+   "k": 74,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__ecommerce__base__r03",
+  "pattern": "^\\s*\\d+[A-Za-z0-9\\-\\/]*\\s+[A-Za-z0-9\\u00C0-\\u017F'.,#&()\\/\\-\\s]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.75,
+   "len": 1311,
+   "k": 654,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.11,
+   "len": 1895,
+   "k": 946,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__ecommerce__base__r05",
+  "pattern": "^(?:P\\.?\\s*O\\.?\\s*Box|Post(?:al)?\\s+Office\\s+Box)\\s+\\d+[A-Za-z0-9\\-]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.72,
+   "len": 385,
+   "k": 377,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.87,
+   "len": 1266,
+   "k": 1258,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__ecommerce__base__r05",
+  "pattern": "^\\d+[A-Za-z]?(?:[-\\/]\\d+)?\\s+(?:[NnSsEe]\\.?\\s*)?(?:[A-Za-z0-9][A-Za-z0-9'&\\.\\-]*\\s+){1,}(?:Street|St|Road|Rd|Avenue|Ave|Boulevard|Blvd|Lane|Ln|Way|Drive|Dr|Court|Ct|Circle|Cir|Terrace|Ter|Place|Pl|Row|Trail|Trl|Pike|Commons|Square|Sq|Highway|Hwy|Alley|Aly|Broadway)?(?:\\s*(?:Apt|Apartment|Suite|Ste|Unit|#)\\.?\\s*[A-Za-z0-9\\-]+)?$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.79,
+   "len": 610,
+   "k": 603,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.39,
+   "len": 42,
+   "k": 35,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__ecommerce__incl__r00",
+  "pattern": "[^\\s@]+@[^\\s@]+\\.[^\\s@]+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.82,
+   "len": 8,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.03,
+   "len": 1665,
+   "k": 1664,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__ecommerce__incl__r08",
+  "pattern": "\\S+@\\S+\\.\\S+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.58,
+   "len": 1219,
+   "k": 404,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.85,
+   "len": 565,
+   "k": 188,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__es__bare__base__r07",
+  "pattern": "^[^\\p{L}\\p{N}]+|[^\\p{L}\\p{N}]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.38,
+   "len": 4,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.53,
+   "len": 110,
+   "k": 108,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__es__bare__base__r08",
+  "pattern": "(?:,\\s*|\\s+)\\d{1,4}(?:[-\\/]\\d{1,4})?(?:\\s*[ºª]?[A-Za-z]?){0,2}\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.27,
+   "len": 6,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.81,
+   "len": 75,
+   "k": 24,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__es__ecommerce__base__r04",
+  "pattern": "\\bS\\s*\\/?\\s*N\\b",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.24,
+   "len": 21,
+   "k": 16,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.78,
+   "len": 924,
+   "k": 921,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__es__ecommerce__incl__r00",
+  "pattern": "[ \\t]*[\\r\\n]",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.89,
+   "len": 1869,
+   "k": 1867,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.06,
+   "len": 358,
+   "k": 357,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__es__ecommerce__incl__r00",
+  "pattern": "[^\\s]+@[^\\s]+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.9,
+   "len": 804,
+   "k": 803,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.16,
+   "len": 822,
+   "k": 821,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__es__ecommerce__incl__r04",
+  "pattern": "<[^>]+>",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.45,
+   "len": 1272,
+   "k": 636,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.49,
+   "len": 1825,
+   "k": 912,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__address_line__es__ecommerce__incl__r07",
+  "pattern": "[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,}",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.16,
+   "len": 795,
+   "k": 791,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.05,
+   "len": 1768,
+   "k": 1767,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__family_name__en__bare__base__r00",
+  "pattern": "^[\\p{L}\\p{M}]+(?:(?:['\\u2019\\u02BC]|\\p{Pd})[\\p{L}\\p{M}]+)*(?: [\\p{L}\\p{M}]+(?:(?:['\\u2019\\u02BC]|\\p{Pd})[\\p{L}\\p{M}]+)*)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 2000,
+   "len": 84,
+   "k": 13,
+   "timeout": true
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 84,
+   "k": 13,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__family_name__en__bare__base__r06",
+  "pattern": "^[\\p{L}\\p{M}]+(?:[ \\-'\\u2019\\u02BC\\u00B7\\u2011\\.][\\p{L}\\p{M}]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 2.18,
+   "len": 7,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 55,
+   "k": 13,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__family_name__en__ecommerce__incl__r09",
+  "pattern": "^[\\p{L}\\p{M}]+(?:[\\p{Zs}\\p{Pd}'\\u2019\\u02BC\\u00B7][\\p{L}\\p{M}]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 3.67,
+   "len": 1119,
+   "k": 279,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 55,
+   "k": 13,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__family_name__es__bare__incl__r00",
+  "pattern": "^[\\p{L}\\p{M}]+(?:[ \\u00A0\\u1680\\u2000-\\u200A\\u202F\\u205F\\u3000\\-\\u2010\\u2011\\u2012\\u2013\\u2014\\u2015'\\u2019\\u02BC\\u00B7\\u30FB][\\p{L}\\p{M}]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 2.27,
+   "len": 7,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 55,
+   "k": 13,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__family_name__es__ecommerce__incl__r06",
+  "pattern": "^[\\p{L}\\p{M}]+(?:[ \\u00B7\\p{Pd}\\u0027\\u2019\\u2018\\u02BC\\u02BB][\\p{L}\\p{M}]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 2.82,
+   "len": 7,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 51,
+   "k": 12,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__bare__incl__r00",
+  "pattern": "[^\\s@]+@[^\\s@]+\\.[^\\s@]+",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.77,
+   "len": 1558,
+   "k": 1551,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1,
+   "len": 2,
+   "k": 1,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__given_name__en__bare__incl__r02",
+  "pattern": "^[\\p{L}\\p{M}]+(?:[\\p{Pd}\\p{Zs}'\\u2019\\u02BC\\u02BB\\u00B7][\\p{L}\\p{M}]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 4.06,
+   "len": 7,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 51,
+   "k": 12,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__given_name__en__bare__incl__r05",
+  "pattern": "^[\\p{L}\\p{M}]+(?:[\\p{Pd}'\\u2019\\u02BC\\u2018\\u00B7\\p{Zs}][\\p{L}\\p{M}]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 2.58,
+   "len": 7,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 55,
+   "k": 13,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__given_name__en__ecommerce__base__r00",
+  "pattern": "^(?!.*[ '\\u00A0\\u2019\\u02BC\\u002D\\u2010\\u2011\\u2012\\u2013\\u2014]{2})[\\p{L}](?:[\\p{L}\\p{M}])*(?:[ '\\u00A0\\u2019\\u02BC\\u002D\\u2010\\u2011\\u2012\\u2013\\u2014][\\p{L}](?:[\\p{L}\\p{M}])*)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 738.29,
+   "len": 50,
+   "k": 23,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 661.05,
+   "len": 50,
+   "k": 23,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__bare__base__r06",
+  "pattern": "^[\\p{L}\\p{M}]+(?:[ \\-'\\u2019\\u2018\\u02BC][\\p{L}\\p{M}]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 3.13,
+   "len": 7,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 55,
+   "k": 13,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__bare__base__r08",
+  "pattern": "^\\p{L}+(?:[ \\-·'’ʼ\\u02BC\\u02BB]\\p{L}+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 3.44,
+   "len": 1435,
+   "k": 358,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 51,
+   "k": 12,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__bare__incl__r08",
+  "pattern": "^[A-Za-z](?:[A-Za-z'’\\-\\u00B7]|'(?! )|\\-(?! ))*(?:\\s[A-Za-z](?:[A-Za-z'’\\-\\u00B7]|'(?! )|\\-(?! ))*)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 1.76,
+   "len": 5,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.79,
+   "len": 167,
+   "k": 82,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__ecommerce__base__r06",
+  "pattern": "^[\\p{L}\\p{M}]+(?:[ '\\u2019\\u02BC\\p{Pd}][\\p{L}\\p{M}]+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 3.07,
+   "len": 7,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 55,
+   "k": 13,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__ecommerce__incl__r08",
+  "pattern": "^(?:\\p{L}\\p{M}*)+(?:[\\p{Zs}\\p{Pd}'’‘ʼ\\u02BC\\u00B7·\\u30FB\\.](?:\\p{L}\\p{M}*)+)*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 7.16,
+   "len": 1099,
+   "k": 274,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2000,
+   "len": 55,
+   "k": 13,
+   "timeout": true
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__bare__incl__r00",
+  "pattern": "\\s*(?:ext(?:ension)?|ext\\.|x|#)\\s*[:.]?\\s*\\p{Nd}+\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.9,
+   "len": 1741,
+   "k": 870,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.47,
+   "len": 1986,
+   "k": 992,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__bare__incl__r00",
+  "pattern": "\\s*(?:ext(?:ension)?|ext\\.|x|#)\\s*[:.]?\\s*\\d+\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.69,
+   "len": 635,
+   "k": 317,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.67,
+   "len": 284,
+   "k": 141,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__bare__incl__r04",
+  "pattern": "\\s*(?:[,;]|(?:ext(?:ension)?|x|xtn|#)\\.?):?\\s*\\d+\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.01,
+   "len": 1211,
+   "k": 1208,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.05,
+   "len": 1234,
+   "k": 1233,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__bare__incl__r05",
+  "pattern": "\\s*(?:ext|extension|extn|x|#|доб|内线)\\.?:?\\s*\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.68,
+   "len": 1411,
+   "k": 1409,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.36,
+   "len": 1614,
+   "k": 1613,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__bare__incl__r06",
+  "pattern": "\\s*(?:ext|x|extension)\\.?:?\\s*\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.02,
+   "len": 678,
+   "k": 675,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.78,
+   "len": 1962,
+   "k": 1961,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__ecommerce__incl__r00",
+  "pattern": "^\\(\\s*[0-9\\s\\-\\.\\\\/]*\\s*\\)$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.19,
+   "len": 6,
+   "k": 2,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.27,
+   "len": 1962,
+   "k": 980,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__ecommerce__incl__r01",
+  "pattern": "\\s*(?:ext\\.?|extension|#|x)\\s*\\+?\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.22,
+   "len": 1298,
+   "k": 1296,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.26,
+   "len": 1492,
+   "k": 1491,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__ecommerce__incl__r02",
+  "pattern": "\\(([^)]*)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.7,
+   "len": 1458,
+   "k": 1458,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.76,
+   "len": 1225,
+   "k": 1224,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__ecommerce__incl__r08",
+  "pattern": "\\s*(?:ext(?:ension)?|x|#)\\.?:?\\s*\\d+\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.66,
+   "len": 953,
+   "k": 953,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.05,
+   "len": 1776,
+   "k": 1775,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__ecommerce__incl__r09",
+  "pattern": "\\s*(?:ext\\.?|extension|x|#)[\\s:\\.\\-]*\\d*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.9,
+   "len": 1892,
+   "k": 1891,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.77,
+   "len": 674,
+   "k": 673,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__bare__base__r04",
+  "pattern": "\\(([^)]+)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.86,
+   "len": 304,
+   "k": 152,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.31,
+   "len": 1339,
+   "k": 669,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__bare__incl__r02",
+  "pattern": "(?:[\\s,;-]*?(?:ext(?:ension)?|ext\\.|x|#)[\\s:.\\-]*)((?:\\p{Nd}){1,6})$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 5.71,
+   "len": 3,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.64,
+   "len": 1277,
+   "k": 1276,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__bare__incl__r02",
+  "pattern": "\\([^)]*\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.65,
+   "len": 1913,
+   "k": 1913,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.48,
+   "len": 1912,
+   "k": 1911,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__bare__incl__r02",
+  "pattern": "\\(([^)]*)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.05,
+   "len": 1911,
+   "k": 1911,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.21,
+   "len": 1912,
+   "k": 1911,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__bare__incl__r04",
+  "pattern": "\\s*(?:ext(?:ension)?|ext\\.|x|#)\\s*[:.\\-]?\\s*\\p{N}+\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.69,
+   "len": 3,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.18,
+   "len": 1984,
+   "k": 991,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__bare__incl__r05",
+  "pattern": "\\s*(?:ext(?:ension)?|x|#|,|;)\\s*\\d+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.17,
+   "len": 1232,
+   "k": 1230,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.11,
+   "len": 1275,
+   "k": 1274,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__bare__incl__r07",
+  "pattern": "(?:\\b(?:ext|extension|ext\\.|x|#)\\b|\\s+x\\s+)\\s*[:.\\-]?\\s*(\\d{1,7})\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.57,
+   "len": 5,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.65,
+   "len": 1752,
+   "k": 583,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__bare__incl__r07",
+  "pattern": "\\(([^)]*)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.29,
+   "len": 604,
+   "k": 604,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.9,
+   "len": 1517,
+   "k": 1516,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__bare__incl__r08",
+  "pattern": "\\s*(?:#|x|ext(?:ension)?\\.?|anexo)\\s*(\\p{Nd}+)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.93,
+   "len": 1187,
+   "k": 1184,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.07,
+   "len": 1502,
+   "k": 1501,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__ecommerce__base__r02",
+  "pattern": "\\([^\\)]*\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.32,
+   "len": 147,
+   "k": 147,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.73,
+   "len": 1820,
+   "k": 1819,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__ecommerce__incl__r02",
+  "pattern": "(?:\\s*(?:ext\\.?|extension|extn|x|#)\\s*:?\\s*)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.16,
+   "len": 10,
+   "k": 10,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.34,
+   "len": 1312,
+   "k": 1311,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__ecommerce__incl__r03",
+  "pattern": "\\(([^)]*)\\)",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.12,
+   "len": 40,
+   "k": 40,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.75,
+   "len": 1278,
+   "k": 1277,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__ecommerce__incl__r05",
+  "pattern": "\\s*(?:[,;]?\\s*(?:ext(?:ension)?|ext\\.|x|#)\\s*\\d+)\\s*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.97,
+   "len": 4,
+   "k": 2,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.48,
+   "len": 1827,
+   "k": 913,
+   "timeout": false
+  }
+ },
+ {
+  "key": "gpt-5-mini__phone_number__es__ecommerce__incl__r08",
+  "pattern": "\\s*(?:ext|extension|anexo|xtn|x|#)\\.?\\s*\\d*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 5.26,
+   "len": 1928,
+   "k": 1927,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.52,
+   "len": 940,
+   "k": 939,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__address_line__en__bare__base__r00",
+  "pattern": "^(?:#|\\d )?\\s*(?:Rm|Ste)?[\\d]+(?: APT [^ ]*)?[\\D\\s]*?(?:E|W|N|S)\\.?[\\s\\d]+\\s*([A-Za-z]\\.*[A-Za-z0-9-]*)$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.54,
+   "len": 1849,
+   "k": 918,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.72,
+   "len": 1666,
+   "k": 828,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__address_line__en__bare__incl__r00",
+  "pattern": "[^a-zA-Z]+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.46,
+   "len": 673,
+   "k": 671,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.78,
+   "len": 1222,
+   "k": 1221,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__address_line__en__bare__incl__r03",
+  "pattern": "\\s*,\\s*",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.4,
+   "len": 1891,
+   "k": 1889,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.21,
+   "len": 1958,
+   "k": 1957,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__address_line__en__bare__incl__r04",
+  "pattern": "^[a-zA-Z0-9\\s\\.,'-]+,?\\s*[0-9\\s\\:A-Za-z,-\\.]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 4.06,
+   "len": 1904,
+   "k": 951,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.51,
+   "len": 1694,
+   "k": 846,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__address_line__en__ecommerce__base__r08",
+  "pattern": "[a-zA-Z0-9].*[A-Za-z0-9][^a-zA-Z0-9]$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.68,
+   "len": 1481,
+   "k": 1477,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.58,
+   "len": 1686,
+   "k": 1685,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__address_line__en__ecommerce__incl__r00",
+  "pattern": " + $ ",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.59,
+   "len": 1148,
+   "k": 1147,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 7.73,
+   "len": 1982,
+   "k": 1980,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__family_name__en__ecommerce__incl__r02",
+  "pattern": "(Mr|Mrs|Mx\\.?)(\\s+)?(\\w+)$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.98,
+   "len": 1027,
+   "k": 341,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 2.99,
+   "len": 223,
+   "k": 74,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__family_name__en__ecommerce__incl__r02",
+  "pattern": "^([A-ZÅÄÖ][a-zåäö]*)+(?:\\s([A-ZÅÄÖ][a-zåäö]*))?$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 3.13,
+   "len": 1117,
+   "k": 1115,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.04,
+   "len": 1379,
+   "k": 1377,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__full_name__en__ecommerce__base__r08",
+  "pattern": "^[.,!?;:\"' ]+|['\",.;!?']+$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.97,
+   "len": 1475,
+   "k": 1473,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 1.39,
+   "len": 1936,
+   "k": 1934,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__full_name__es__ecommerce__incl__r02",
+  "pattern": "[^A-Za-z'.,-]*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 3.93,
+   "len": 65,
+   "k": 64,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 3.29,
+   "len": 1757,
+   "k": 1756,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__full_name__es__ecommerce__incl__r04",
+  "pattern": "^\\w*[a-zA-Z]\\w*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 0.38,
+   "len": 104,
+   "k": 103,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 4.74,
+   "len": 1766,
+   "k": 1765,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__full_name__es__ecommerce__incl__r08",
+  "pattern": "^[A-Za-zÁÉÍÓÚÜÑa-ö0-9 ]+(\\.?[A-Za-zÁÉÍÓÚÜÑa-ö0 -]{2,5})+[A-Za-zÁÉÍÓÚÜÑaño0-9 ]*$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 2000,
+   "len": 49,
+   "k": 4,
+   "timeout": true
+  },
+  "bang_suffix": {
+   "ms": 1731.12,
+   "len": 47,
+   "k": 4,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__given_name__en__bare__incl__r09",
+  "pattern": "^[ a-zA-Z]+([ .,']?[a-zA-Z]*)?( [a-zA-Z]+)*$",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 2.79,
+   "len": 130,
+   "k": 64,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.41,
+   "len": 712,
+   "k": 355,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__given_name__en__ecommerce__incl__r07",
+  "pattern": "(?=.*[a-zA-Z]).{2,}(?:\\s{1}[a-zA-Z])?",
+  "complexity": "polynomial",
+  "recheck_suffix": {
+   "ms": 1.14,
+   "len": 1649,
+   "k": 1648,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 7.67,
+   "len": 1627,
+   "k": 1626,
+   "timeout": false
+  }
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__phone_number__es__bare__base__r07",
+  "pattern": "^(\\d{1,2}\\.\\ *)*(\\d{3} .*)+(\\d{3} .*)+(\\d{4}|[0-9])$",
+  "complexity": "exponential",
+  "recheck_suffix": {
+   "ms": 3.95,
+   "len": 16,
+   "k": 1,
+   "timeout": false
+  },
+  "bang_suffix": {
+   "ms": 0.3,
+   "len": 1976,
+   "k": 246,
+   "timeout": false
+  }
+ }
+]

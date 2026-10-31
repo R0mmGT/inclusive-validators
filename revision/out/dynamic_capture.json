@@ -1,0 +1,1872 @@
+[
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r05",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "\\bstreet\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bst\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\broad\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\brd\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bavenue\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bave\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bboulevard\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bblvd\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bdrive\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bdr\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\blane\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bln\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bcourt\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bct\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bway\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bhighway\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bhwy\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bcircle\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bcir\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bplace\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bpl\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bterrace\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bter\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\btrail\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\btrl\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__en__bare__base__r07",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "\\bstreet\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bst\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bavenue\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bave\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\broad\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\brd\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bboulevard\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bblvd\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\blane\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bln\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bdrive\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bdr\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bcourt\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bct\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bplace\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bpl\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bway\\b",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__base__r06",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "\\btest\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bprueba\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bejemplo\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bfalso\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bfake\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\babc\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\baaa\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bxxx\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\b123456\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "DeepSeek-V3.2__address_line__es__ecommerce__incl__r01",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "DeepSeek-V3.2__given_name__es__bare__incl__r08",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "[АЯаяЁёЂђЄєІіЇїЈјЉљЊњЋћЎўѢѣѲѳѴѵҐґЅѕІіꙈꙉꙊꙋꙌꙍꙎꙏꙐꙑꙒꙓꙔꙕꙖꙗꙘꙙꙚꙛꙜꙝꙞꙟꙠꙡꙢꙣꙤꙥꙦꙧꙨꙩꙪꙫꙬꙭꙮѠѡѦѧѨѩѪѫѬѭѮѯѰѱѲѳѴѵҀҁs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[ΑΩαωΆΈΉΊΌΎΏάέήίΰόύώΐΪΫϊϋΐΰs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[ԱՖաֆՙs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[აჿs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[u0590u05FFs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[u0600u06FFu0750u077Fu08A0u08FFs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[u0900u097Fs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[u0980u09FFs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[u4E00u9FFFu3400u4DBFuF900uFAFFu3040u309Fu30A0u30FFuAC00uD7AFs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[u0E00u0E7Fs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[u1200u137Fs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[u1000u109Fs]+",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__base__r01",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\s*(?:\\d{1,6}(?:[A-Za-z]|[-\\/]\\d{1,4})?)\\s+(?:[A-Za-z0-9]+(?:['\\-\\.\\&][A-Za-z0-9]+)*(?:\\s+[A-Za-z0-9]+(?:['\\-\\.\\&][A-Za-z0-9]+)*)*)\\s+(?:Street|St|Avenue|Ave|Boulevard|Blvd|Road|Rd|Lane|Ln|Way|Terrace|Terr|Court|Ct|Circle|Cir|Parkway|Pkwy|Place|Pl|Drive|Dr|Highway|Hwy|Square|Sq|Loop)\\.?(?:\\s*,?\\s*(?:#?\\s*(?:Apt|Apartment|Unit|Suite|Ste|Lot|Rm|Room|Fl|Floor)\\.??\\s*[A-Za-z0-9\\-]+))?\\s*$",
+    "flags": "i",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "polynomial"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__base__r03",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\s*(?:(?:(?:Apt|Apartment|Suite|Ste|Unit|#)\\s*\\-?\\s*\\w+\\s*,?\\s+))?(\\d{1,6}[A-Za-z]?(?:[-/\\dA-Za-z]{0,10})?)\\s+(?:(?:(?:N|S|E|W|NE|NW|SE|SW)\\.?)\\s+)?(?:[A-Za-z0-9]+(?:[ \\-\\'\\.][A-Za-z0-9]+)*)\\s+(?:Street|St|Avenue|Ave|Boulevard|Blvd|Road|Rd|Drive|Dr|Lane|Ln|Way|Place|Pl|Court|Ct|Terrace|Ter|Circle|Cir|Highway|Hwy|Parkway|Pkwy|Loop|Trail|Trl|Alley|Aly|Square|Sq|Row|Landing|Commons|Row)\\.?(?:\\s*,?\\s*(?:#|Apt|Apartment|Suite|Ste|Unit)\\s*\\-?\\s*\\w+)?\\s*$",
+    "flags": "i",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "polynomial"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__base__r05",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\s*(\\d{1,6}(?:[-\\/]\\d{1,6})?[A-Za-z]?)\\s+(?:(?:(?:N|S|E|W|NE|NW|SE|SW))\\s+)?([A-Za-z0-9]+(?:['\\.\\-][A-Za-z0-9]+)*(?:\\s+[A-Za-z0-9]+(?:['\\.\\-][A-Za-z0-9]+)*)*)\\s+(?:Street|St|Road|Rd|Avenue|Ave|Boulevard|Blvd|Lane|Ln|Drive|Dr|Court|Ct|Place|Pl|Terrace|Ter|Way|Row|Trail|Trl|Circle|Cir|Parkway|Pkwy|Highway|Hwy|Walk|Alley|Ally|Square|Sq|Commons|Loop)\\.?(?:\\s+(?:(?:N|S|E|W|NE|NW|SE|SW)))?(?:\\s*,?\\s*(?:#|Apt\\.?|Apartment|Unit|Suite|Ste\\.?|Floor|Fl\\.?|Dept\\.?|Bldg\\.?|Lot)\\s*\\w+)?\\s*$",
+    "flags": "i",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "polynomial"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__base__r07",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\s*(?:(?:#\\s*\\d+[A-Za-z]?|(?:Apt|Apartment|Unit|Ste|Suite|Flat|Floor|Room|Rm|Dept|Department|Bldg|Building|Lot)\\.?(?:\\s*#?)?\\s*\\d+[A-Za-z]?)\\s*,?\\s*)?(\\d+[A-Za-z]?(?:[-\\/\\s]\\d+[A-Za-z]?)?)\\s+([A-Za-z0-9'’.-]+(?:\\s+[A-Za-z0-9'’.-]+)*)(?:\\s*,?\\s*(?:Avenue|Ave|Road|Rd|Street|St|Boulevard|Blvd|Lane|Ln|Drive|Dr|Court|Ct|Circle|Cir|Terrace|Ter|Place|Pl|Way|Parkway|Pkwy|Square|Sq|Trail|Trl|Highway|Hwy)\\.?)?(?:\\s*,?\\s*(?:#\\s*\\d+[A-Za-z]?|(?:Apt|Apartment|Unit|Ste|Suite|Flat|Floor|Room|Rm|Dept|Department|Bldg|Building|Lot)\\.?(?:\\s*#?)?\\s*\\d+[A-Za-z]?))?\\s*$",
+    "flags": "i",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "polynomial"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__base__r08",
+  "field": "address_line",
+  "n_dynamic_sites": 2,
+  "captured": [
+   {
+    "pattern": "^\\d+[A-Za-z\\-\\/]*(?:\\s+(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West))?\\s+[A-Za-z0-9\\.\\'\\-\\s]{1,60}\\s+(?:Street|St|Avenue|Ave|Boulevard|Blvd|Road|Rd|Lane|Ln|Drive|Dr|Court|Ct|Terrace|Ter|Place|Pl|Way|Pkwy|Parkway|Circle|Cir|Square|Sq|Highway|Hwy|Trail|Trl|Commons)\\b(?:\\s+(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West))?(?:[,#]?\\s*(?:Apt|Apartment|Suite|Ste|Unit|#|Floor|Fl|Rm|Room)\\.?\\s*\\w+)?$",
+    "flags": "i",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "polynomial"
+   },
+   {
+    "pattern": "^[A-Za-z0-9\\.\\'\\-]{2,}(?:\\s+[A-Za-z0-9\\.\\'\\-]{1,})+\\s+(?:Street|St|Avenue|Ave|Boulevard|Blvd|Road|Rd|Lane|Ln|Drive|Dr|Court|Ct|Terrace|Ter|Place|Pl|Way|Pkwy|Parkway|Circle|Cir|Square|Sq|Highway|Hwy|Trail|Trl|Commons)\\b(?:\\s+(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West))?(?:[,#]?\\s*(?:Apt|Apartment|Suite|Ste|Unit|#|Floor|Fl|Rm|Room)\\.?\\s*\\w+)?$",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__bare__base__r09",
+  "field": "address_line",
+  "n_dynamic_sites": 5,
+  "captured": [
+   {
+    "pattern": "^\\s*(\\d{1,6}(?:[A-Za-z]|[\\-\\/\\s]\\d{1,4}|\\s+1\\/2)?)\\s+(?:(?:N|S|E|W|NE|NW|SE|SW)\\.?\\s+)?(?=[A-Za-z].*)(?:[A-Za-z0-9\\u00C0-\\u024F'’&\\.\\-]|\\s){1,100}?(?:\\s+(?:aly|alley|ave|avenue|blvd|boulevard|rd|road|st|street|ln|lane|dr|drive|ct|court|pl|place|ter|terrace|cir|circle|pkwy|parkway|way|trl|trail|hwy|highway|rte|route|sq|square|pass|path|walk)\\.?){0,1}(?:\\s+(?:N|S|E|W|NE|NW|SE|SW)\\.?)?(?:[\\s,\\-]*(?:#\\s*\\d+[A-Za-z]?|(?:apt|apartment|unit|suite|ste|bldg|building|floor|fl|dept|rm)\\.?\\s*\\w+))?\\s*$",
+    "flags": "i",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "polynomial"
+   },
+   {
+    "pattern": "^\\s*\\d{1,6}(?:[A-Za-z]|[\\-\\/\\s]\\d{1,4}|\\s+1\\/2)?\\s+",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[,\\s\\-]*(?:#\\s*\\d+[A-Za-z]?|(?:apt|apartment|unit|suite|ste|bldg|building|floor|fl|dept|rm)\\.?\\s*\\w+)\\s*$",
+    "flags": "i",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "polynomial"
+   },
+   {
+    "pattern": "\\s+(?:aly|alley|ave|avenue|blvd|boulevard|rd|road|st|street|ln|lane|dr|drive|ct|court|pl|place|ter|terrace|cir|circle|pkwy|parkway|way|trl|trail|hwy|highway|rte|route|sq|square|pass|path|walk)\\.?\\s*$",
+    "flags": "i",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "polynomial"
+   },
+   {
+    "pattern": "\\s+(?:N|S|E|W|NE|NW|SE|SW)\\.?\\s*$",
+    "flags": "i",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "polynomial"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__address_line__en__ecommerce__base__r02",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\d+[A-Za-z0-9\\-\\/]*(?:\\s+(?:N|S|E|W|NE|NW|SE|SW)\\b\\.?)?\\s+[A-Za-z0-9][A-Za-z0-9\\s\\.\\-\\',\\/&]*\\s+(?:St|Street|Rd|Road|Ave|Avenue|Blvd|Boulevard|Ln|Lane|Dr|Drive|Ct|Court|Pl|Place|Ter|Terrace|Cir|Circle|Pkwy|Parkway|Way|Loop|Trail|Trl|Sq|Square|Rte|Route)\\.?(?:\\s+(?:N|S|E|W|NE|NW|SE|SW)\\b\\.?)?(?:\\s*,?\\s*(?:Apt|Unit|Ste|Suite|#)\\s*[A-Za-z0-9\\-]+)?$",
+    "flags": "i",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "polynomial"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__address_line__es__bare__base__r09",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "\\b(calle|cll|c|avenida|av|avda|paseo|paseo|pº|paseo|boulevard|bulevar|bvd|plaza|carrera|cra|cr|camino|carretera|callejón|callejon|travesía|travesia|trv|ronda|sector|parque|parque|street|st|road|rd|lane|ln|way|drive|dr|via|vía)\\b",
+    "flags": "iu",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__family_name__en__bare__incl__r00",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\p{L}[\\p{L}\\p{M}]*(?:[\\p{Zs}\\p{Pd}\\u0027\\u2019\\u00B7]\\p{L}[\\p{L}\\p{M}]*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__family_name__en__bare__incl__r03",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:['’])?\\p{L}\\p{M}*(?:[\\p{Pd}'’·‌‍\\.]\\p{L}\\p{M}*)*(?: (?:['’])?\\p{L}\\p{M}*(?:[\\p{Pd}'’·‌‍\\.]\\p{L}\\p{M}*)*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__family_name__en__bare__incl__r06",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^[\\p{L}][\\p{L}\\p{M}]*(?:[\\u0020\\u00A0\\-\\u2010-\\u2015'\\u2018\\u2019\\u00B7\\.][\\p{L}\\p{M}]+)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__family_name__en__ecommerce__base__r02",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "gpt-5-mini__family_name__en__ecommerce__incl__r00",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?![  \\-‐‑.·'’‘ʻʼ])(?!.*[  \\-‐‑.·'’‘ʻʼ]$)(?!.*[  \\-‐‑.·'’‘ʻʼ]{2})(?=.*\\p{L})[\\p{L}\\p{M}  \\-‐‑.·'’‘ʻʼ]+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__family_name__en__ecommerce__incl__r01",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "gpt-5-mini__family_name__en__ecommerce__incl__r06",
+  "field": "family_name",
+  "n_dynamic_sites": 2,
+  "captured": [
+   {
+    "pattern": "^\\p{L}[\\p{L}\\p{M}]*(?:(?:['’ʼ‘‛\\-‐‑‒–—―·]| |\\.(?: )?)\\p{L}[\\p{L}\\p{M}]*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "exponential"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__family_name__es__bare__base__r09",
+  "field": "family_name",
+  "n_dynamic_sites": 2,
+  "captured": [
+   {
+    "pattern": "^[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+(?:[ '\\-][A-Za-zÁÉÍÓÚÜÑáéíóúüñ]+)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]",
+    "flags": "gu",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__family_name__es__bare__incl__r01",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:\\p{L}(?:[\\p{L}\\p{M}]*))(?:[\\u0020\\-\\u2013\\u00B7'\\u2019\\u02BC\\u02BB]\\p{L}(?:[\\p{L}\\p{M}]*))*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "exponential"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__family_name__es__bare__incl__r04",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:['’])?\\p{L}[\\p{L}\\p{M}]*\\.?(?:[ \\-'’·]\\p{L}[\\p{L}\\p{M}]*\\.?)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__family_name__es__bare__incl__r09",
+  "field": "family_name",
+  "n_dynamic_sites": 3,
+  "captured": []
+ },
+ {
+  "key": "gpt-5-mini__family_name__es__ecommerce__base__r07",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\p{L}[\\p{L}\\p{M}]*(?:[ \\-'’·]\\p{L}[\\p{L}\\p{M}]*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__family_name__es__ecommerce__incl__r03",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "gpt-5-mini__family_name__es__ecommerce__incl__r07",
+  "field": "family_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:\\p{L}\\p{M}*)(?:[ \\-\\.\\u00B7'\\u2019\\u02BC](?:\\p{L}\\p{M}*))*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__bare__base__r00",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__bare__base__r02",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:\\p{L}\\.?|\\p{L}\\p{M}+(?:['’\\-]\\p{L}\\p{M}+)*)(?: (?:\\p{L}\\.?|\\p{L}\\p{M}+(?:['’\\-]\\p{L}\\p{M}+)*))+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__bare__base__r05",
+  "field": "full_name",
+  "n_dynamic_sites": 3,
+  "captured": [
+   {
+    "pattern": "^\\p{L}\\.?$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "^\\p{L}{2,}\\.$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "^\\p{L}+(?:['\\-]\\p{L}+)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__bare__incl__r00",
+  "field": "full_name",
+  "n_dynamic_sites": 2,
+  "captured": [
+   {
+    "pattern": "^[\\p{L}\\p{M}\\p{Pd}'\\u2019\\u00B7\\u30FB\\.\\p{Zs}]+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[\\p{Pd}'\\u2019\\u00B7\\u30FB\\.]{2,}",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__bare__incl__r04",
+  "field": "full_name",
+  "n_dynamic_sites": 2,
+  "captured": [
+   {
+    "pattern": "^[\\p{L}\\p{M}]+(?:['’ʼ·\\p{Pd}][\\p{L}\\p{M}]+)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "exponential"
+   },
+   {
+    "pattern": "^[\\p{L}\\p{M}]{1,5}\\.$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__bare__incl__r05",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:\\p{L}\\.|\\p{L}(?:[\\p{L}\\p{M}\\-\\u2010-\\u2015\\u00B7\\u0027\\u2019\\u02BC\\.\\u200C\\u200D]*[\\p{L}\\p{M}]))(?:[\\p{Zs}]+(?:\\p{L}\\.|\\p{L}(?:[\\p{L}\\p{M}\\-\\u2010-\\u2015\\u00B7\\u0027\\u2019\\u02BC\\.\\u200C\\u200D]*[\\p{L}\\p{M}])))*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__bare__incl__r07",
+  "field": "full_name",
+  "n_dynamic_sites": 3,
+  "captured": [
+   {
+    "pattern": "^[\\p{L}\\p{M}\\s\\-'’‘·‐‑‒–—―\\.]+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[\\-'’‘·‐‑‒–—―\\.]{2,}",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[\\-'’‘·‐‑‒–—―\\.]",
+    "flags": "gu",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__ecommerce__base__r00",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__ecommerce__base__r01",
+  "field": "full_name",
+  "n_dynamic_sites": 4,
+  "captured": [
+   {
+    "pattern": "^[\\p{L}\\p{M}]$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "^[\\p{L}\\p{M}]\\.$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "^[\\p{L}\\p{M}][\\p{L}\\p{M}'’\\-\\.]*[\\p{L}\\p{M}]$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "^[\\p{L}\\p{M}][\\p{L}\\p{M}'’\\-\\.]*[\\p{L}\\p{M}]\\.$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__ecommerce__base__r09",
+  "field": "full_name",
+  "n_dynamic_sites": 2,
+  "captured": [
+   {
+    "pattern": "^[\\p{L}\\p{M}'’\\.\\-]+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[\\p{L}]",
+    "flags": "u",
+    "already_static": true,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "^[\\p{L}]",
+    "flags": "u",
+    "already_static": true,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "[\\p{L}]$|\\.$",
+    "flags": "u",
+    "already_static": true,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "['’\\.\\-]{2,}",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__ecommerce__incl__r01",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "gpt-5-mini__full_name__en__ecommerce__incl__r02",
+  "field": "full_name",
+  "n_dynamic_sites": 2,
+  "captured": [
+   {
+    "pattern": "^(?:\\p{L}\\p{M}*\\.|\\p{L}\\p{M}*(?:[\\u0027\\u2019\\u02BC\\-\\u00B7\\.]\\p{L}\\p{M}*)*\\.? )(?:\\s+(?:\\p{L}\\p{M}*\\.|\\p{L}\\p{M}*(?:[\\u0027\\u2019\\u02BC\\-\\u00B7\\.]\\p{L}\\p{M}*)*\\.? ))+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "exponential"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__bare__base__r07",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:\\p{L}[\\p{L}\\p{M}]*(?:[\\-'’]\\p{L}[\\p{L}\\p{M}]*)*|\\p{L}\\.?)(?:\\s+(?:\\p{L}[\\p{L}\\p{M}]*(?:[\\-'’]\\p{L}[\\p{L}\\p{M}]*)*|\\p{L}\\.?))+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "exponential"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__bare__incl__r02",
+  "field": "full_name",
+  "n_dynamic_sites": 2,
+  "captured": [
+   {
+    "pattern": "^(?!.*['’\\-\\u00B7]{2})(?:[\\p{L}\\p{M}]+\\.?)(?:['’\\-\\u00B7][\\p{L}\\p{M}]+\\.?)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "^(?:[\\p{L}\\p{M}]\\.)+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__bare__incl__r07",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\p{L}[\\p{L}\\p{M}]*((['’\\-\\u00B7\\.]\\p{L}[\\p{L}\\p{M}]*)*)\\.?(\\s+\\p{L}[\\p{L}\\p{M}]*((['’\\-\\u00B7\\.]\\p{L}[\\p{L}\\p{M}]*)*)\\.?)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__bare__incl__r09",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?=.+\\p{L})(?!.*['\\-\\u2019\\.\\u00B7\\u2013\\u2014]{2,})(?!.*\\p{Zs}{2,})(?!^['\\-\\u2019\\.\\u00B7\\u2013\\u2014])(?!.*['\\-\\u2019\\.\\u00B7\\u2013\\u2014]$)[\\p{L}\\p{M}\\p{N}\\p{Zs}'\\-\\u2019\\.\\u00B7\\u2013\\u2014]+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__ecommerce__base__r02",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:\\p{L}\\.|\\p{L}[\\p{L}\\p{M}'’\\-\\.\\u00B7]*)(?:\\s+(?:\\p{L}\\.|\\p{L}[\\p{L}\\p{M}'’\\-\\.\\u00B7]*))+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "exponential"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__ecommerce__base__r06",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__ecommerce__incl__r02",
+  "field": "full_name",
+  "n_dynamic_sites": 6,
+  "captured": [
+   {
+    "pattern": "^[\\p{L}\\p{M}]+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "^[\\p{L}\\p{M}]\\.$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "^([\\p{L}\\p{M}]\\.)+$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "^[\\p{L}\\p{M}](?:[\\p{L}\\p{M}]|(?:['’‐-―·][\\p{L}\\p{M}]))*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "^['’‐-―·]",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "['’‐-―·]$",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__ecommerce__incl__r04",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:\\p{L}\\p{M}*(?:['\\u2019\\u02BC\\uFF07\\-]\\p{L}\\p{M}*)*(?:\\.)?)(?:\\s+(?:\\p{L}\\p{M}*(?:['\\u2019\\u02BC\\uFF07\\-]\\p{L}\\p{M}*)*(?:\\.)?))*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__ecommerce__incl__r05",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:[\\p{L}\\p{M}]+(?:['’\\u02BC\\u2018\\.\\u00B7\\u2027\\u30FB\\p{Pd}][\\p{L}\\p{M}]+)*\\.?)(?:\\s+[\\p{L}\\p{M}]+(?:['’\\u02BC\\u2018\\.\\u00B7\\u2027\\u30FB\\p{Pd}][\\p{L}\\p{M}]+)*\\.?)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "exponential"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__full_name__es__ecommerce__incl__r09",
+  "field": "full_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\p{L}\\p{M}*(?:[\\-'’‘‛′‐‑‒–—―·]\\p{L}\\p{M}*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "^\\p{L}\\p{M}*\\.?$",
+    "flags": "u",
+    "already_static": true,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "^(?:\\p{L}\\p{M}*\\.){1,6}$",
+    "flags": "u",
+    "already_static": true,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__given_name__en__bare__incl__r03",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:\\p{L}\\p{M}*|\\p{L}\\p{M}?\\.)(?:[ \\u00A0\\-\\u2010\\u2011\\u2012\\u2013\\u2014\\u2015'\\u2019\\u00B7](?:\\p{L}\\p{M}*|\\p{L}\\p{M}?\\.))*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__given_name__en__bare__incl__r04",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\p{L}[\\p{L}\\p{M}]*(?:[ \\-'’·]\\p{L}[\\p{L}\\p{M}]*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__given_name__en__ecommerce__base__r09",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\p{L}[\\p{L}\\p{M}]*(?:[ \\u0027\\u2019\\u2010\\u2011\\u2012\\u2013\\u2014\\u2015\\-]\\p{L}[\\p{L}\\p{M}]*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__given_name__en__ecommerce__incl__r05",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^[\\p{L}\\p{M}]+(?:[ \\-'’\\.\\u00B7][\\p{L}\\p{M}]+)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__bare__base__r05",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\p{L}\\p{M}*(?:['-]\\p{L}\\p{M}*)*(?: \\p{L}\\p{M}*(?:['-]\\p{L}\\p{M}*)*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__bare__incl__r02",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__bare__incl__r07",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\p{L}[\\p{L}\\p{M}]*(?:[\\p{Zs}'\\u2019\\u00B7\\u2010-\\u2014]\\p{L}[\\p{L}\\p{M}]*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__bare__incl__r08",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^(?:\\p{L}(?:[\\p{M}\\p{L}]|[\\u0027\\u2019\\u002D\\u2010\\u2011\\u2012\\u2013\\u2014\\u2015\\u00B7](?=\\p{L}))*)(?:\\s\\p{L}(?:[\\p{M}\\p{L}]|[\\u0027\\u2019\\u002D\\u2010\\u2011\\u2012\\u2013\\u2014\\u2015\\u00B7](?=\\p{L}))*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__ecommerce__incl__r00",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\p{L}\\p{M}*(?:[\\p{Zs}\\p{Pd}\\u02BC'\\u2019\\u00B7]\\p{L}\\p{M}*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__ecommerce__incl__r04",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^\\p{L}[\\p{L}\\p{M}]*(?:[\\u0020\\u00A0\\u0027\\u2019\\u02BC\\u002D\\u2010\\u2011\\u2013\\u00B7]\\p{L}[\\p{L}\\p{M}]*)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "exponential"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__given_name__es__ecommerce__incl__r07",
+  "field": "given_name",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^[\\p{L}\\p{M}\\p{Nl}]+(?:[\\p{Zs}\\p{Pd}'\\u2019\\u02BC\\u00B7][\\p{L}\\p{M}\\p{Nl}]+)*$",
+    "flags": "u",
+    "already_static": false,
+    "status": "vulnerable",
+    "complexity": "exponential"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__ecommerce__incl__r02",
+  "field": "phone_number",
+  "n_dynamic_sites": 5,
+  "captured": [
+   {
+    "pattern": "\\p{Nd}",
+    "flags": "u",
+    "already_static": true,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "(?:\\s|^)(?:ext(?:ension)?|x|#)\\.?\\s*\\p{Nd}+$",
+    "flags": "iu",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "[^\\p{Nd}\\s()+\\-\\.]",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\p{Nd}",
+    "flags": "gu",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "[^\\p{Nd}\\s\\-\\.]",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__phone_number__en__ecommerce__incl__r08",
+  "field": "phone_number",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "[\\u{660}-\\u{669}\\u{6f0}-\\u{6f9}\\u{966}-\\u{96f}\\u{9e6}-\\u{9ef}\\u{a66}-\\u{a6f}\\u{ae6}-\\u{aef}\\u{b66}-\\u{b6f}\\u{be6}-\\u{bef}\\u{c66}-\\u{c6f}\\u{ce6}-\\u{cef}\\u{d66}-\\u{d6f}\\u{e50}-\\u{e59}\\u{ed0}-\\u{ed9}\\u{17e0}-\\u{17e9}\\u{1040}-\\u{1049}\\u{ff10}-\\u{ff19}]",
+    "flags": "gu",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "gpt-5-mini__postal_code__en__bare__incl__r02",
+  "field": "postal_code",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "\\p{L}",
+    "flags": "u",
+    "already_static": true,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "^[\\p{L}\\p{N}][\\p{L}\\p{N}\\s-]{0,18}[\\p{L}\\p{N}]$",
+    "flags": "u",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__address_line__en__ecommerce__base__r06",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "(,|.|-) (road|street|avenue|drive| STst|AVEave|DRdr|RDrd)$",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__address_line__en__ecommerce__incl__r01",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "\\bBlvd\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bBldg\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bRd\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bAve\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bCt\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "\\bSt\\b",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__address_line__es__bare__incl__r07",
+  "field": "address_line",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "calle",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "avenida",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "callejón",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "camino",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "cementerio",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "ciudad",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "costado",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "derecha",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "desvío",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "dique",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "edificio",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "entrada principal",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "estación de policía",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "frente a la casa",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "gasolinera",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "giratorio",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "isleta",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "lado del bosque",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "luz",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "mando",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "medio camino",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "manzana",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "mejor salida",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "norte",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "oficina",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "patio trasero",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "pecos",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "penitenciaria",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "pista de aterrizaje",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "río",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "salida este",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "saltadero",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "segundo manantial",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "sendero oeste",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "supermercado",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "tras el camino del estanque grande",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "vereda hacia el norte",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   },
+   {
+    "pattern": "vía pública",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__family_name__en__ecommerce__incl__r08",
+  "field": "family_name",
+  "n_dynamic_sites": 3,
+  "captured": [
+   {
+    "pattern": "^(De|Van|La)([^aieoAIEOyYŌōĄą]*)$",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "^(士|明|良)(.*)$",
+    "flags": "i",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "^([^aieoAIEOyYŌōĄą]+)$",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__family_name__es__bare__incl__r08",
+  "field": "family_name",
+  "n_dynamic_sites": 2,
+  "captured": [
+   {
+    "pattern": "[¿ÁÉÍÓÚÜÑÇ]",
+    "flags": "g",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__phone_number__es__bare__base__r03",
+  "field": "phone_number",
+  "n_dynamic_sites": 2,
+  "captured": []
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__phone_number__es__bare__incl__r05",
+  "field": "phone_number",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^[0-9]+$",
+    "flags": "",
+    "already_static": true,
+    "status": "safe",
+    "complexity": "linear"
+   },
+   {
+    "pattern": "^[0-9]{8,}$",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "linear"
+   }
+  ]
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__phone_number__es__bare__incl__r09",
+  "field": "phone_number",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__postal_code__en__bare__base__r01",
+  "field": "postal_code",
+  "n_dynamic_sites": 1,
+  "captured": []
+ },
+ {
+  "key": "llama3.1-8b-instruct-q8_0__postal_code__en__bare__base__r02",
+  "field": "postal_code",
+  "n_dynamic_sites": 1,
+  "captured": [
+   {
+    "pattern": "^([MLS][0-9]{3} ?){2}$",
+    "flags": "",
+    "already_static": false,
+    "status": "safe",
+    "complexity": "safe"
+   }
+  ]
+ }
+]

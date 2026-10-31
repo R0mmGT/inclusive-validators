@@ -1,0 +1,9 @@
+model,inclusive,FAR_supplementary_pct
+DeepSeek-V3.2,False,8.9
+DeepSeek-V3.2,True,24.1
+gemini-3.8-flash,False,9.9
+gemini-3.8-flash,True,14.4
+gpt-5-mini,False,6.5
+gpt-5-mini,True,14.5
+llama3.1:8b-instruct-q8_0,False,12.8
+llama3.1:8b-instruct-q8_0,True,18.3
