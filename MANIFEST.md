@@ -10,11 +10,8 @@ Verify all files with `sha256sum -c SHA256SUMS` from the package root.
 | `.gitignore` | Package metadata and documentation | 77 | `d4a04447544a49395562f4f433cf2cc7ccec84e20b5cf28c6cc5729b91ebf020` |
 | `CITATION.cff` | Package metadata and documentation | 637 | `49138d213ef3fa6d73e05f1f328a5ec5674fd68b972a62649d10ae72e7c501d7` |
 | `LICENSE` | Package metadata and documentation | 1089 | `ba9433fae8c296684ab32fb92f7350cc7501f4f9831603f2761b0427f31214ff` |
-| `README.md` | Package metadata and documentation | 4804 | `b9fd1064f12885262c0aacc2688e9c7322c4a1184ec8a5d35a34ce3961c6099c` |
+| `README.md` | Package metadata and documentation | 5022 | `df26f5303dce0a541a13814e81fceae44ba609535917f7871cbbc153e1215d5b` |
 | `config.yaml` | Package metadata and documentation | 1033 | `72c4f9cd32a34836771d4ee71c35f9eda9f0d5331faf83db5daf1a51b99ac3f4` |
-| `package-lock.json` | Package metadata and documentation | 4958 | `48734a0f76ebd7ccde9b3f57dc0d1dadbec551a4b7590e10926ae5f5a971ee7e` |
-| `package.json` | Package metadata and documentation | 442 | `bb74f92884012a6365d22c6bb27afa667d6668c94a4249d2b9fb4f6ae64da4ec` |
-| `requirements.txt` | Package metadata and documentation | 112 | `231eecc59f094aca87255537eb8e8ed72d4b1f40083b971cdbd08884bd7ebcc0` |
 | `corpus/build_corpus.py` | Test corpus (valid and invalid inputs) and its sources | 3804 | `99adf38e7716c57b58c6b4ff45b3dad300a98b7a73a272a8fe2839bb0f2a18bd` |
 | `corpus/corpus.json` | Test corpus (valid and invalid inputs) and its sources | 92563 | `3a11c88c019307d9bfd3ed49fe8d4dc1e22298d8159202ec51d9c67c7c231661` |
 | `corpus/curated.yaml` | Test corpus (valid and invalid inputs) and its sources | 7732 | `6a4e5f6f863bab90727a92cbe070d1486dfa99de8c6ff1aa97fd47f996e71fb9` |
@@ -25,6 +22,9 @@ Verify all files with `sha256sum -c SHA256SUMS` from the package root.
 | `harness/redos.js` | Node.js harness: sandbox, runner, ReDoS analysis | 8743 | `b8a296653fcfe5c1d4983bb08aa195014e5eb45c292bc274582cbdad401a131f` |
 | `harness/runner.js` | Node.js harness: sandbox, runner, ReDoS analysis | 2106 | `012607d4edc41cfda4c2ec10aebe2435103c4cba8732d38dedf1ed6b2f5de911` |
 | `harness/sandbox.js` | Node.js harness: sandbox, runner, ReDoS analysis | 3178 | `3720baceeccc95f78e49be9d3a6438f580c34436edaf75d7ee84a773cfe71bce` |
+| `package-lock.json` | Package metadata and documentation | 4958 | `48734a0f76ebd7ccde9b3f57dc0d1dadbec551a4b7590e10926ae5f5a971ee7e` |
+| `package.json` | Package metadata and documentation | 442 | `bb74f92884012a6365d22c6bb27afa667d6668c94a4249d2b9fb4f6ae64da4ec` |
+| `requirements.txt` | Package metadata and documentation | 112 | `231eecc59f094aca87255537eb8e8ed72d4b1f40083b971cdbd08884bd7ebcc0` |
 | `results/00_failure_classes.csv` | Tables produced by src/analyze.py | 223 | `ec26f79c59138f2f4af4b7d679dfa96b4ddf445192db37e18bfb576a693c2000` |
 | `results/00_generation_validity.csv` | Tables produced by src/analyze.py | 152 | `57f1d3c66c97b1cc03238875f58addfe5f806ff56a5415fb6c8010675e8718d8` |
 | `results/00_load_errors.csv` | Tables produced by src/analyze.py | 9553 | `29a32ea364e4b2ab7a39df749d3c3549c5abf654d54ec36a18af03372c037691` |
@@ -53,7 +53,7 @@ Verify all files with `sha256sum -c SHA256SUMS` from the package root.
 | `results/04_redos_function_level.csv` | Tables produced by src/analyze.py | 3207318 | `e51b0912f53cbde7e57661924a175ec46221c56dc2c040b2f6ef400db2211218` |
 | `results/function_level.csv` | Tables produced by src/analyze.py | 207558 | `41dab6ce2f1733e2573e67d555e0527943287cf7bd2ba6f1db88e728068a189e` |
 | `results/long_results.csv.gz` | Tables produced by src/analyze.py | 631095 | `9746b4bb10ec1b103005ce6771479305f5d1213d54c69da41bafcd880c8d330d` |
-| `revision/README.md` | Revision: scripts added for the review | 2512 | `8faa390839dbe3eadc5c29aa7cddba4771d8bba3d76640f7e3efb81fcdeaa3a1` |
+| `revision/README.md` | Revision: scripts added for the review | 2972 | `2632bbd8ffa406c8c5ab75b6df58f39e412590e1b7a215cae496c3d1936f7521` |
 | `revision/adaptive_probe.js` | Revision: scripts added for the review | 2695 | `2510d7999d25a0f24aaac5c89761b05e9276e94d5fce00049bcdb4a2cf496d05` |
 | `revision/analyze_curves.py` | Revision: scripts added for the review | 10101 | `89c16368c96c705d4967a48d95e2b20ad89d3358509d3a6ee359fb64149e14e5` |
 | `revision/backend_compare.js` | Revision: scripts added for the review | 2604 | `875ad7176a087d2856aab670cee56ee3bbdb3d068cdc2d62431d9991c6d4e799` |
@@ -64,13 +64,9 @@ Verify all files with `sha256sum -c SHA256SUMS` from the package root.
 | `revision/curves.js` | Revision: scripts added for the review | 3749 | `361a3b2b7716f083b7689a80a51996d05c52d7b07fe84720126d6adad6748e7f` |
 | `revision/dependence.py` | Revision: scripts added for the review | 3433 | `bce3c75c060981ec78a2c78de8a816c35323ed85642174b3e2cfd4f716645aa8` |
 | `revision/ext_analysis.py` | Revision: scripts added for the review | 3050 | `d4294ccaf068491e0b5b01ab7038dfb095aa2c5d3af14ca744443de0d8fd62ef` |
+| `revision/figures_v2.py` | Revision: scripts added for the review | 12901 | `9f1a2737b94bac09e644a23bd6c57efd191b51f556dbcf30084577a09cfe0b9f` |
 | `revision/functional.py` | Revision: scripts added for the review | 19935 | `28f1286d182ab32197a022f8274df61f5c73c3747b7d2873c271b033bf79ca06` |
 | `revision/make_tables.py` | Revision: scripts added for the review | 12842 | `769848fbf6e2112c88e8a169cbaf4a48f0de297e8d364104e488d96a5bf69bcf` |
-| `revision/recheck_attacks.js` | Revision: scripts added for the review | 5084 | `7a41386e732205400737586211a70508312e6fe06138433b9bca61df3f735f63` |
-| `revision/run_configs.sh` | Revision: scripts added for the review | 572 | `156ba320192a424c6ad225fa6f70bfdcaf9e149825f1743146d560e006ddc705` |
-| `revision/run_ext.js` | Revision: scripts added for the review | 1623 | `db49c4f7cfb3cf9dcb14c058f877a6b097022d5c61aaf50781879c462bf5abac` |
-| `revision/synthetic_suite.js` | Revision: scripts added for the review | 3521 | `74127f90fc30b3d593fbf1e9cc5d3200a93344c6858dd19720abae122d083087` |
-| `revision/worked_example.js` | Revision: scripts added for the review | 3526 | `7ffa29aea5a403cf4fb2a90222fefa966a2b8dcc59a69fd78ec7dfce4b38b690` |
 | `revision/out/adaptive_probe.json` | Revision: outputs of the new analyses | 74510 | `46250e9e4fe19ad4bde3ea0454e40513035e208128143706419942c6ccf0f9a7` |
 | `revision/out/agreement.csv` | Revision: outputs of the new analyses | 527 | `d2d67d9f30a142fe2365fbe904548351926bf7f2d8ef972f3e1d48f0a853c416` |
 | `revision/out/alt_rule.csv` | Revision: outputs of the new analyses | 187 | `680ac5bae6bcf6f9808a662296dc44c9323838644ce5f1698dc8a0f67f954e06` |
@@ -95,15 +91,30 @@ Verify all files with `sha256sum -c SHA256SUMS` from the package root.
 | `revision/out/ext_negatives_by_category.csv` | Revision: outputs of the new analyses | 770 | `ce2ab17aa3c5975466ec192cbe1ee20cbd4d6a0e999e902db33c875f03853c3e` |
 | `revision/out/ext_nfd.csv` | Revision: outputs of the new analyses | 560 | `f8427ac1eea5e9e1c5d42789215d9ed86328725607d33c2a791f9ec12f28c9b7` |
 | `revision/out/ext_timeouts.csv` | Revision: outputs of the new analyses | 41 | `5d514459ec4bac6678374fe5ea41f1121fb8815d140c12d8c91147864f12b8fe` |
+| `revision/out/figures/fig1_exclusion_and_mitigation.pdf` | Revision: outputs of the new analyses | 24168 | `9bc2222a3ce48b6f0febb3c243089f45facbf32524c7cc31add634dfa930cfe7` |
+| `revision/out/figures/fig1_exclusion_and_mitigation.png` | Revision: outputs of the new analyses | 245011 | `a4c5a7733a2f60a8f458a7d8216a74ca8aca4d282e431510f00763909110c938` |
+| `revision/out/figures/fig2_rejection_names.pdf` | Revision: outputs of the new analyses | 29767 | `ae6c0ae56be01fc52f8fe48d0df8ffd9f5a01f8eb6c57ea99bd236a90abbd5aa` |
+| `revision/out/figures/fig2_rejection_names.png` | Revision: outputs of the new analyses | 309851 | `c1164e2bd5521fa97b4f2da5afef4c0d21beddd63806e69ad5c0f94ac35dc7ba` |
+| `revision/out/figures/fig3_rejection_address.pdf` | Revision: outputs of the new analyses | 24333 | `d0e1b230015119c091f43b372237b78bbe29d43e09d53193e4589c2b26b87ffd` |
+| `revision/out/figures/fig3_rejection_address.png` | Revision: outputs of the new analyses | 245298 | `d26c4bb4f6d2b7afc7ed2a090788185018e260485401adbf1b68e5b335adaf73` |
+| `revision/out/figures/fig4_rejection_postal_code.pdf` | Revision: outputs of the new analyses | 24563 | `d52a1823feb3119001574a3d5d2b4f1e9cca2c08a23bd120884c471f7a6981ea` |
+| `revision/out/figures/fig4_rejection_postal_code.png` | Revision: outputs of the new analyses | 251031 | `240e233e80535ee6780e0f826191e35805d5d97cf72757058bea7e8aaa8084cd` |
+| `revision/out/figures/fig5_rejection_phone.pdf` | Revision: outputs of the new analyses | 21966 | `0ce8db322a4010b86b8a5c2d15a0d229d6b3604f88f4f22c1a5939bb3e320e7e` |
+| `revision/out/figures/fig5_rejection_phone.png` | Revision: outputs of the new analyses | 121946 | `558f6c13afb9823546159678a70ebca315458a47e2ccb43a1c0202e158505102` |
+| `revision/out/figures/fig6_rejection_by_regex_style.pdf` | Revision: outputs of the new analyses | 24189 | `1737cec52989cec2475be79618c022df72276be6cdc38d915d033758bd312aec` |
+| `revision/out/figures/fig6_rejection_by_regex_style.png` | Revision: outputs of the new analyses | 398701 | `30ca0c13917cdffc03af847ad085b8bdb899d54313d352cfc451305064c81d6c` |
+| `revision/out/figures/fig7_redos_by_model.pdf` | Revision: outputs of the new analyses | 19418 | `fe1608aa5a7c90b648c6f9f713b4366e2365967bdac1bd3cfd5425c80db75ba0` |
+| `revision/out/figures/fig7_redos_by_model.png` | Revision: outputs of the new analyses | 126604 | `86f269482f73bcd9a6f2887a1e779f4e0fa1ca38ffffcbf6cc1604b40f23ae2d` |
 | `revision/out/results_ext.jsonl` | Revision: outputs of the new analyses | 1969418 | `8ade1f6dcc3a1289141e0b3aeb329125b35747d280b32e723b3eae2244939080` |
-| `revision/out/stats_stdout.txt` | Revision: outputs of the new analyses | 31516 | `3e4f1524e862d2d66875d07404d68d68ccbe3787f25bbd8eb131a902f1955b1b` |
-| `revision/out/synthetic_accuracy.csv` | Revision: outputs of the new analyses | 13427 | `fafed941c09785951597c8eea59dde910aa0f78b2c39cc1a10b1ebf9df0da33b` |
-| `revision/out/tables.tex` | Revision: outputs of the new analyses | 12255 | `21e2c2e80c13a3b05fab5252467f208a5f5e1244d31493ae41b38f4c4f4bf0d9` |
-| `revision/out/threshold_grid.csv` | Revision: outputs of the new analyses | 8308 | `c1b1dafb4bdff689833af5dd7477e7d241ee7e4f76834f36e805e0f68a49f3f7` |
-| `revision/out/threshold_grid_summary.csv` | Revision: outputs of the new analyses | 183 | `b01eb3186e13c020a22c09c98949e1d9aae1458888225c5680b414ac186bbce0` |
-| `revision/out/vuln_coding.csv` | Revision: outputs of the new analyses | 18962 | `95320c8d7673d465dc161cc3a4ea0c064d87f5f62b6fd5815d06a35d53acc284` |
-| `revision/out/vuln_coding_summary.csv` | Revision: outputs of the new analyses | 1716 | `836c2eaca9fe7f3a0876e784c490f20f9b104f5d4b5882fd23f86b8891143bc9` |
-| `revision/out/worked_example.json` | Revision: outputs of the new analyses | 3193 | `8480af0e69c167fc1d90635225d179537a430ed6e57da39a4fa2165f4b80c7b3` |
+| `revision/out/round2/coding_agreement.csv` | Revision: outputs of the new analyses | 82 | `02788473b1470781c8e73d8c2e1c1afd0de18559ff16789934e0c316fe47a60f` |
+| `revision/out/round2/confirmed_functions_complexity.csv` | Revision: outputs of the new analyses | 5230 | `dffefc633e8768c9b40bcc0505a32e7f089f59543c1f356b54e5712395d13ab1` |
+| `revision/out/round2/dynamic_counts.csv` | Revision: outputs of the new analyses | 240 | `a450ed20cc124adc610f39d64505b86497747cf240d5325f5f7841c06cf17e0c` |
+| `revision/out/round2/exponential_vs_polynomial.csv` | Revision: outputs of the new analyses | 570 | `f853e620a1fe0e22c52bcc21c82009a69e67ca354fcb627aff0f0f1a2da98018` |
+| `revision/out/round2/far_leave_one_input_out.csv` | Revision: outputs of the new analyses | 2507 | `9be09ad5f60d87c25bc6bb3fe750a69e615f828ab0f87d1429348097a365fba0` |
+| `revision/out/round2/far_separation.csv` | Revision: outputs of the new analyses | 528 | `381a13ffb94b2b8822b8e121b21d888e81894414e96130eec55efc7a08b2fc82` |
+| `revision/out/round2/language_effect.csv` | Revision: outputs of the new analyses | 1611 | `b343784e85d304c53c21096188ba0049b3553ad38a1e5fb23b15ad1a159db1f9` |
+| `revision/out/round2/sensitivity.csv` | Revision: outputs of the new analyses | 446 | `96928dbe803c54c6a809e7452e67ddba6af9acb5b73ca423f1cf771ae2d6685d` |
+| `revision/out/round2/summary.txt` | Revision: outputs of the new analyses | 5930 | `ece372bbefe68366a7b79d4565c54d59cd80af01914c5ac1e54a0e5217539056` |
 | `revision/out/stats/all_generations.csv` | Revision: functional and statistical analyses | 574624 | `23cc321c13f37176a9a6aae52d601ed5b5e7ad849c6033c9f551a6594221a608` |
 | `revision/out/stats/bootstrap_simple_vs_stratified.csv` | Revision: functional and statistical analyses | 620 | `29d272613c675847c3be2d7eabe49bfc7464969a172bee60e3deb3ab73da0bee` |
 | `revision/out/stats/dependence.csv` | Revision: functional and statistical analyses | 4314 | `8ae8e035965c1b0a28a96b53d886398fb165fded463a742faffcac4bad51a6bd` |
@@ -125,6 +136,21 @@ Verify all files with `sha256sum -c SHA256SUMS` from the package root.
 | `revision/out/stats/redos_logistic.csv` | Revision: functional and statistical analyses | 2715 | `3788a3810d615761918359970a8aeec19dbde8bc86256cb8f60af67f81b90562` |
 | `revision/out/stats/rejection_sources.csv` | Revision: functional and statistical analyses | 339 | `215cc0bdd2b1f3b1349a6a4f405f8422d6733a9e70b985e572156463a3b45c8f` |
 | `revision/out/stats/summary.md` | Revision: functional and statistical analyses | 31515 | `f766cedb52b9234a7395913800544ca253b009a561787d78a51b9436ddd6566e` |
+| `revision/out/stats_stdout.txt` | Revision: outputs of the new analyses | 31516 | `3e4f1524e862d2d66875d07404d68d68ccbe3787f25bbd8eb131a902f1955b1b` |
+| `revision/out/synthetic_accuracy.csv` | Revision: outputs of the new analyses | 13427 | `fafed941c09785951597c8eea59dde910aa0f78b2c39cc1a10b1ebf9df0da33b` |
+| `revision/out/tables.tex` | Revision: outputs of the new analyses | 12255 | `21e2c2e80c13a3b05fab5252467f208a5f5e1244d31493ae41b38f4c4f4bf0d9` |
+| `revision/out/threshold_grid.csv` | Revision: outputs of the new analyses | 8308 | `c1b1dafb4bdff689833af5dd7477e7d241ee7e4f76834f36e805e0f68a49f3f7` |
+| `revision/out/threshold_grid_summary.csv` | Revision: outputs of the new analyses | 183 | `b01eb3186e13c020a22c09c98949e1d9aae1458888225c5680b414ac186bbce0` |
+| `revision/out/vuln_coding.csv` | Revision: outputs of the new analyses | 18962 | `95320c8d7673d465dc161cc3a4ea0c064d87f5f62b6fd5815d06a35d53acc284` |
+| `revision/out/vuln_coding_review.csv` | Revision: outputs of the new analyses | 16066 | `8c26450dd9f8bedb511874a619332404b728d3d8ba619a26ebd13f4edfbc42a7` |
+| `revision/out/vuln_coding_summary.csv` | Revision: outputs of the new analyses | 1716 | `836c2eaca9fe7f3a0876e784c490f20f9b104f5d4b5882fd23f86b8891143bc9` |
+| `revision/out/worked_example.json` | Revision: outputs of the new analyses | 3193 | `8480af0e69c167fc1d90635225d179537a430ed6e57da39a4fa2165f4b80c7b3` |
+| `revision/recheck_attacks.js` | Revision: scripts added for the review | 5084 | `7a41386e732205400737586211a70508312e6fe06138433b9bca61df3f735f63` |
+| `revision/round2.py` | Revision: scripts added for the review | 13780 | `2690ecf59c46fc38190b3645be414f85e87ad9e2e0b0ec815ea6c5ef97e505b1` |
+| `revision/run_configs.sh` | Revision: scripts added for the review | 656 | `2d02b826c708d9a2539ef61e69478095f6a70509c03804a3682be429fee98272` |
+| `revision/run_ext.js` | Revision: scripts added for the review | 1623 | `db49c4f7cfb3cf9dcb14c058f877a6b097022d5c61aaf50781879c462bf5abac` |
+| `revision/synthetic_suite.js` | Revision: scripts added for the review | 3521 | `74127f90fc30b3d593fbf1e9cc5d3200a93344c6858dd19720abae122d083087` |
+| `revision/worked_example.js` | Revision: scripts added for the review | 3526 | `7ffa29aea5a403cf4fb2a90222fefa966a2b8dcc59a69fd78ec7dfce4b38b690` |
 | `src/analyze.py` | Python: prompts, generation, extraction, analysis | 18795 | `83a240b714b2505fd5ef52992f28755581457dbc24f2296365393ca7d33d0530` |
 | `src/extract.py` | Python: prompts, generation, extraction, analysis | 2817 | `dd4e673a8f32995b31b4751157b9952c0654150d338e12b5b5fe611b83ee0051` |
 | `src/generate.py` | Python: prompts, generation, extraction, analysis | 6329 | `214f7c14674a0197ff5962bea0c2b7d6a8d1e4e40ed458db05cce3bb2e7b4466` |

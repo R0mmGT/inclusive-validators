@@ -1,0 +1,52 @@
+== exponential vs polynomial
+                    model           class  without  with     fisher_p  len_1s_min  len_1s_median  len_1s_max
+               gpt-5-mini     exponential        0    10 1.774966e-03        28.0           67.0        68.0
+               gpt-5-mini polynomial_only        0    22 2.880615e-07      3075.0        65539.0    131075.0
+         gemini-3.8-flash     exponential        7     1 6.803637e-02        32.0           37.0        67.0
+         gemini-3.8-flash polynomial_only        0     0 1.000000e+00         NaN            NaN         NaN
+            DeepSeek-V3.2     exponential        2     1 1.000000e+00        34.0           71.0       198.0
+            DeepSeek-V3.2 polynomial_only        2     3 1.000000e+00      1541.0        65538.0     98308.0
+llama3.1:8b-instruct-q8_0     exponential        1     0 1.000000e+00        51.0           51.0        51.0
+llama3.1:8b-instruct-q8_0 polynomial_only        8     7 1.000000e+00       776.0        65538.0    131074.0
+exponential functions 22 len_1s median 58.5 range 28 - 198 | <=100000 chars: 22
+polynomial_only functions 42 len_1s median 65539.0 range 776 - 131075 | <=100000 chars: 38
+== sensitivity (Table A8)
+                    model primary_without usable_without  exponential_without  prompt_cells_without  with_probe_without  with_dynamic_without primary_with usable_with  exponential_with  prompt_cells_with  with_probe_with  with_dynamic_with
+               gpt-5-mini           0/239          0/214                    0                     0                   5                     1       32/240      32/224                10                 11               38                 34
+         gemini-3.8-flash           7/240          7/240                    7                     5                   9                     7        1/240       1/237                 1                  1                3                  1
+            DeepSeek-V3.2           4/240          4/238                    2                     4                   4                     4        4/240       4/230                 1                  4                4                  4
+llama3.1:8b-instruct-q8_0           9/240          9/205                    1                     7                   9                     9        7/240       7/175                 0                  7                8                  7
+GPT-5 mini Fisher p: usable 1.8040147993624417e-10 | exponential 0.0017749661408283431 | prompt cells 0.0002209446218087195 | probe 7.399723590387945e-08 | dynamic 6.387042694645681e-10
+fails control by language: {'sum': {'en': 97, 'es': 161}, 'count': {'en': 895, 'es': 868}}
+== language effect
+        outcome                                     subset                                      method     OR  ci_low  ci_high      p
+  fails control                                     usable                                       logit 2.3356  1.7139   3.1827 0.0000
+  fails control                                     usable                 logit, prompt-cell clusters 2.3356  1.4547   3.7499 0.0004
+false rejection                            control-passing              GEE main effects, clusters=key 0.7371  0.6140   0.8849 0.0011
+false rejection                            control-passing             GEE main effects, clusters=cell 0.7368  0.5133   1.0577 0.0978
+false rejection                            control-passing    GEE interaction (Table A3), clusters=key 0.7392  0.6196   0.8819 0.0008
+false rejection                            control-passing   GEE interaction (Table A3), clusters=cell 0.7463  0.5312   1.0484 0.0915
+false rejection                            control-passing GLM, two-way clusters (prompt cell x input) 0.6925  0.4649   1.0314 0.0706
+false rejection             control-passing, DeepSeek-V3.2                           GEE, clusters=key 0.9693  0.7799   1.2048 0.7789
+false rejection          control-passing, gemini-3.8-flash                           GEE, clusters=key 1.2026  0.8854   1.6335 0.2376
+false rejection                control-passing, gpt-5-mini                           GEE, clusters=key 0.1951  0.1062   0.3583 0.0000
+false rejection control-passing, llama3.1:8b-instruct-q8_0                           GEE, clusters=key 0.8709  0.5995   1.2652 0.4681
+== false acceptance events
+                    model  inclusive  sum  size
+            DeepSeek-V3.2          0    0  1704
+            DeepSeek-V3.2          1   27  1641
+         gemini-3.8-flash          0    0  1720
+         gemini-3.8-flash          1   17  1696
+               gpt-5-mini          0    0  1546
+               gpt-5-mini          1   47  1601
+llama3.1:8b-instruct-q8_0          0   87  1465
+llama3.1:8b-instruct-q8_0          1  102  1264
+== false acceptance checks (leave-one-out row: OR range in ci_low-ci_high, largest p)
+                                                                      check      OR  ci_low  ci_high       p
+                                                       GEE (reported model) 2.85122 1.77178  4.58828 0.00002
+                                                         Firth, input level 2.63916 2.03581  3.42131 0.00000
+functions with >=1 false acceptance: 104/866 with vs 36/897 without, Fisher     NaN     NaN      NaN 0.00000
+               same, three models other than Llama: 64/691 vs 0/692, Fisher     NaN     NaN      NaN 0.00000
+                                          leave-one-input-out GEE (43 fits) 2.33412 2.33412  3.08556 0.00113
+== dynamic {'functions_with_dynamic_sites': 73, 'dynamic_call_sites': 107, 'distinct_new_patterns_per_function': 188, 'vulnerable_new_patterns': 19, 'functions_with_vulnerable_new_patterns': 16, 'models': 'gpt-5-mini', 'exponential': 9, 'polynomial': 10, 'confirmed_functions_config_B': 3}
+== coding agreement {'patterns': 65, 'agree_before_discussion': 56, 'kappa': np.float64(0.834), 'consensus_differs_from_rules': 0}

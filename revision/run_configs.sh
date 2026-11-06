@@ -2,8 +2,8 @@
 # Runs the growth-curve recorder under several timing configurations, one at a time.
 set -u
 cd "$(dirname "$0")/.."
-N20=/home/claude/node20/node_modules/.bin/node
-N22=$(command -v node)
+N20=${NODE20:-node}   # path to a Node.js 20 binary (set NODE20 to override)
+N22=${NODE22:-node}   # path to a Node.js 22 binary (set NODE22 to override)
 $N20 revision/curves.js node20_idle
 $N20 --regexp-interpret-all revision/curves.js node20_interpreter
 $N22 revision/curves.js node22_idle

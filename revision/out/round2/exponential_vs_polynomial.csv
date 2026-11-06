@@ -1,0 +1,9 @@
+model,class,without,with,fisher_p,len_1s_min,len_1s_median,len_1s_max
+gpt-5-mini,exponential,0,10,0.0017749661408283431,28.0,67.0,68.0
+gpt-5-mini,polynomial_only,0,22,2.880615440716139e-07,3075.0,65539.0,131075.0
+gemini-3.8-flash,exponential,7,1,0.06803636817892997,32.0,37.0,67.0
+gemini-3.8-flash,polynomial_only,0,0,1.0,,,
+DeepSeek-V3.2,exponential,2,1,1.0,34.0,71.0,198.0
+DeepSeek-V3.2,polynomial_only,2,3,1.0,1541.0,65538.0,98308.0
+llama3.1:8b-instruct-q8_0,exponential,1,0,1.0,51.0,51.0,51.0
+llama3.1:8b-instruct-q8_0,polynomial_only,8,7,1.0,776.0,65538.0,131074.0

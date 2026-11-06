@@ -18,7 +18,7 @@ src/                 generation, extraction and analysis (Python)
 harness/             execution sandbox and ReDoS analysis (Node.js)
 data/                raw responses, extracted functions, execution and ReDoS results
 results/             result tables (CSV)
-revision/            additional analyses for the first review round (see revision/README.md)
+revision/            additional analyses for the review rounds (see revision/README.md)
 MANIFEST.md          index of every file with role, size and SHA-256
 SHA256SUMS           checksums; verify with `sha256sum -c SHA256SUMS`
 ```
@@ -99,7 +99,10 @@ The exact prompts can be printed with `python src/prompts.py`.
    checks of step 3, a validation suite of synthetic validators, a guard-aware
    probe of unconfirmed functions, run-time capture of dynamically built
    patterns, a supplementary negative/NFD corpus, additional statistics and
-   the coding of confirmed vulnerabilities. A failure to confirm is not
+   the coding of confirmed vulnerabilities. The second review round added
+   `revision/round2.py` (exponential/polynomial split, sensitivity table,
+   language effect, false-acceptance separation checks and the agreement of
+   the two authors' review of the coding). A failure to confirm is not
    evidence that a function is safe.
 
 ## Safety

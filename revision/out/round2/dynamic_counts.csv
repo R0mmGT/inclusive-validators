@@ -1,0 +1,2 @@
+functions_with_dynamic_sites,dynamic_call_sites,distinct_new_patterns_per_function,vulnerable_new_patterns,functions_with_vulnerable_new_patterns,models,exponential,polynomial,confirmed_functions_config_B
+73,107,188,19,16,gpt-5-mini,9,10,3

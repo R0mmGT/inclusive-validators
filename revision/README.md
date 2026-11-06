@@ -17,6 +17,8 @@ main package (`npm ci`); Python scripts need `requirements.txt`.
 | Dependence sensitivity (prompt-cell and two-way clustering) | `python revision/dependence.py` | `stats/dependence.csv` | R2-4 |
 | Coding of confirmed vulnerabilities | `python revision/code_vulns.py` | `vuln_coding*.csv` | 6 |
 | Worked example | `node revision/worked_example.js` | `worked_example.json` | 9 |
+| Revised figures 1-7 (vector PDF and 600-dpi PNG) | `python revision/figures_v2.py` | `figures/fig*.pdf`, `figures/fig*.png` | figures |
+| Second review round: exponential/polynomial split, sensitivity table, language effect, false-acceptance separation checks, dynamic counts, coding agreement | `python revision/round2.py` (reads `vuln_coding_review.csv`, the two authors' review of the structural coding) | `round2/*.csv`, `round2/summary.txt` | round 2 |
 | LaTeX tables | `python revision/make_tables.py` | `tables.tex` | all |
 
 Synthetic validators of known complexity are defined in `synthetic_suite.js`.
